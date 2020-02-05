@@ -1,6 +1,6 @@
 # EDK2020-MinnowBoard featuring [CdePkg (C Development Environment Package)](https://github.com/KilianKegel/CdePkg#cdepkg)
 Get the MinnowBoard running with EDK2020 and VS2019 
-* [Introduction](https://github.com/KilianKegel/EDK2020-MinnowBoard#introduction-udk2020-minnowboard)
+* [Introduction](https://github.com/KilianKegel/EDK2020-MinnowBoard#introduction-edk2020-minnowboard)
 * [Goal](https://github.com/KilianKegel/EDK2020-MinnowBoard#goal)
 * [HowTo/install/build](https://github.com/KilianKegel/EDK2020-MinnowBoard#howto-installbuildedit)
 	* [Installation](https://github.com/KilianKegel/EDK2020-MinnowBoard#installation)
@@ -88,7 +88,7 @@ includes the *Cde*-directories as GIT-[Subproject **CdePkg**](https://github.com
 GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidationPkg).
 
 ## Related Projects
-| related project|annotation|
+|Â related project|annotation|
 |:-|:-|
 |[Torito C Library](https://github.com/KilianKegel/torito-C-Library#torito-c-library)|C Library for UEFI Shell only. All projects below are built on or derived from *Torito C Library*|
 |[Visual ANSI C for UEFI Shell](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell#visual-ansi-c-for-uefi-shell)|Visual Studio for UEFI Shell for beginners.|
