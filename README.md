@@ -65,7 +65,6 @@ NOTE: Visual Studio is here only used for editing the project. The build process
 
 2. clone the EDK2020-MinnowBoard project `--recursive`<br>
 	`git.exe clone --progress --recursive -v "https://github.com/KilianKegel/EDK2020-MinnowBoard.git A:\EDK2020-MinnowBoard`<br>
-	or<br>
 
 ### Build
 3. To build the EDK emulation:<br>
@@ -75,7 +74,7 @@ NOTE: Visual Studio is here only used for editing the project. The build process
 `dbgemu.bat` to start the UEFI BIOS EMULATION<br>
 
 4. To build the MinnowBoard:<br>
-`.\launchbat` to setup MinnowBoard (`Vlv2TbltDevicePkg`) build environment<br>
+`launchbat` to setup MinnowBoard (`Vlv2TbltDevicePkg`) build environment<br>
 `rd /s /q build` in the `.\`directory to clean previous `Vlv2TbltDevicePkg` build<br>
 `bldMNW.bat DEBUG/RELEASE` <br>
 
