@@ -99,6 +99,9 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ## Known Bugs
 
 ## Revision History
+### 20200206
+* add overrides directory to PACKAGES_PATH
+* patch WinHost.c to enable debugging in emulation mode
 ### 20200205
 * introduce EDK2020
 ### 20190906/improve tool chain check
