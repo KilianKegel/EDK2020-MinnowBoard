@@ -64,7 +64,7 @@ NOTE: Visual Studio is here only used for editing the project. The build process
 1. install a build machine according to https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an-uefi-development-pc
 
 2. clone the EDK2020-MinnowBoard project `--recursive`<br>
-	`git.exe clone --progress --recursive -v "https://github.com/KilianKegel/EDK2020-MinnowBoard.git A:\EDK2020-MinnowBoard`<br>
+	`git.exe clone --progress --recursive -v "https://github.com/KilianKegel/EDK2020-MinnowBoard.git`<br>
 
 ### Build
 3. To build the EDK emulation:<br>
