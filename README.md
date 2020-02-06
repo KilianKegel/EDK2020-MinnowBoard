@@ -70,7 +70,7 @@ NOTE: Visual Studio is here only used for editing the project. The build process
 3. To build the EDK emulation:<br>
 `launch.bat` to setup EDK2 / emulation (EmulatorPkg) build environment<br>
 `rd /s /q build` in the `edk2`directory to clean previous EDK2 / emulation build<br>
-`bldEMU.bat (Debug) to start the build process in the EDK2 directory<br>
+`bldEMU.bat` to start the emulation build process in the EDK2 directory<br>
 `dbgemu.bat` to start the UEFI BIOS EMULATION<br>
 
 4. To build the MinnowBoard:<br>
