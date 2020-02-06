@@ -9,7 +9,7 @@ openssl-1.0.2r-x64_86-win64.zip
 vc140.pdb
 ./x64/
 ./Release/
-edk2-platforms 
+./edk2-platforms/
 CdeValidationPkg/library/ 
 ./CdeValidationPkg/_CdeMofineLibrary/x64
 ./CdeValidationPkg/_CdeMofineLibrary/Win32
