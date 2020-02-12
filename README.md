@@ -99,6 +99,12 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ## Known Bugs
 
 ## Revision History
+### 20200212
+* implement new **CdePkg** POST driver command line model:
+    1. each **CdePkg** driver listed in [`CdeLoadOptions.h`](CdePkg/Include/CdeLoadOptions.h) gets the command line parameters passed
+    2. each **CdePkg** driver listed in [`CdeLoadOptions.h`](CdePkg/Include/CdeLoadOptions.h) can be suppressed from beeing started by (`rejectStart=1`)
+    3. each **CdePkg** driver **NOT** listed in [`CdeLoadOptions.h`](CdePkg/Include/CdeLoadOptions.h) is started with `argv[0] == "unknownCdeDriverDxe"`
+* add **MdePkg* to **CdePkg** convertion sample [Ip4Dxe]()
 ### 20200206
 * add overrides directory to PACKAGES_PATH
 * patch WinHost.c to enable debugging in emulation mode

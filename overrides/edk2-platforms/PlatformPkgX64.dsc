@@ -1259,7 +1259,7 @@
   #
   # Network Stacks
   #
-!include NetworkPkg/Network.dsc.inc
+!include overrides/NetworkPkg/Network.dsc.inc
 
 !if $(CAPSULE_ENABLE) || $(MICOCODE_CAPSULE_ENABLE)
   MdeModulePkg/Universal/EsrtFmpDxe/EsrtFmpDxe.inf

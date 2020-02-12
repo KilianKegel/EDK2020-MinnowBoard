@@ -667,7 +667,7 @@ FILE FREEFORM = 878AC2CC-5343-46F2-B563-51F89DAF56BA {
 #
 # Network Modules
 #
-!include NetworkPkg/Network.fdf.inc
+!include overrides/NetworkPkg/Network.fdf.inc
 
 !if $(NETWORK_ENABLE) == TRUE
   FILE DRIVER = 22DE1691-D65D-456a-993E-A253DD1F308C {
