@@ -11,7 +11,7 @@ Get the MinnowBoard running with EDK2020 and VS2019
 * [Revision History](https://github.com/KilianKegel/EDK2020-MinnowBoard#revision-history)
 
 
-![pci1](https://github.com/KilianKegel/pictures/blob/master/TurbotBoardWFansink-LARGE.jpg)
+![pci1](https://github.com/KilianKegel/pictures/blob/master/TurbotBoardWFansink-SMALL.jpg)
 
 https://github.com/MinnowBoard-org/
 
