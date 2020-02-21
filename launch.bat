@@ -85,6 +85,11 @@ rem if not exist edk2-platforms git clone --recursive https://github.com/tianoco
 rem if not exist CdeBinPkg git clone --recursive https://github.com/KilianKegel/CdeBinPkg.git CdeBinPkg
 
 rem #######################################################################
+rem ### get confinential source code
+rem #######################################################################
+if not exist CdePkgSrc git clone --recursive https://github.com/KilianKegel/CdePkgSrc.git
+
+rem #######################################################################
 rem ### set build environment #############################################
 rem #######################################################################
 rem 

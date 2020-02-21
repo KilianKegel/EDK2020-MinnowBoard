@@ -13,3 +13,4 @@ vc140.pdb
 CdeValidationPkg/library/ 
 ./CdeValidationPkg/_CdeMofineLibrary/x64
 ./CdeValidationPkg/_CdeMofineLibrary/Win32
+CdePkgSrc
