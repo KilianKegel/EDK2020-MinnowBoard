@@ -28,10 +28,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61569D63-67ED-482C-8ABA-A791E0457D64}"
 	ProjectSection(SolutionItems) = preProject
 		CdePkg\Include\CdeLoadOptions.h = CdePkg\Include\CdeLoadOptions.h
-		CdeEmuPkg\EmulatorPkg.dsc = CdeEmuPkg\EmulatorPkg.dsc
-		CdeEmuPkg\EmulatorPkg.fdf = CdeEmuPkg\EmulatorPkg.fdf
-		CdeMnwPkg\PlatformPkg.fdf = CdeMnwPkg\PlatformPkg.fdf
-		CdeMnwPkg\PlatformPkgX64.dsc = CdeMnwPkg\PlatformPkgX64.dsc
+		overrides\EmulatorPkg\EmulatorPkg.dsc = overrides\EmulatorPkg\EmulatorPkg.dsc
+		overrides\EmulatorPkg\EmulatorPkg.fdf = overrides\EmulatorPkg\EmulatorPkg.fdf
+		overrides\edk2-platforms\PlatformPkg.fdf = overrides\edk2-platforms\PlatformPkg.fdf
+		overrides\edk2-platforms\PlatformPkgX64.dsc = overrides\edk2-platforms\PlatformPkgX64.dsc
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clock", "CdeValidationPkg\TIME_H\clock\clock.vcxproj", "{C400DDF9-651C-47F6-9413-268D1DB29CD0}"
