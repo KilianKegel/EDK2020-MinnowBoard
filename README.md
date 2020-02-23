@@ -116,7 +116,6 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 * add NASM version check
 ### 20190901
 * add Dediprog flash update
-* [BIOS binary](https://github.com/KilianKegel/EDK2020-MinnowBoard/blob/master/edk2-platforms/Vlv2TbltDevicePkg/Stitch/MNW2MAX1.X64.0101.R01.1909012230.bin)
 
 ### 20190830
 * CdeValPkg branch merge
@@ -126,7 +125,6 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 
 ### 20190830
 * improved build and startup batches
-* [BIOS binary](https://github.com/KilianKegel/EDK2020-MinnowBoard/blob/master/edk2-platforms/Vlv2TbltDevicePkg/MNW2MAX1.X64.0101.R01.1908292234.bin)
 
 ### 20190829
 * convert EDK2 directory to submodule, to demonstrate *CdePkg* separated from entire MinnowBoard environment
@@ -165,7 +163,6 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 
 ### 20190709
 * add initial PEI Support, rudimentary functional range
-* [BIOS binary](https://github.com/KilianKegel/EDK2020-MinnowBoard/blob/master/edk2-platforms/Vlv2TbltDevicePkg/Stitch/MNW2MAX1.X64.0100.R01.1907070918.bin)
 
 ### 20190626
 * add VS2019 support (for both MinnowBoard- and Emulationbuild)
@@ -173,7 +170,6 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ### 20190605
 * removed CdePkg from main tree
 * add submodules CdePkg and CdeSrcPkg
-* [BIOS binary](https://github.com/KilianKegel/EDK2020-MinnowBoard/blob/master/edk2-platforms/Vlv2TbltDevicePkg/Stitch/MNW2MAX1.X64.0100.R01.1906052251.bin)
 
 ### 20190513
 * CdePkg: initial revision - standard C Library and standard headerfile usage
