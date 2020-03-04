@@ -99,6 +99,12 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ## Known Bugs
 
 ## Revision History
+### 20200304
+* update CdeServicesPei.efi: restart memory allocation if switched from Pre-Memory-PEI to Post-Memory-PEI
+  Confirmed, that CdeServicesPei.efi has full functionality before and after PEI memory detection.
+* cloned all PEI validation programs to it's PRE (pre-mem) conterparts and add to `CdeLoadOptions.h`
+* NOTE: DEBUG build doesn't fit MinnowBoard 8MB flashpart...
+
 ### 20200212
 * implement new **CdePkg** POST driver command line model:
     1. each **CdePkg** driver listed in [`CdeLoadOptions.h`](CdePkg/Include/CdeLoadOptions.h) gets the command line parameters passed

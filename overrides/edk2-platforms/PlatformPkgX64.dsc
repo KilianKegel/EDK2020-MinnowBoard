@@ -747,18 +747,30 @@
   CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
 
   CdeValidationPkg/HOSTED_ENV/argcv/buildPEI.inf
+  CdeValidationPkg/HOSTED_ENV/argcv/buildPRE.inf
   CdeValidationPkg/SYSTEM_IF/systeminterfacePEI/buildPEI.inf
-  CdeValidationPkg/template/buildPEI.inf
+  CdeValidationPkg/SYSTEM_IF/systeminterfacePEI/buildPRE.inf
+#  CdeValidationPkg/template/buildPEI.inf
   CdeValidationPkg/TIME_H/clock/buildPEI.inf
+  CdeValidationPkg/TIME_H/clock/buildPRE.inf
   CdeValidationPkg/TIME_H/timehfunctions/buildPEI.inf
+  CdeValidationPkg/TIME_H/timehfunctions/buildPRE.inf
   CdeValidationPkg/STRING_H/stringhfunctions/buildPEI.inf
+  CdeValidationPkg/STRING_H/stringhfunctions/buildPRE.inf
   CdeValidationPkg/WCHAR_H/wcharhfunctions/buildPEI.inf
+  CdeValidationPkg/WCHAR_H/wcharhfunctions/buildPRE.inf
   CdeValidationPkg/STDIO_H/stdiohfunctions/buildPEI.inf
+  CdeValidationPkg/STDIO_H/stdiohfunctions/buildPRE.inf
   CdeValidationPkg/STDLIB_H/stdlibhfunctions/buildPEI.inf
+  CdeValidationPkg/STDLIB_H/stdlibhfunctions/buildPRE.inf
   CdeValidationPkg/CTYPE_H/ctypehfunctions/buildPEI.inf
+  CdeValidationPkg/CTYPE_H/ctypehfunctions/buildPRE.inf
   CdeValidationPkg/WCTYPE_H/wctypehfunctions/buildPEI.inf
+  CdeValidationPkg/WCTYPE_H/wctypehfunctions/buildPRE.inf
   CdeValidationPkg/ASSERT_H/asserthfunctions/buildPEI.inf
+  CdeValidationPkg/ASSERT_H/asserthfunctions/buildPRE.inf
   CdeValidationPkg/LOCALE_H/localehfunctions/buildPEI.inf
+  CdeValidationPkg/LOCALE_H/localehfunctions/buildPRE.inf
 #KGDebug end
   Vlv2SocBinPkg/$(DXE_ARCHITECTURE)$(TARGET)/IA32/SecCore.inf
 

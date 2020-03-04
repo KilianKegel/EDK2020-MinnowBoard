@@ -277,6 +277,18 @@ READ_LOCK_CAP      = TRUE
 READ_LOCK_STATUS   = TRUE
 FvNameGuid         = B73FE497-B92E-416e-8326-45AD0D270092
 
+#kgtest wctype wird langsam INF  CdeValidationPkg/HOSTED_ENV/argcv/buildPEI.inf
+#kgtest wctype wird langsam INF  CdeValidationPkg/SYSTEM_IF/systeminterfacePEI/buildPEI.inf
+#kgtest wctype wird langsam INF  CdeValidationPkg/TIME_H/timehfunctions/buildPEI.inf
+#kgtest wctype wird langsam INF  CdeValidationPkg/STRING_H/stringhfunctions/buildPEI.inf
+#kgtest wctype wird langsam INF  CdeValidationPkg/WCHAR_H/wcharhfunctions/buildPEI.inf
+#kgtest wctype wird langsam INF  CdeValidationPkg/STDIO_H/stdiohfunctions/buildPEI.inf
+#kgtest wctype wird langsam INF  CdeValidationPkg/STDLIB_H/stdlibhfunctions/buildPEI.inf
+#kgtest wctype wird langsam INF  CdeValidationPkg/CTYPE_H/ctypehfunctions/buildPEI.inf
+#kgtest wctype wird langsam INF  CdeValidationPkg/WCTYPE_H/wctypehfunctions/buildPEI.inf
+#kgtest wctype wird langsam INF  CdeValidationPkg/ASSERT_H/asserthfunctions/buildPEI.inf
+#kgtest wctype wird langsam INF  CdeValidationPkg/LOCALE_H/localehfunctions/buildPEI.inf
+#kgtest wctype wird langsam INF  CdeValidationPkg/TIME_H/clock/buildPEI.inf
 
 
 INF Vlv2TbltDevicePkg/PlatformInitPei/PlatformInitPei.inf
@@ -338,9 +350,21 @@ INF  CdePkg/CdeServices/CdeServicesPei.inf
 #INF  CdePkg/CdeWelcomePei/CdeWelcomePei.inf
 INF  CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
 
+#INF  CdeValidationPkg/template/buildPEI.inf
+INF  CdeValidationPkg/HOSTED_ENV/argcv/buildPRE.inf
+INF  CdeValidationPkg/SYSTEM_IF/systeminterfacePEI/buildPRE.inf
+INF  CdeValidationPkg/TIME_H/timehfunctions/buildPRE.inf
+INF  CdeValidationPkg/STRING_H/stringhfunctions/buildPRE.inf
+INF  CdeValidationPkg/WCHAR_H/wcharhfunctions/buildPRE.inf
+INF  CdeValidationPkg/STDIO_H/stdiohfunctions/buildPRE.inf
+INF  CdeValidationPkg/STDLIB_H/stdlibhfunctions/buildPRE.inf
+INF  CdeValidationPkg/CTYPE_H/ctypehfunctions/buildPRE.inf
+INF  CdeValidationPkg/WCTYPE_H/wctypehfunctions/buildPRE.inf
+INF  CdeValidationPkg/ASSERT_H/asserthfunctions/buildPRE.inf
+INF  CdeValidationPkg/LOCALE_H/localehfunctions/buildPRE.inf
+INF  CdeValidationPkg/TIME_H/clock/buildPRE.inf
 INF  CdeValidationPkg/HOSTED_ENV/argcv/buildPEI.inf
 INF  CdeValidationPkg/SYSTEM_IF/systeminterfacePEI/buildPEI.inf
-INF  CdeValidationPkg/template/buildPEI.inf
 INF  CdeValidationPkg/TIME_H/timehfunctions/buildPEI.inf
 INF  CdeValidationPkg/STRING_H/stringhfunctions/buildPEI.inf
 INF  CdeValidationPkg/WCHAR_H/wcharhfunctions/buildPEI.inf
