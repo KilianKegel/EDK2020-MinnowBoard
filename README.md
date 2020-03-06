@@ -99,6 +99,12 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ## Known Bugs
 
 ## Revision History
+### 20200306 Pre and Post MemoryInit
+* integrate PreMemInit branch into master trunk
+    * reorganize flash layout to get 192kByte in the RECOVERY volume to hold additional PRE-memory PEI drivers
+* remove UEFI SHELL from bios flash binary
+* update EDK2 to edk2-stable202002
+
 ### 20200212
 * implement new **CdePkg** POST driver command line model:
     1. each **CdePkg** driver listed in [`CdeLoadOptions.h`](https://github.com/KilianKegel/CdePkg/blob/master/Include/CdeLoadOptions.h) gets the command line parameters passed

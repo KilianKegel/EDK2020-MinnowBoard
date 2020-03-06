@@ -98,9 +98,10 @@ set PACKAGES_PATH=%WORKSPACE%\edk2
 set PACKAGES_PATH=%PACKAGES_PATH%;%WORKSPACE%
 set PACKAGES_PATH=%PACKAGES_PATH%;%WORKSPACE%\overrides\edk2-platforms
 set PACKAGES_PATH=%PACKAGES_PATH%;%WORKSPACE%\overrides\EmulatorPkg
+set PACKAGES_PATH=%PACKAGES_PATH%;%WORKSPACE%\overrides\edk2-non-osi\Silicon\Intel
 set PACKAGES_PATH=%PACKAGES_PATH%;%WORKSPACE%\edk2-platforms\Silicon\Intel
 set PACKAGES_PATH=%PACKAGES_PATH%;%WORKSPACE%\edk2-platforms\Platform\Intel
-set PACKAGES_PATH=%PACKAGES_PATH%;%WORKSPACE%\edk2-non-osi\Silicon\Intel
+rem set PACKAGES_PATH=%PACKAGES_PATH%;%WORKSPACE%\edk2-non-osi\Silicon\Intel
 
 set EDK_TOOLS_PATH=%WORKSPACE%\edk2\BaseTools
 path=%path%;%WORKSPACE%\openssl-1.0.2r-x64_86-win64;%WORKSPACE%;
