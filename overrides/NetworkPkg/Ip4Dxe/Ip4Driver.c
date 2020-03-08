@@ -539,6 +539,11 @@ Ip4DestroyChildEntryInHandleBuffer (
   return ServiceBinding->DestroyChild (ServiceBinding, IpInstance->Handle);
 }
 
+unsigned rtcrd(int i) {
+    outp(0x70, i);
+    return (inp(0x71));
+}
+
 /**
   Start this driver on ControllerHandle. This service is called by the
   EFI boot service ConnectController(). In order to make
@@ -577,6 +582,18 @@ Ip4DriverBindingStart (
   CDEMOFINE((MFNINF(1) "Hello world\n"));
   printf("Welcome, to BDS phase...\n");
 
+  if (1) {
+    #define TYPE char
+    #define TYPESIZE sizeof(TYPE)
+    #define TYPEMASK ((1ULL << TYPESIZE * 8)-1)
+
+    #define FORMATW_ADDR "%016X: %02X%s"
+    #define FORMATWOADDR "%s%02X%s"      
+      int i;
+      for (i = 0; i < 128 / TYPESIZE; i++) {
+          printf((i % (16 / TYPESIZE) == 0 ? FORMATW_ADDR : FORMATWOADDR), (i % (16 / TYPESIZE) == 0 ? (void*)(i * TYPESIZE) : ""), TYPEMASK & rtcrd(i * TYPESIZE), ((i + 1) % (16 / TYPESIZE)) ? (((i + 1) % (8 / TYPESIZE)) ? " " : " - ") : "\r\n");
+      }
+  }
   //
   // Test for the Ip4 service binding protocol
   //
