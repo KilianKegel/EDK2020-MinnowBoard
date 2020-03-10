@@ -340,28 +340,28 @@ INF  CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
 
 #INF  CdeValidationPkg/template/buildPEI.inf
 INF  CdeValidationPkg/HOSTED_ENV/argcv/buildPRE.inf
-INF  CdeValidationPkg/SYSTEM_IF/systeminterfacePEI/buildPRE.inf
-INF  CdeValidationPkg/TIME_H/timehfunctions/buildPRE.inf
-INF  CdeValidationPkg/STRING_H/stringhfunctions/buildPRE.inf
-INF  CdeValidationPkg/WCHAR_H/wcharhfunctions/buildPRE.inf
-INF  CdeValidationPkg/STDIO_H/stdiohfunctions/buildPRE.inf
-INF  CdeValidationPkg/STDLIB_H/stdlibhfunctions/buildPRE.inf
-INF  CdeValidationPkg/CTYPE_H/ctypehfunctions/buildPRE.inf
-INF  CdeValidationPkg/WCTYPE_H/wctypehfunctions/buildPRE.inf
-INF  CdeValidationPkg/ASSERT_H/asserthfunctions/buildPRE.inf
-INF  CdeValidationPkg/LOCALE_H/localehfunctions/buildPRE.inf
+#INF  CdeValidationPkg/SYSTEM_IF/systeminterfacePEI/buildPRE.inf
+#INF  CdeValidationPkg/TIME_H/timehfunctions/buildPRE.inf
+#INF  CdeValidationPkg/STRING_H/stringhfunctions/buildPRE.inf
+#INF  CdeValidationPkg/WCHAR_H/wcharhfunctions/buildPRE.inf
+#INF  CdeValidationPkg/STDIO_H/stdiohfunctions/buildPRE.inf
+#INF  CdeValidationPkg/STDLIB_H/stdlibhfunctions/buildPRE.inf
+#INF  CdeValidationPkg/CTYPE_H/ctypehfunctions/buildPRE.inf
+#INF  CdeValidationPkg/WCTYPE_H/wctypehfunctions/buildPRE.inf
+#INF  CdeValidationPkg/ASSERT_H/asserthfunctions/buildPRE.inf
+#INF  CdeValidationPkg/LOCALE_H/localehfunctions/buildPRE.inf
 INF  CdeValidationPkg/TIME_H/clock/buildPRE.inf
 INF  CdeValidationPkg/HOSTED_ENV/argcv/buildPEI.inf
-INF  CdeValidationPkg/SYSTEM_IF/systeminterfacePEI/buildPEI.inf
-INF  CdeValidationPkg/TIME_H/timehfunctions/buildPEI.inf
-INF  CdeValidationPkg/STRING_H/stringhfunctions/buildPEI.inf
-INF  CdeValidationPkg/WCHAR_H/wcharhfunctions/buildPEI.inf
-INF  CdeValidationPkg/STDIO_H/stdiohfunctions/buildPEI.inf
-INF  CdeValidationPkg/STDLIB_H/stdlibhfunctions/buildPEI.inf
-INF  CdeValidationPkg/CTYPE_H/ctypehfunctions/buildPEI.inf
-INF  CdeValidationPkg/WCTYPE_H/wctypehfunctions/buildPEI.inf
-INF  CdeValidationPkg/ASSERT_H/asserthfunctions/buildPEI.inf
-INF  CdeValidationPkg/LOCALE_H/localehfunctions/buildPEI.inf
+#INF  CdeValidationPkg/SYSTEM_IF/systeminterfacePEI/buildPEI.inf
+#INF  CdeValidationPkg/TIME_H/timehfunctions/buildPEI.inf
+#INF  CdeValidationPkg/STRING_H/stringhfunctions/buildPEI.inf
+#INF  CdeValidationPkg/WCHAR_H/wcharhfunctions/buildPEI.inf
+#INF  CdeValidationPkg/STDIO_H/stdiohfunctions/buildPEI.inf
+#INF  CdeValidationPkg/STDLIB_H/stdlibhfunctions/buildPEI.inf
+#INF  CdeValidationPkg/CTYPE_H/ctypehfunctions/buildPEI.inf
+#INF  CdeValidationPkg/WCTYPE_H/wctypehfunctions/buildPEI.inf
+#INF  CdeValidationPkg/ASSERT_H/asserthfunctions/buildPEI.inf
+#INF  CdeValidationPkg/LOCALE_H/localehfunctions/buildPEI.inf
 INF  CdeValidationPkg/TIME_H/clock/buildPEI.inf
 #KGDebug
 
@@ -437,17 +437,17 @@ INF  CdePkg/CdeServices/CdeServicesDxe.inf
 INF  CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
 
 INF  CdeValidationPkg/HOSTED_ENV/argcv/buildDXE.inf
-INF  CdeValidationPkg/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf
-INF  CdeValidationPkg/template/buildDXE.inf
-INF  CdeValidationPkg/TIME_H/timehfunctions/buildDXE.inf
-INF  CdeValidationPkg/STRING_H/stringhfunctions/buildDXE.inf
-INF  CdeValidationPkg/WCHAR_H/wcharhfunctions/buildDXE.inf
-INF  CdeValidationPkg/STDIO_H/stdiohfunctions/buildDXE.inf
-INF  CdeValidationPkg/STDLIB_H/stdlibhfunctions/buildDXE.inf
-INF  CdeValidationPkg/CTYPE_H/ctypehfunctions/buildDXE.inf
-INF  CdeValidationPkg/WCTYPE_H/wctypehfunctions/buildDXE.inf
-INF  CdeValidationPkg/ASSERT_H/asserthfunctions/buildDXE.inf
-INF  CdeValidationPkg/LOCALE_H/localehfunctions/buildDXE.inf
+#INF  CdeValidationPkg/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf
+#INF  CdeValidationPkg/template/buildDXE.inf
+#INF  CdeValidationPkg/TIME_H/timehfunctions/buildDXE.inf
+#INF  CdeValidationPkg/STRING_H/stringhfunctions/buildDXE.inf
+#INF  CdeValidationPkg/WCHAR_H/wcharhfunctions/buildDXE.inf
+#INF  CdeValidationPkg/STDIO_H/stdiohfunctions/buildDXE.inf
+#INF  CdeValidationPkg/STDLIB_H/stdlibhfunctions/buildDXE.inf
+#INF  CdeValidationPkg/CTYPE_H/ctypehfunctions/buildDXE.inf
+#INF  CdeValidationPkg/WCTYPE_H/wctypehfunctions/buildDXE.inf
+#INF  CdeValidationPkg/ASSERT_H/asserthfunctions/buildDXE.inf
+#INF  CdeValidationPkg/LOCALE_H/localehfunctions/buildDXE.inf
 INF  CdeValidationPkg/TIME_H/clock/buildDXE.inf
 #KGDebug
 
