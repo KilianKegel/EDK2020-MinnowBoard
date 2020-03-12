@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SetLdOpt", "SetLdOpt\SetLdOpt.vcxproj", "{BE3642B1-5214-49F8-8858-DD9AADAD945D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LstLdOpt", "LstLdOpt\LstLdOpt.vcxproj", "{6DC5F7AA-36B4-49AD-9411-5F13D93CA648}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadOption", "LoadOption\LoadOption.vcxproj", "{60D08DBF-6AF6-424B-B003-18B56A03EB07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,18 +12,12 @@ Global
 		WinNTx86-64 (Torito C Library)|x64 = WinNTx86-64 (Torito C Library)|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BE3642B1-5214-49F8-8858-DD9AADAD945D}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFIx86-64 (Torito C Library)|x64
-		{BE3642B1-5214-49F8-8858-DD9AADAD945D}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFIx86-64 (Torito C Library)|x64
-		{BE3642B1-5214-49F8-8858-DD9AADAD945D}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
-		{BE3642B1-5214-49F8-8858-DD9AADAD945D}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
-		{BE3642B1-5214-49F8-8858-DD9AADAD945D}.WinNTx86-64 (Torito C Library)|x64.ActiveCfg = WinNTx86-64 (Torito C Library)|x64
-		{BE3642B1-5214-49F8-8858-DD9AADAD945D}.WinNTx86-64 (Torito C Library)|x64.Build.0 = WinNTx86-64 (Torito C Library)|x64
-		{6DC5F7AA-36B4-49AD-9411-5F13D93CA648}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFIx86-64 (Torito C Library)|x64
-		{6DC5F7AA-36B4-49AD-9411-5F13D93CA648}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFIx86-64 (Torito C Library)|x64
-		{6DC5F7AA-36B4-49AD-9411-5F13D93CA648}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
-		{6DC5F7AA-36B4-49AD-9411-5F13D93CA648}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
-		{6DC5F7AA-36B4-49AD-9411-5F13D93CA648}.WinNTx86-64 (Torito C Library)|x64.ActiveCfg = WinNTx86-64 (Torito C Library)|x64
-		{6DC5F7AA-36B4-49AD-9411-5F13D93CA648}.WinNTx86-64 (Torito C Library)|x64.Build.0 = WinNTx86-64 (Torito C Library)|x64
+		{60D08DBF-6AF6-424B-B003-18B56A03EB07}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFIx86-64 (Torito C Library)|x64
+		{60D08DBF-6AF6-424B-B003-18B56A03EB07}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFIx86-64 (Torito C Library)|x64
+		{60D08DBF-6AF6-424B-B003-18B56A03EB07}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{60D08DBF-6AF6-424B-B003-18B56A03EB07}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{60D08DBF-6AF6-424B-B003-18B56A03EB07}.WinNTx86-64 (Torito C Library)|x64.ActiveCfg = WinNTx86-64 (Torito C Library)|x64
+		{60D08DBF-6AF6-424B-B003-18B56A03EB07}.WinNTx86-64 (Torito C Library)|x64.Build.0 = WinNTx86-64 (Torito C Library)|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
