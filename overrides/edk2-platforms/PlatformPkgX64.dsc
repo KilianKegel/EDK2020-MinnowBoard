@@ -745,6 +745,8 @@
   CdePkg/CdeServices/CdeServicesPei.inf
   #CdePkg/CdeWelcomePei/CdeWelcomePei.inf
   CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
+  CdePkg/CdeUnblockMemInit/CdeUnblockMemInitPRE.inf
+  
 
   CdeValidationPkg/HOSTED_ENV/argcv/buildPEI.inf
   CdeValidationPkg/HOSTED_ENV/argcv/buildPRE.inf

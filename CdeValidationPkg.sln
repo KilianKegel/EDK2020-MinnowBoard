@@ -32,6 +32,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		overrides\EmulatorPkg\EmulatorPkg.fdf = overrides\EmulatorPkg\EmulatorPkg.fdf
 		overrides\edk2-platforms\PlatformPkg.fdf = overrides\edk2-platforms\PlatformPkg.fdf
 		overrides\edk2-platforms\PlatformPkgX64.dsc = overrides\edk2-platforms\PlatformPkgX64.dsc
+		CdeValidationPkg\README.md = CdeValidationPkg\README.md
+		CdeValidationPkg\VisualStudioProjectSettings.md = CdeValidationPkg\VisualStudioProjectSettings.md
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clock", "CdeValidationPkg\TIME_H\clock\clock.vcxproj", "{C400DDF9-651C-47F6-9413-268D1DB29CD0}"
@@ -80,6 +82,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "asserthfunctions", "CdeVali
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "localehfunctions", "CdeValidationPkg\LOCALE_H\localehfunctions\localehfunctions.vcxproj", "{DC75D493-80DD-46D7-8A56-CF34387DB4A1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8B13122-66F1-4A15-A18F-A56DA637F528} = {B8B13122-66F1-4A15-A18F-A56DA637F528}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -319,7 +324,6 @@ Global
 		{35C75057-B7A0-49EC-9814-8EF901C7F064}.NT(Torito C Library)|x64.ActiveCfg = NT(Torito C Library)|x64
 		{35C75057-B7A0-49EC-9814-8EF901C7F064}.NT(Torito C Library)|x64.Build.0 = NT(Torito C Library)|x64
 		{35C75057-B7A0-49EC-9814-8EF901C7F064}.NT(Torito C Library)|x86.ActiveCfg = NT(Torito C Library)|Win32
-		{35C75057-B7A0-49EC-9814-8EF901C7F064}.NT(Torito C Library)|x86.Build.0 = NT(Torito C Library)|Win32
 		{35C75057-B7A0-49EC-9814-8EF901C7F064}.UEFI DXE(CdeLib)|x64.ActiveCfg = UEFI DXE(CdeLib)|x64
 		{35C75057-B7A0-49EC-9814-8EF901C7F064}.UEFI DXE(CdeLib)|x64.Build.0 = UEFI DXE(CdeLib)|x64
 		{35C75057-B7A0-49EC-9814-8EF901C7F064}.UEFI DXE(CdeLib)|x86.ActiveCfg = UEFI DXE(CdeLib)|Win32
@@ -339,7 +343,6 @@ Global
 		{DC75D493-80DD-46D7-8A56-CF34387DB4A1}.NT(Torito C Library)|x64.ActiveCfg = NT(Torito C Library)|x64
 		{DC75D493-80DD-46D7-8A56-CF34387DB4A1}.NT(Torito C Library)|x64.Build.0 = NT(Torito C Library)|x64
 		{DC75D493-80DD-46D7-8A56-CF34387DB4A1}.NT(Torito C Library)|x86.ActiveCfg = NT(Torito C Library)|Win32
-		{DC75D493-80DD-46D7-8A56-CF34387DB4A1}.NT(Torito C Library)|x86.Build.0 = NT(Torito C Library)|Win32
 		{DC75D493-80DD-46D7-8A56-CF34387DB4A1}.UEFI DXE(CdeLib)|x64.ActiveCfg = UEFI DXE(CdeLib)|x64
 		{DC75D493-80DD-46D7-8A56-CF34387DB4A1}.UEFI DXE(CdeLib)|x64.Build.0 = UEFI DXE(CdeLib)|x64
 		{DC75D493-80DD-46D7-8A56-CF34387DB4A1}.UEFI DXE(CdeLib)|x86.ActiveCfg = UEFI DXE(CdeLib)|Win32

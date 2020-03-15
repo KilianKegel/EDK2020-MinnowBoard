@@ -99,6 +99,10 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ## Known Bugs
 
 ## Revision History
+### 20200315
+* implement command line support based on NVRAM variables for the MinnowBoard
+* create/provide `LoadOption` tool to **CdePkg** (UEFIBinaries\LoadOption.efi) to create command lines stored in NVRAM variables
+
 ### 20200306 Pre and Post MemoryInit
 * integrate PreMemInit branch into master trunk
     * reorganize flash layout to get 192kByte in the RECOVERY volume to hold additional PRE-memory PEI drivers
