@@ -34,6 +34,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		overrides\edk2-platforms\PlatformPkgX64.dsc = overrides\edk2-platforms\PlatformPkgX64.dsc
 		CdeValidationPkg\README.md = CdeValidationPkg\README.md
 		CdeValidationPkg\VisualStudioProjectSettings.md = CdeValidationPkg\VisualStudioProjectSettings.md
+		CdeValidationPkg\wintrace.bat = CdeValidationPkg\wintrace.bat
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clock", "CdeValidationPkg\TIME_H\clock\clock.vcxproj", "{C400DDF9-651C-47F6-9413-268D1DB29CD0}"
