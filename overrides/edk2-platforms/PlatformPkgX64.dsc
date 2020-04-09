@@ -746,6 +746,16 @@
   #CdePkg/CdeWelcomePei/CdeWelcomePei.inf
   CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
   CdePkg/CdeUnblockMemInit/CdeUnblockMemInitPRE.inf
+  CdePkg/CdeDiagRTC/buildPEI.inf
+  CdePkg/CdeDiagRTC/buildPRE.inf
+  CdePkg/CdeDiagPCI/buildPEI.inf
+  CdePkg/CdeDiagPCI/buildPRE.inf
+  CdePkg/CdeDiagGPIO/buildPRE.inf
+  CdePkg/CdeDiagGPIO/buildPEI.inf
+  CdePkg/CdeDiagEFIVAR/buildPRE.inf
+  CdePkg/CdeDiagEFIVAR/buildPEI.inf
+  CdePkg/CdeDiagDemoDump/buildPRE.inf
+  CdePkg/CdeDiagDemoDump/buildPEI.inf
   
 
   CdeValidationPkg/HOSTED_ENV/argcv/buildPEI.inf
@@ -912,7 +922,12 @@
   CdePkg/CdeServices/CdeServicesDxe.inf
   #CdePkg/CdeWelcomeDxe/CdeWelcomeDxe.inf
   CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
-
+  CdePkg/CdeDiagRTC/buildDXE.inf
+  CdePkg/CdeDiagPCI/buildDXE.inf
+  CdePkg/CdeDiagGPIO/buildDXE.inf
+  CdePkg/CdeDiagEFIVAR/buildDXE.inf
+  CdePkg/CdeDiagDemoDump/buildDXE.inf
+                    
   CdeValidationPkg/HOSTED_ENV/argcv/buildDXE.inf
   CdeValidationPkg/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf
   CdeValidationPkg/template/buildDXE.inf

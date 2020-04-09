@@ -99,6 +99,9 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ## Known Bugs
 
 ## Revision History
+### 20200409
+* add diagnostic drivers (CdeDiagGPIO, CdeDiagRTC, CdeDiagPCI, CdeDiagEFIVAR(iable)) for demonstration purpose
+  (CdeDiagPCI under construction)
 ### 20200315
 * implement command line support based on NVRAM variables for the MinnowBoard
 * create/provide `LoadOption` tool to **CdePkg** (UEFIBinaries\LoadOption.efi) to create command lines stored in NVRAM variables

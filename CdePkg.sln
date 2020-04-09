@@ -28,7 +28,17 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeWelcomePei", "CdePkg\Cde
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeUnblockMemInit", "CdePkg\CdeUnblockMemInit\CdeUnblockMemInit.vcxproj", "{AFD827C5-FBB7-4889-8C70-B4DD2F365CED}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadOptionShell", "CdePkg\LoadOptionShell\LoadOptionShell.vcxproj", "{60D08DBF-6AF6-424B-B003-18B56A03EB07}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeLoadOptionShell", "CdePkg\LoadOptionShell\LoadOptionShell.vcxproj", "{60D08DBF-6AF6-424B-B003-18B56A03EB07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeDiagRTC", "CdePkg\CdeDiagRTC\CdeDiagRTC.vcxproj", "{20A42A76-3C9F-4574-817C-95C5812D8B16}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeDiagPCI", "CdePkg\CdeDiagPCI\CdeDiagPCI.vcxproj", "{A78190A5-9F54-47DD-A120-86E0D2D23399}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeDiagGPIO", "CdePkg\CdeDiagGPIO\CdeDiagGPIO.vcxproj", "{34CAC750-F0F1-4981-A4A3-977CA94EDC1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeDiagEFIVAR", "CdePkg\CdeDiagEFIVAR\CdeDiagEFIVAR.vcxproj", "{38988E7F-FD9C-4283-81F8-822A65875BC8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeDiagDemoDump", "CdePkg\CdeDiagDemoDump\CdeDiagDemoDump.vcxproj", "{FD99F498-20CB-4C97-AD29-A1962D54FCF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,6 +92,46 @@ Global
 		{60D08DBF-6AF6-424B-B003-18B56A03EB07}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFIx86-64 (Torito C Library)|x64
 		{60D08DBF-6AF6-424B-B003-18B56A03EB07}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFIx86-64 (Torito C Library)|x64
 		{60D08DBF-6AF6-424B-B003-18B56A03EB07}.UEFIx86-64 (Torito C Library)|x86.ActiveCfg = UEFIx86-64 (Torito C Library)|x64
+		{20A42A76-3C9F-4574-817C-95C5812D8B16}.Release|x64.ActiveCfg = NT(Microsoft C Library)|x64
+		{20A42A76-3C9F-4574-817C-95C5812D8B16}.Release|x64.Build.0 = NT(Microsoft C Library)|x64
+		{20A42A76-3C9F-4574-817C-95C5812D8B16}.Release|x86.ActiveCfg = NT(Microsoft C Library)|Win32
+		{20A42A76-3C9F-4574-817C-95C5812D8B16}.Release|x86.Build.0 = NT(Microsoft C Library)|Win32
+		{20A42A76-3C9F-4574-817C-95C5812D8B16}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFI SHELL(Torito C Library)|x64
+		{20A42A76-3C9F-4574-817C-95C5812D8B16}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFI SHELL(Torito C Library)|x64
+		{20A42A76-3C9F-4574-817C-95C5812D8B16}.UEFIx86-64 (Torito C Library)|x86.ActiveCfg = UEFI SHELL(Torito C Library)|Win32
+		{20A42A76-3C9F-4574-817C-95C5812D8B16}.UEFIx86-64 (Torito C Library)|x86.Build.0 = UEFI SHELL(Torito C Library)|Win32
+		{A78190A5-9F54-47DD-A120-86E0D2D23399}.Release|x64.ActiveCfg = NT(Microsoft C Library)|x64
+		{A78190A5-9F54-47DD-A120-86E0D2D23399}.Release|x64.Build.0 = NT(Microsoft C Library)|x64
+		{A78190A5-9F54-47DD-A120-86E0D2D23399}.Release|x86.ActiveCfg = NT(Microsoft C Library)|Win32
+		{A78190A5-9F54-47DD-A120-86E0D2D23399}.Release|x86.Build.0 = NT(Microsoft C Library)|Win32
+		{A78190A5-9F54-47DD-A120-86E0D2D23399}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFI SHELL(Torito C Library)|x64
+		{A78190A5-9F54-47DD-A120-86E0D2D23399}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFI SHELL(Torito C Library)|x64
+		{A78190A5-9F54-47DD-A120-86E0D2D23399}.UEFIx86-64 (Torito C Library)|x86.ActiveCfg = UEFI SHELL(Torito C Library)|Win32
+		{A78190A5-9F54-47DD-A120-86E0D2D23399}.UEFIx86-64 (Torito C Library)|x86.Build.0 = UEFI SHELL(Torito C Library)|Win32
+		{34CAC750-F0F1-4981-A4A3-977CA94EDC1F}.Release|x64.ActiveCfg = NT(Microsoft C Library)|x64
+		{34CAC750-F0F1-4981-A4A3-977CA94EDC1F}.Release|x64.Build.0 = NT(Microsoft C Library)|x64
+		{34CAC750-F0F1-4981-A4A3-977CA94EDC1F}.Release|x86.ActiveCfg = NT(Microsoft C Library)|Win32
+		{34CAC750-F0F1-4981-A4A3-977CA94EDC1F}.Release|x86.Build.0 = NT(Microsoft C Library)|Win32
+		{34CAC750-F0F1-4981-A4A3-977CA94EDC1F}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFI SHELL(Torito C Library)|x64
+		{34CAC750-F0F1-4981-A4A3-977CA94EDC1F}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFI SHELL(Torito C Library)|x64
+		{34CAC750-F0F1-4981-A4A3-977CA94EDC1F}.UEFIx86-64 (Torito C Library)|x86.ActiveCfg = UEFI SHELL(Torito C Library)|Win32
+		{34CAC750-F0F1-4981-A4A3-977CA94EDC1F}.UEFIx86-64 (Torito C Library)|x86.Build.0 = UEFI SHELL(Torito C Library)|Win32
+		{38988E7F-FD9C-4283-81F8-822A65875BC8}.Release|x64.ActiveCfg = NT(Microsoft C Library)|x64
+		{38988E7F-FD9C-4283-81F8-822A65875BC8}.Release|x64.Build.0 = NT(Microsoft C Library)|x64
+		{38988E7F-FD9C-4283-81F8-822A65875BC8}.Release|x86.ActiveCfg = NT(Microsoft C Library)|Win32
+		{38988E7F-FD9C-4283-81F8-822A65875BC8}.Release|x86.Build.0 = NT(Microsoft C Library)|Win32
+		{38988E7F-FD9C-4283-81F8-822A65875BC8}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFI SHELL(Torito C Library)|x64
+		{38988E7F-FD9C-4283-81F8-822A65875BC8}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFI SHELL(Torito C Library)|x64
+		{38988E7F-FD9C-4283-81F8-822A65875BC8}.UEFIx86-64 (Torito C Library)|x86.ActiveCfg = UEFI SHELL(Torito C Library)|Win32
+		{38988E7F-FD9C-4283-81F8-822A65875BC8}.UEFIx86-64 (Torito C Library)|x86.Build.0 = UEFI SHELL(Torito C Library)|Win32
+		{FD99F498-20CB-4C97-AD29-A1962D54FCF8}.Release|x64.ActiveCfg = NT(Microsoft C Library)|x64
+		{FD99F498-20CB-4C97-AD29-A1962D54FCF8}.Release|x64.Build.0 = NT(Microsoft C Library)|x64
+		{FD99F498-20CB-4C97-AD29-A1962D54FCF8}.Release|x86.ActiveCfg = NT(Microsoft C Library)|Win32
+		{FD99F498-20CB-4C97-AD29-A1962D54FCF8}.Release|x86.Build.0 = NT(Microsoft C Library)|Win32
+		{FD99F498-20CB-4C97-AD29-A1962D54FCF8}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFI SHELL(Torito C Library)|x64
+		{FD99F498-20CB-4C97-AD29-A1962D54FCF8}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFI SHELL(Torito C Library)|x64
+		{FD99F498-20CB-4C97-AD29-A1962D54FCF8}.UEFIx86-64 (Torito C Library)|x86.ActiveCfg = UEFI SHELL(Torito C Library)|Win32
+		{FD99F498-20CB-4C97-AD29-A1962D54FCF8}.UEFIx86-64 (Torito C Library)|x86.Build.0 = UEFI SHELL(Torito C Library)|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

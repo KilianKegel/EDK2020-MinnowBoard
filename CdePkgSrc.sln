@@ -15,6 +15,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeServicesDxe", "CdePkgSrc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeLib", "CdePkgSrc\CdeLib\CdeLib.vcxproj", "{8C250C8A-C234-450D-83ED-F0C898E1A739}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E2E08017-93A8-431F-A899-7C340F365F3E}"
+	ProjectSection(SolutionItems) = preProject
+		CdePkgSrc\README.md = CdePkgSrc\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
