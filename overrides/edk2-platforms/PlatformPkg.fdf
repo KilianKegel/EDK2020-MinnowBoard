@@ -339,14 +339,14 @@ INF  CdePkg/CdeServices/CdeServicesPei.inf
 INF CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
 INF CdePkg/CdeDiagRTC/buildPEI.inf
 INF CdePkg/CdeDiagRTC/buildPRE.inf
-INF CdePkg/CdeDiagPCI/buildPEI.inf
-#INF CdePkg/CdeDiagPCI/buildPRE.inf
 INF CdePkg/CdeDiagGPIO/buildPRE.inf
 INF CdePkg/CdeDiagGPIO/buildPEI.inf
 #INF CdePkg/CdeDiagEFIVAR/buildPEI.inf
 #INF CdePkg/CdeDiagEFIVAR/buildPRE.inf
 INF CdePkg/CdeDiagDemoDump/buildPEI.inf
 INF CdePkg/CdeDiagDemoDump/buildPRE.inf
+INF CdePkg/CdeDiagTSCSync/buildPEI.inf
+INF CdePkg/CdeDiagTSCSync/buildPRE.inf
 
 #INF  CdeValidationPkg/template/buildPEI.inf
 INF  CdeValidationPkg/HOSTED_ENV/argcv/buildPRE.inf
@@ -450,10 +450,10 @@ INF  CdePkg/CdeServices/CdeServicesDxe.inf
 #INF  CdePkg/CdeWelcomeDxe/CdeWelcomeDxe.inf
 INF  CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
 INF  CdePkg/CdeDiagRTC/buildDXE.inf
-INF  CdePkg/CdeDiagPCI/buildDXE.inf
 INF  CdePkg/CdeDiagGPIO/buildDXE.inf
 INF  CdePkg/CdeDiagEFIVAR/buildDXE.inf
 INF  CdePkg/CdeDiagDemoDump/buildDXE.inf
+INF  CdePkg/CdeDiagTSCSync/buildDXE.inf
 
 INF  CdeValidationPkg/HOSTED_ENV/argcv/buildDXE.inf
 INF  CdeValidationPkg/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf

@@ -1,0 +1,613 @@
+ LoadOption
+
+ Timestamp is 5eb37d9c (Thu May  7 05:16:44 2020)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00007764H .text$mn                CODE
+ 0002:00000000 00000008H .CRT$XCA                DATA
+ 0002:00000008 00000008H .CRT$XCZ                DATA
+ 0002:00000010 00000008H .CRT$XIA                DATA
+ 0002:00000018 00000008H .CRT$XIZ                DATA
+ 0002:00000020 00000008H .CRT$XPA                DATA
+ 0002:00000028 00000008H .CRT$XPZ                DATA
+ 0002:00000030 00000008H .CRT$XTA                DATA
+ 0002:00000038 00000008H .CRT$XTZ                DATA
+ 0002:00000040 00001194H .rdata                  DATA
+ 0002:000011d4 00000120H .rdata$zzzdbg           DATA
+ 0002:000012f4 00000580H .xdata                  DATA
+ 0002:00001874 00000000H .edata                  DATA
+ 0003:00000000 000027a0H .data                   DATA
+ 0003:000027a0 00002910H .bss                    DATA
+ 0004:00000000 0000042cH .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __volatile_metadata        0000000000000000     <absolute>
+ 0001:00000000       main                       00000001800002a0 f   main.obj
+ 0001:00000908       _GetCdeAppIf               0000000180000ba8 f   CdeLib:osifUefiShellEntryPoint.obj
+ 0001:00000974       __CdeChkCtrlC              0000000180000c14 f   CdeLib:osifUefiShellEntryPoint.obj
+ 0001:000009a8       _MainEntryPointShell       0000000180000c48 f   CdeLib:osifUefiShellEntryPoint.obj
+ 0001:00001000       __acrt_iob_func            00000001800012a0 f   CdeLib:__acrt_iob_func.obj
+ 0001:00001014       fprintf                    00000001800012b4 f   CdeLib:Fprintf.obj
+ 0001:000010a0       printf                     0000000180001340 f   CdeLib:Printf.obj
+ 0001:00001118       sscanf                     00000001800013b8 f   CdeLib:Sscanf.obj
+ 0001:00001180       malloc                     0000000180001420 f   CdeLib:Malloc.obj
+ 0001:0000118c       realloc                    000000018000142c f   CdeLib:Realloc.obj
+ 0001:000011c4       strcpy                     0000000180001464 f   CdeLib:StrCpy.obj
+ 0001:000011fc       strcmp                     000000018000149c f   CdeLib:StrCmp.obj
+ 0001:00001238       memset                     00000001800014d8 f   CdeLib:MemSet.obj
+ 0001:0000125c       strlen                     00000001800014fc f   CdeLib:StrLen.obj
+ 0001:00001270       wcscpy                     0000000180001510 f   CdeLib:WcsCpy.obj
+ 0001:000012a8       wcscmp                     0000000180001548 f   CdeLib:WcsCmp.obj
+ 0001:000012e4       strerror                   0000000180001584 f   CdeLib:StrError.obj
+ 0001:00001308       strefierror                00000001800015a8 f   CdeLib:StrError.obj
+ 0001:00001330       _sigdfl                    00000001800015d0 f   CdeLib:_sigdfl.obj
+ 0001:00001338       _CdeDbgPutChar             00000001800015d8 f   CdeLib:_CdeDbgPutChar.obj
+ 0001:000014c0       VwxPrintf                  0000000180001760 f   CdeLib:VwxPrintf.obj
+ 0001:00001ed8       _strlen                    0000000180002178 f   CdeLib:VwxPrintf.obj
+ 0001:00001ef0       _wcslen                    0000000180002190 f   CdeLib:VwxPrintf.obj
+ 0001:00001f0c       ComputeFieldSize           00000001800021ac f   CdeLib:VwxPrintf.obj
+ 0001:00001f48       ydes                       00000001800021e8 f   CdeLib:VwxPrintf.obj
+ 0001:0000254c       VwxScanf                   00000001800027ec f   CdeLib:VwxScanf.obj
+ 0001:000037bc       WcsStrTok                  0000000180003a5c f   CdeLib:WcsStrTok.obj
+ 0001:000038bc       WcsStrPbrkSpn              0000000180003b5c f   CdeLib:WcsStrPbrkSpn.obj
+ 0001:00003a04       MemRealloc                 0000000180003ca4 f   CdeLib:MemRealloc.obj
+ 0001:00003e18       MemStrxCpy                 00000001800040b8 f   CdeLib:MemStrxCpy.obj
+ 0001:00003f0c       MemStrxCmp                 00000001800041ac f   CdeLib:MemStrxCmp.obj
+ 0001:0000404c       osifIbmAtGetTime           00000001800042ec f   CdeLib:osifIbmAtGetTime.obj
+ 0001:000041e8       osifIbmAtGetTscPerSec      0000000180004488 f   CdeLib:osifIbmAtGetTscPerSec.obj
+ 0001:00004234       osifIbmAtGetTsc            00000001800044d4 f   CdeLib:osifIbmAtGetTsc.obj
+ 0001:00004240       osifUefiShellMemAlloc      00000001800044e0 f   CdeLib:osifUefiShellMemAlloc.obj
+ 0001:00004284       osifUefiShellMemFree       0000000180004524 f   CdeLib:osifUefiShellMemFree.obj
+ 0001:0000429c       osifUefiShellFileWrite     000000018000453c f   CdeLib:osifUefiShellFileWrite.obj
+ 0001:000043cc       osifUefiShellFileRead      000000018000466c f   CdeLib:osifUefiShellFileRead.obj
+ 0001:000045f8       osifUefiShellFileSetPos    0000000180004898 f   CdeLib:osifUefiShellFileSetPos.obj
+ 0001:000046b0       osifUefiShellFileOpen      0000000180004950 f   CdeLib:osifUefiShellFileOpen.obj
+ 0001:00004b3c       osifUefiShellFileClose     0000000180004ddc f   CdeLib:osifUefiShellFileClose.obj
+ 0001:00004b8c       osifUefiShellFileDelete    0000000180004e2c f   CdeLib:osifUefiShellFileDelete.obj
+ 0001:00004bb4       osifUefiShellFileRename    0000000180004e54 f   CdeLib:osifUefiShellFileRename.obj
+ 0001:00004ebc       osifUefiShellCmdExec       000000018000515c f   CdeLib:osifUefiShellCmdExec.obj
+ 0001:00004fb8       osifUefiShellGetEnv        0000000180005258 f   CdeLib:osifUefiShellGetEnv.obj
+ 0001:00005060       VMofine                    0000000180005300 f   CdeLib:VMofine.obj
+ 0001:00005440       XDump                      00000001800056e0 f   CdeLib:XDump.obj
+ 0001:00005b68       fclose                     0000000180005e08 f   CdeLib:Fclose.obj
+ 0001:00005c14       fgetc                      0000000180005eb4 f   CdeLib:Fgetc.obj
+ 0001:00005c48       fwrite                     0000000180005ee8 f   CdeLib:Fwrite.obj
+ 0001:00005e74       FilePointerValid           0000000180006114 f   CdeLib:Fwrite.obj
+ 0001:00005ebc       sprintf                    000000018000615c f   CdeLib:Sprintf.obj
+ 0001:00005ee8       raise                      0000000180006188 f   CdeLib:raise.obj
+ 0001:00005f7c       free                       000000018000621c f   CdeLib:Free.obj
+ 0001:00005f84       _CdeStr2Argv               0000000180006224 f   CdeLib:_CdeStr2Argv.obj
+ 0001:000061b8       _CdeLocateProtocol         0000000180006458 f   CdeLib:_CdeLocateProtocol.obj
+ 0001:000061f0       _setjmp                    0000000180006490 f   CdeLib:setjmp64.obj
+ 0001:00006298       UefiBootServicesTableLibConstructor 0000000180006538 f   CdeLib:UefiBootServicesTableLib.obj
+ 0001:000062b4       XISCLIBNOT                 0000000180006554 f   CdeLib:_initterm.obj
+ 0001:000062c0       XCSCLIBNOT                 0000000180006560 f   CdeLib:_initterm.obj
+ 0001:000062cc       XPSCLIBNOT                 000000018000656c f   CdeLib:_initterm.obj
+ 0001:000062d8       XTSCLIBNOT                 0000000180006578 f   CdeLib:_initterm.obj
+ 0001:000062e4       _initterm_e                0000000180006584 f   CdeLib:_initterm.obj
+ 0001:00006324       _initterm                  00000001800065c4 f   CdeLib:_initterm.obj
+ 0001:00006358       fflush                     00000001800065f8 f   CdeLib:Fflush.obj
+ 0001:000063f0       fputc                      0000000180006690 f   CdeLib:Fputc.obj
+ 0001:00006454       _CdeMemGetChar             00000001800066f4 f   CdeLib:_CdeMemGetChar.obj
+ 0001:00006464       _CdeMemUngetChar           0000000180006704 f   CdeLib:_CdeMemUngetChar.obj
+ 0001:0000646c       _abort                     000000018000670c f   CdeLib:_abort.obj
+ 0001:000064c0       _CdeGetCurrentPrivilegeLevel 0000000180006760 f   CdeLib:CdeGetCurrentPrivilegeLevel64.obj
+ 0001:000064c8       _CdeDbgCOMInit             0000000180006768 f   CdeLib:_CdeDbgCOMInit.obj
+ 0001:000065e4       _CdeDbgCOMReady2Send       0000000180006884 f   CdeLib:_CdeDbgCOMReady2Send.obj
+ 0001:00006614       _CdeDbgCOMSend             00000001800068b4 f   CdeLib:_CdeDbgCOMSend.obj
+ 0001:0000663c       isdigit                    00000001800068dc f   CdeLib:isdigit.obj
+ 0001:00006650       isxdigit                   00000001800068f0 f   CdeLib:isxdigit.obj
+ 0001:0000667c       isspace                    000000018000691c f   CdeLib:isspace.obj
+ 0001:00006694       _mktime64                  0000000180006934 f   CdeLib:mktime.obj
+ 0001:00006724       mktime                     00000001800069c4 f   CdeLib:mktime.obj
+ 0001:0000672c       _gmltime                   00000001800069cc f   CdeLib:_gmltime.obj
+ 0001:00006848       _errno                     0000000180006ae8 f   CdeLib:errno.obj
+ 0001:00006858       _onerrset_status           0000000180006af8 f   CdeLib:errno.obj
+ 0001:00006878       _onerrset_errno            0000000180006b18 f   CdeLib:errno.obj
+ 0001:00006890       wcschr                     0000000180006b30 f   CdeLib:WcsChr.obj
+ 0001:000068c8       wcscat                     0000000180006b68 f   CdeLib:WcsCat.obj
+ 0001:000068f8       wcsncmp                    0000000180006b98 f   CdeLib:WcsNCmp.obj
+ 0001:00006940       wcsncpy                    0000000180006be0 f   CdeLib:WcsNCpy.obj
+ 0001:00006984       wcstok                     0000000180006c24 f   CdeLib:WcsTok.obj
+ 0001:000069d4       _wcsicmp                   0000000180006c74 f   CdeLib:_WcsICmp.obj
+ 0001:00006a10       _CdeLocateHandleBuffer     0000000180006cb0 f   CdeLib:_CdeLocateHandleBuffer.obj
+ 0001:00006a98       _CdeConvertDevicePathToText 0000000180006d38 f   CdeLib:_CdeConvertDevicePathToText.obj
+ 0001:00006ab4       _CdeGetMapFromDevicePath   0000000180006d54 f   CdeLib:_CdeGetMapFromDevicePath.obj
+ 0001:00006ad0       _CdeGetCurDir              0000000180006d70 f   CdeLib:_CdeGetCurDir.obj
+ 0001:00006aec       wcsrchr                    0000000180006d8c f   CdeLib:WcsRChr.obj
+ 0001:00006b44       wcslen                     0000000180006de4 f   CdeLib:WcsLen.obj
+ 0001:00006b58       __CoreSprintf              0000000180006df8 f   CdeLib:__CoreSprintf.obj
+ 0001:00006ba8       __CoreClock                0000000180006e48 f   CdeLib:__CoreClock.obj
+ 0001:00006bf4       __CoreExit                 0000000180006e94 f   CdeLib:__CoreExit.obj
+ 0001:00006c08       __CoreMofine               0000000180006ea8 f   CdeLib:__CoreMofine.obj
+ 0001:00006c54       isalnum                    0000000180006ef4 f   CdeLib:isalnum.obj
+ 0001:00006c7c       remove                     0000000180006f1c f   CdeLib:Remove.obj
+ 0001:00006cf4       fread                      0000000180006f94 f   CdeLib:Fread.obj
+ 0001:00006f84       vsnprintf                  0000000180007224 f   CdeLib:Vsnprintf.obj
+ 0001:00007050       _sig2idx                   00000001800072f0 f   CdeLib:_sig2idx.obj
+ 0001:00007078       _sigign                    0000000180007318 f   CdeLib:_sigign.obj
+ 0001:000070fc       exit                       000000018000739c f   CdeLib:exit.obj
+ 0001:0000711c       gregorian2day              00000001800073bc f   CdeLib:_greg2day.obj
+ 0001:00007198       day2gregorian              0000000180007438 f   CdeLib:_day2greg.obj
+ 0001:0000729c       wcspbrk                    000000018000753c f   CdeLib:WcsPbrk.obj
+ 0001:000072e0       memcpy                     0000000180007580 f   CdeLib:MemCpy.obj
+ 0001:00007300       _CdePoolWcs2AppWcs         00000001800075a0 f   CdeLib:_CdePoolWcs2AppWcs.obj
+ 0001:00007370       _CdeMemPutChar             0000000180007610 f   CdeLib:_CdeMemPutChar.obj
+ 0001:00007380       longjmp                    0000000180007620 f   CdeLib:longjmp64.obj
+ 0001:0000742c       isalpha                    00000001800076cc f   CdeLib:isalpha.obj
+ 0001:00007454       fopen                      00000001800076f4 f   CdeLib:Fopen.obj
+ 0001:0000759c       rewind                     000000018000783c f   CdeLib:Rewind.obj
+ 0001:000075b8       _CdeMemPutNada             0000000180007858 f   CdeLib:_CdeMemPutNada.obj
+ 0001:000075bc       abort                      000000018000785c f   CdeLib:abort.obj
+ 0001:00007620       isupper                    00000001800078c0 f   CdeLib:isupper.obj
+ 0001:0000762c       islower                    00000001800078cc f   CdeLib:islower.obj
+ 0001:00007640       strncpy                    00000001800078e0 f   CdeLib:StrNCpy.obj
+ 0001:00007684       strtok                     0000000180007924 f   CdeLib:StrTok.obj
+ 0001:000076c8       fsetpos                    0000000180007968 f   CdeLib:Fsetpos.obj
+ 0002:00000000       __xc_a                     0000000180007a20     CdeLib:_initterm.obj
+ 0002:00000008       __xc_z                     0000000180007a28     CdeLib:_initterm.obj
+ 0002:00000010       __xi_a                     0000000180007a30     CdeLib:_initterm.obj
+ 0002:00000018       __xi_z                     0000000180007a38     CdeLib:_initterm.obj
+ 0002:00000020       __xp_a                     0000000180007a40     CdeLib:_initterm.obj
+ 0002:00000028       __xp_z                     0000000180007a48     CdeLib:_initterm.obj
+ 0002:00000030       __xt_a                     0000000180007a50     CdeLib:_initterm.obj
+ 0002:00000038       __xt_z                     0000000180007a58     CdeLib:_initterm.obj
+ 0002:00000040       ??_C@_04BCEBBOAK@?1cmd@    0000000180007a60     main.obj
+ 0002:00000048       ??_C@_04INBMAKPJ@?1dis@    0000000180007a68     main.obj
+ 0002:00000050       ??_C@_04EIBLALMK@?1ena@    0000000180007a70     main.obj
+ 0002:00000058       ??_C@_04EJFMPNAD@?1del@    0000000180007a78     main.obj
+ 0002:00000060       ??_C@_05IJKDEMEA@?1guid@   0000000180007a80     main.obj
+ 0002:00000068       ??_C@_05LPMPKBIB@?1list@   0000000180007a88     main.obj
+ 0002:00000070       ??_C@_02GLHBANAM@?1?$DP@   0000000180007a90     main.obj
+ 0002:00000074       ??_C@_02JOILMGJP@?1h@      0000000180007a94     main.obj
+ 0002:00000078       ??_C@_05HDIPJJLA@?1help@   0000000180007a98     main.obj
+ 0002:00000080       ??_C@_0HE@JENICHIJ@?6LoadOption?5UEFI?5shell?5tool?5to?5@ 0000000180007aa0     main.obj
+ 0002:00000100       ??_C@_0GE@CNHIJOKC@CdeLoadOption?5?1guid?512345678?900@ 0000000180007b20     main.obj
+ 0002:00000168       ??_C@_0BK@OIHPKFHL@?5?5?5?5or?6LoadOption?5?1list?6?6@ 0000000180007b88     main.obj
+ 0002:00000188       ??_C@_0DP@FIOANFFL@?5?5?5?5?1list?5?5?5list?5all?5command?5li@ 0000000180007ba8     main.obj
+ 0002:000001c8       ??_C@_0CK@GCGNNGGP@?5?5?5?5?1guid?5?5?5FILE_GUID?5of?5the?5PO@ 0000000180007be8     main.obj
+ 0002:00000200       ??_C@_0ED@CLNLHKAP@?5?5?5?5?1cmd?5?5?5?5command?5line?5includ@ 0000000180007c20     main.obj
+ 0002:00000250       ??_C@_0EO@OEHIONND@?5?5?5?5?1dis?5?5?5?5disable?5a?5driver?5du@ 0000000180007c70     main.obj
+ 0002:000002a0       ??_C@_0CH@DOKDNGDN@?5?5?5?5?1ena?5?5?5?5enable?5a?5driver?5for@ 0000000180007cc0     main.obj
+ 0002:000002d0       ??_C@_0GK@MJJBIJIE@?5?5?5?5?1del?5?5?5?5delete?5command?5line@ 0000000180007cf0     main.obj
+ 0002:0000033c       ??_C@_11LOCGONAA@@         0000000180007d5c     main.obj
+ 0002:00000340       ??_C@_0CM@DOLEJLOO@No?5?$CCCdeLoadOption?$CC?5variable?5fou@ 0000000180007d60     main.obj
+ 0002:00000370       ??_C@_0EM@JMMFJNA@A?3?2EDK2020?9MinnowBoard?4001?2CdeP@ 0000000180007d90     main.obj
+ 0002:000003c0       ??_C@_1BM@PJHILOPO@?$AAC?$AAd?$AAe?$AAL?$AAo?$AAa?$AAd?$AAO?$AAp?$AAt?$AAi?$AAo?$AAn@ 0000000180007de0     main.obj
+ 0002:000003dc       ??_C@_05HKKFJEBI@?$CFS?5?3?5@ 0000000180007dfc     main.obj
+ 0002:000003e8       ??_C@_0DE@HJAEGIGO@?$CF08X?9?$CF04X?9?$CF04X?9?$CF02X?$CF02X?9?$CF02X?$CF02@ 0000000180007e08     main.obj
+ 0002:00000420       ??_C@_0P@BKFKCFOM@Start?5rejected@ 0000000180007e40     main.obj
+ 0002:0000042f       ??_C@_00CNPNBAHC@@         0000000180007e4f     main.obj
+ 0002:00000430       ??_C@_08GJPGANEG@?$CC?$CFs?$CC?5?$CFs?6@ 0000000180007e50     main.obj
+ 0002:00000440       ??_C@_0GI@DLGKIGFK@A?3?2EDK2020?9MinnowBoard?4001?2CdeP@ 0000000180007e60     main.obj
+ 0002:000004a8       ??_C@_0DP@GMEAEDPA@MISSING?5parameter?3?5?1guid?5123456@ 0000000180007ec8     main.obj
+ 0002:000004e8       ??_C@_0DC@BCAHIDON@MISSING?5parameter?3?5?1cmd?5?$CCdriver@ 0000000180007f08     main.obj
+ 0002:00000520       ??_C@_0BJ@POPDEOLM@?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?1dis?6@ 0000000180007f40     main.obj
+ 0002:00000540       ??_C@_0BJ@EBOGCIKL@?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?1ena?6@ 0000000180007f60     main.obj
+ 0002:00000560       ??_C@_0BJ@KDFPBFEJ@?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?1del?6@ 0000000180007f80     main.obj
+ 0002:00000580       ??_C@_0DI@IDKFPMOM@?$CF8x?9?$CF4hx?9?$CF4hx?9?$CF2hhx?$CF2hhx?9?$CF2hhx?$CF@ 0000000180007fa0     main.obj
+ 0002:000005b8       ??_C@_0DP@KIJGPBKJ@Invalid?5GUID?5format?6Use?3?5111111@ 0000000180007fd8     main.obj
+ 0002:00000600       ??_C@_0EC@PAJEDNFB@A?3?2EDK2020?9MinnowBoard?4001?2CdeP@ 0000000180008020     main.obj
+ 0002:00000650       ??_C@_0FF@MOLILJIP@LoadOption?5?3?5?$CF08X?9?$CF04X?9?$CF04X?9?$CF02@ 0000000180008070     main.obj
+ 0002:000006b0       ??_C@_0FE@PPODOCCN@LoadOption?5?3?5?$CF08X?9?$CF04X?9?$CF04X?9?$CF02@ 00000001800080d0     main.obj
+ 0002:00000710       ??_C@_0KE@NMKLFAON@A?3?2EDK2020?9MinnowBoard?4001?2CdeP@ 0000000180008130     main.obj
+ 0002:000007c0       ??_C@_0GH@EALDDKEO@LoadOption?5?3?5?$CF08X?9?$CF04X?9?$CF04X?9?$CF02@ 00000001800081e0     main.obj
+ 0002:00000830       ??_C@_1GG@CBENNICG@?$AAF?$AAA?$AAT?$AAA?$AAL?$AA?5?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAR?$AAe@ 0000000180008250     CdeLib:osifUefiShellEntryPoint.obj
+ 0002:000008a0       ??_C@_1BGK@CFCCBJHC@?$AAF?$AAA?$AAT?$AAA?$AAL?$AA?5?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAS?$AAh@ 00000001800082c0     CdeLib:osifUefiShellEntryPoint.obj
+ 0002:00000a0c       ??_C@_02KPKOKMHB@?$CFS@    000000018000842c     CdeLib:osifUefiShellEntryPoint.obj
+ 0002:00000a10       ??_C@_08INEPGKHH@No?5error@ 0000000180008430     CdeLib:StrError.obj
+ 0002:00000a20       ??_C@_0BI@BJFCGOHL@Operation?5not?5permitted@ 0000000180008440     CdeLib:StrError.obj
+ 0002:00000a38       ??_C@_0BK@FMDHKPNF@No?5such?5file?5or?5directory@ 0000000180008458     CdeLib:StrError.obj
+ 0002:00000a58       ??_C@_0BA@FKIAIBGA@No?5such?5process@ 0000000180008478     CdeLib:StrError.obj
+ 0002:00000a68       ??_C@_0BK@FJBOAFDK@Interrupted?5function?5call@ 0000000180008488     CdeLib:StrError.obj
+ 0002:00000a88       ??_C@_0BD@KKNFOBBD@Input?1output?5error@ 00000001800084a8     CdeLib:StrError.obj
+ 0002:00000aa0       ??_C@_0BK@DPKMCKJ@No?5such?5device?5or?5address@ 00000001800084c0     CdeLib:StrError.obj
+ 0002:00000ac0       ??_C@_0BC@MFFGCDFL@Arg?5list?5too?5long@ 00000001800084e0     CdeLib:StrError.obj
+ 0002:00000ad8       ??_C@_0BC@HKPNECK@Exec?5format?5error@ 00000001800084f8     CdeLib:StrError.obj
+ 0002:00000af0       ??_C@_0BE@NFGDDCEF@Bad?5file?5descriptor@ 0000000180008510     CdeLib:StrError.obj
+ 0002:00000b08       ??_C@_0BD@LOHELEP@No?5child?5processes@ 0000000180008528     CdeLib:StrError.obj
+ 0002:00000b20       ??_C@_0CB@EPFKGNAK@Resource?5temporarily?5unavailabl@ 0000000180008540     CdeLib:StrError.obj
+ 0002:00000b48       ??_C@_0BB@IMDKMPFB@Not?5enough?5space@ 0000000180008568     CdeLib:StrError.obj
+ 0002:00000b60       ??_C@_0BC@HFNFNKAI@Permission?5denied@ 0000000180008580     CdeLib:StrError.obj
+ 0002:00000b78       ??_C@_0M@LOEHLCJD@Bad?5address@ 0000000180008598     CdeLib:StrError.obj
+ 0002:00000b88       ??_C@_0M@IDOOOPNG@errnum?5?$DN?515@ 00000001800085a8     CdeLib:StrError.obj
+ 0002:00000b98       ??_C@_0BA@BIBLIOEK@Resource?5device@ 00000001800085b8     CdeLib:StrError.obj
+ 0002:00000ba8       ??_C@_0M@NAAJNNGH@File?5exists@ 00000001800085c8     CdeLib:StrError.obj
+ 0002:00000bb8       ??_C@_0O@OAMDNOCP@Improper?5link@ 00000001800085d8     CdeLib:StrError.obj
+ 0002:00000bc8       ??_C@_0P@NLEIANHE@No?5such?5device@ 00000001800085e8     CdeLib:StrError.obj
+ 0002:00000bd8       ??_C@_0BA@CJBACOOL@Not?5a?5directory@ 00000001800085f8     CdeLib:StrError.obj
+ 0002:00000be8       ??_C@_0P@NDHGCGKE@Is?5a?5directory@ 0000000180008608     CdeLib:StrError.obj
+ 0002:00000bf8       ??_C@_0BB@HMGGCEBG@Invalid?5argument@ 0000000180008618     CdeLib:StrError.obj
+ 0002:00000c10       ??_C@_0BO@IIFBODJE@Too?5many?5open?5files?5in?5system@ 0000000180008630     CdeLib:StrError.obj
+ 0002:00000c30       ??_C@_0BE@INBJMKGG@Too?5many?5open?5files@ 0000000180008650     CdeLib:StrError.obj
+ 0002:00000c48       ??_C@_0CE@ONOKNLPF@Inappropriate?5I?1O?5control?5opera@ 0000000180008668     CdeLib:StrError.obj
+ 0002:00000c70       ??_C@_0M@KKIFACEM@errnum?5?$DN?526@ 0000000180008690     CdeLib:StrError.obj
+ 0002:00000c80       ??_C@_0P@LFMMIPAE@File?5too?5large@ 00000001800086a0     CdeLib:StrError.obj
+ 0002:00000c90       ??_C@_0BI@FEALHKLD@No?5space?5left?5on?5device@ 00000001800086b0     CdeLib:StrError.obj
+ 0002:00000ca8       ??_C@_0N@FEHLOILP@Invalid?5seek@ 00000001800086c8     CdeLib:StrError.obj
+ 0002:00000cb8       ??_C@_0BG@DDBFNKBH@Read?9only?5file?5system@ 00000001800086d8     CdeLib:StrError.obj
+ 0002:00000cd0       ??_C@_0P@PKCJJLLM@Too?5many?5links@ 00000001800086f0     CdeLib:StrError.obj
+ 0002:00000ce0       ??_C@_0M@LHEPIIOM@Broken?5pipe@ 0000000180008700     CdeLib:StrError.obj
+ 0002:00000cf0       ??_C@_0N@MMJPGLJK@Domain?5error@ 0000000180008710     CdeLib:StrError.obj
+ 0002:00000d00       ??_C@_0BB@FCBJFCAJ@Result?5too?5large@ 0000000180008720     CdeLib:StrError.obj
+ 0002:00000d18       ??_C@_0M@IAGKDLLI@errnum?5?$DN?535@ 0000000180008738     CdeLib:StrError.obj
+ 0002:00000d28       ??_C@_0BK@JAEBMJJM@Resource?5deadlock?5avoided@ 0000000180008748     CdeLib:StrError.obj
+ 0002:00000d48       ??_C@_0M@LCFMFJDK@errnum?5?$DN?537@ 0000000180008768     CdeLib:StrError.obj
+ 0002:00000d58       ??_C@_0BC@BEDIHIDK@Filename?5too?5long@ 0000000180008778     CdeLib:StrError.obj
+ 0002:00000d70       ??_C@_0BD@CLHBCGPB@No?5locks?5available@ 0000000180008790     CdeLib:StrError.obj
+ 0002:00000d88       ??_C@_0BJ@IHEHINLI@Function?5not?5implemented@ 00000001800087a8     CdeLib:StrError.obj
+ 0002:00000da8       ??_C@_0BE@ICMCHPHH@Directory?5not?5empty@ 00000001800087c8     CdeLib:StrError.obj
+ 0002:00000dc0       ??_C@_0BG@KLEAJEFJ@Illegal?5byte?5sequence@ 00000001800087e0     CdeLib:StrError.obj
+ 0002:00000dd8       ??_C@_07PBILKAFL@Success@  00000001800087f8     CdeLib:StrError.obj
+ 0002:00000de0       ??_C@_0L@PMFNEKME@Load?5error@ 0000000180008800     CdeLib:StrError.obj
+ 0002:00000df0       ??_C@_0BC@DBAKKFEN@Invalid?5parameter@ 0000000180008810     CdeLib:StrError.obj
+ 0002:00000e08       ??_C@_0M@BEECMOIL@Unsupported@ 0000000180008828     CdeLib:StrError.obj
+ 0002:00000e18       ??_C@_0BA@ICCMAINJ@Bad?5buffer?5size@ 0000000180008838     CdeLib:StrError.obj
+ 0002:00000e28       ??_C@_0BB@OLKJDAH@Buffer?5too?5small@ 0000000180008848     CdeLib:StrError.obj
+ 0002:00000e40       ??_C@_09NNPKCNML@Not?5ready@ 0000000180008860     CdeLib:StrError.obj
+ 0002:00000e50       ??_C@_0N@HAOMBGEI@Device?5error@ 0000000180008870     CdeLib:StrError.obj
+ 0002:00000e60       ??_C@_0BA@PCBODGAB@Write?5protected@ 0000000180008880     CdeLib:StrError.obj
+ 0002:00000e70       ??_C@_0BB@CBNGNHNA@Out?5of?5resources@ 0000000180008890     CdeLib:StrError.obj
+ 0002:00000e88       ??_C@_0BB@FPEIPKEJ@Volume?5corrupted@ 00000001800088a8     CdeLib:StrError.obj
+ 0002:00000ea0       ??_C@_0M@LCHFNBFE@Volume?5full@ 00000001800088c0     CdeLib:StrError.obj
+ 0002:00000eb0       ??_C@_08KDMMJGOL@No?5media@ 00000001800088d0     CdeLib:StrError.obj
+ 0002:00000ec0       ??_C@_0O@JNCJKCCD@Media?5changed@ 00000001800088e0     CdeLib:StrError.obj
+ 0002:00000ed0       ??_C@_09CCINFMOF@Not?5found@ 00000001800088f0     CdeLib:StrError.obj
+ 0002:00000ee0       ??_C@_0O@BKMDCBKC@Access?5denied@ 0000000180008900     CdeLib:StrError.obj
+ 0002:00000ef0       ??_C@_0M@MPFDJHOM@No?5response@ 0000000180008910     CdeLib:StrError.obj
+ 0002:00000f00       ??_C@_0L@IFPBNFC@No?5mapping@ 0000000180008920     CdeLib:StrError.obj
+ 0002:00000f10       ??_C@_07MKALMBDJ@Timeout@  0000000180008930     CdeLib:StrError.obj
+ 0002:00000f18       ??_C@_0M@DCJFAFHJ@Not?5started@ 0000000180008938     CdeLib:StrError.obj
+ 0002:00000f28       ??_C@_0BA@IGIBFFPH@Already?5started@ 0000000180008948     CdeLib:StrError.obj
+ 0002:00000f38       ??_C@_07LCKDCBKK@Aborted@  0000000180008958     CdeLib:StrError.obj
+ 0002:00000f40       ??_C@_0L@IJPDMKMN@Icmp?5error@ 0000000180008960     CdeLib:StrError.obj
+ 0002:00000f50       ??_C@_0L@KNLHMGP@Tftp?5error@ 0000000180008970     CdeLib:StrError.obj
+ 0002:00000f60       ??_C@_0P@NFDLBHIK@Protocol?5error@ 0000000180008980     CdeLib:StrError.obj
+ 0002:00000f70       ??_C@_0BF@LOJHAHJO@Incompatible?5version@ 0000000180008990     CdeLib:StrError.obj
+ 0002:00000f88       ??_C@_0BD@OIJCCLDG@Security?5violation@ 00000001800089a8     CdeLib:StrError.obj
+ 0002:00000fa0       ??_C@_09GCOLIMIF@Crc?5error@ 00000001800089c0     CdeLib:StrError.obj
+ 0002:00000fb0       ??_C@_0N@OOFDCMI@End?5of?5media@ 00000001800089d0     CdeLib:StrError.obj
+ 0002:00000fc0       ??_C@_0M@JLKPDLNL@End?5of?5file@ 00000001800089e0     CdeLib:StrError.obj
+ 0002:00000fd0       ??_C@_0BB@CHGBEAEB@Invalid?5language@ 00000001800089f0     CdeLib:StrError.obj
+ 0002:00000fe8       ??_C@_0O@NIPGCINC@Unknown?5error@ 0000000180008a08     CdeLib:StrError.obj
+ 0002:00000ff8       ??_C@_01LFCBOECM@?4@       0000000180008a18     CdeLib:_locale_C_.obj
+ 0002:00000ffc       ??_C@_13JOFGPIOO@?$AA?4@   0000000180008a1c     CdeLib:_locale_C_.obj
+ 0002:00001000       ??_C@_01GFHCPBMG@C@        0000000180008a20     CdeLib:_locale_C_.obj
+ 0002:00001008       ??_C@_1O@CEDCILHN@?$AA?$CI?$AAn?$AAu?$AAl?$AAl?$AA?$CJ@ 0000000180008a28     CdeLib:VwxPrintf.obj
+ 0002:00001018       ??_C@_06OJHGLDPL@?$CInull?$CJ@ 0000000180008a38     CdeLib:VwxPrintf.obj
+ 0002:00001020       __xmm@ffffffffffffffffffffffffffffffff 0000000180008a40     CdeLib:VwxScanf.obj
+ 0002:00001030       ??_C@_01KDCPPGHE@r@        0000000180008a50     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001034       ??_C@_02JDPG@rb@           0000000180008a54     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001038       ??_C@_02CBLLGHLK@r?$CL@    0000000180008a58     CdeLib:osifUefiShellFileOpen.obj
+ 0002:0000103c       ??_C@_03HMFOOINA@r?$CLb@   0000000180008a5c     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001040       ??_C@_03CCKOKKND@rb?$CL@   0000000180008a60     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001044       ??_C@_01NOFIACDB@w@        0000000180008a64     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001048       ??_C@_02GMLFBBN@wb@        0000000180008a68     CdeLib:osifUefiShellFileOpen.obj
+ 0002:0000104c       ??_C@_02CHHAKFFB@w?$CL@    0000000180008a6c     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001050       ??_C@_03ELIABIOC@w?$CLb@   0000000180008a70     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001054       ??_C@_03BFHAFKOB@wb?$CL@   0000000180008a74     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001058       ??_C@_01MCMALHOG@a@        0000000180008a78     CdeLib:osifUefiShellFileOpen.obj
+ 0002:0000105c       ??_C@_02BOGAIONP@ab@       0000000180008a7c     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001060       ??_C@_02DPNLHKJD@a?$CL@    0000000180008a80     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001064       ??_C@_03DOPCBAKB@a?$CLb@   0000000180008a84     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001068       ??_C@_03GAACFCKC@ab?$CL@   0000000180008a88     CdeLib:osifUefiShellFileOpen.obj
+ 0002:0000106c       ??_C@_13PJJBFPED@?$AA?$DL@ 0000000180008a8c     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001070       ??_C@_13FPGAJAPJ@?$AA?2@   0000000180008a90     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001074       ??_C@_02DPKJAMEF@?$CFd@    0000000180008a94     CdeLib:VMofine.obj
+ 0002:00001078       ??_C@_0BM@DAECFMAP@?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CF010d?$CFs?$CFs?$CFs@ 0000000180008a98     CdeLib:VMofine.obj
+ 0002:00001094       ??_C@_02HCKGKOFO@?$CI?$CJ@ 0000000180008ab4     CdeLib:VMofine.obj
+ 0002:00001098       ??_C@_01PKGAHCOL@?$CJ@     0000000180008ab8     CdeLib:VMofine.obj
+ 0002:0000109c       ??_C@_01ODHLEDKK@?$CI@     0000000180008abc     CdeLib:VMofine.obj
+ 0002:000010a0       ??_C@_01CLKCMJKC@?5@       0000000180008ac0     CdeLib:VMofine.obj
+ 0002:000010a8       ??_C@_0BD@LIHNMEBN@?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs@ 0000000180008ac8     CdeLib:VMofine.obj
+ 0002:000010c0       ??_C@_0BK@IKLFGGKA@?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs?$CF010d?$CFs?$CFs@ 0000000180008ae0     CdeLib:VMofine.obj
+ 0002:000010e8       ??_C@_09IINBGKIA@?$CF016llX?3?5@ 0000000180008b08     CdeLib:XDump.obj
+ 0002:000010f8       ??_C@_08FOOEKCDB@?$CF08llX?3?5@ 0000000180008b18     CdeLib:XDump.obj
+ 0002:00001108       ??_C@_08JJEEMIEF@?$CF04llX?3?5@ 0000000180008b28     CdeLib:XDump.obj
+ 0002:00001118       ??_C@_08PKJEPNHP@?$CF02llX?3?5@ 0000000180008b38     CdeLib:XDump.obj
+ 0002:00001124       ??_C@_02HAOIJKIC@?$CFc@    0000000180008b44     CdeLib:XDump.obj
+ 0002:00001128       ??_C@_02KFKPNHPM@?9?5@     0000000180008b48     CdeLib:XDump.obj
+ 0002:0000112c       ??_C@_05BFHEBJNP@?$CF02X?5@ 0000000180008b4c     CdeLib:XDump.obj
+ 0002:00001134       ??_C@_05DABPEGAD@?$CF04X?5@ 0000000180008b54     CdeLib:XDump.obj
+ 0002:0000113c       ??_C@_05HKMJPJLL@?$CF08X?5@ 0000000180008b5c     CdeLib:XDump.obj
+ 0002:00001148       ??_C@_08FCHDLMML@?$CF016llX?5@ 0000000180008b68     CdeLib:XDump.obj
+ 0002:00001154       ??_C@_01EEMJAFIK@?6@       0000000180008b74     CdeLib:XDump.obj
+ 0002:00001158       ??_C@_0CE@NLPNMFHG@invalid?5parameter?3?5?$CFS?$CI?$CFd?$CJ?5?$CFS?$CI?$CJ?5@ 0000000180008b78     CdeLib:_invalid_parameter_handler.obj
+ 0002:00001180       ??_C@_0BD@NEDHKJBG@invalid?5parameter?6@ 0000000180008ba0     CdeLib:_invalid_parameter_handler.obj
+ 0002:00001194       ??_C@_02OJDBNLEE@?5?7@     0000000180008bb4     CdeLib:Fopen.obj
+ 0002:00001198       ??_C@_0BO@ICHKIABJ@abnormal?5program?5termination?6@ 0000000180008bb8     CdeLib:abort.obj
+ 0003:00000000       gCdeSystemVolumes          00000001800092a0     CdeLib:osifUefiShellEntryPoint.obj
+ 0003:00001f48       _locale_C_                 000000018000b1e8     CdeLib:_locale_C_.obj
+ 0003:00001f70       rgFACCESSMODE              000000018000b210     CdeLib:osifUefiShellFileOpen.obj
+ 0003:00002290       _gCdeCopyRight             000000018000b530     CdeLib:_gCdeCopyright.obj
+ 0003:00002720       _gCdeEfiShellProtocolGuid  000000018000b9c0     CdeLib:EFI_SHELL_PROTOCOL_GUID.obj
+ 0003:00002730       _gCdeCfgCmdLnParmPoolMemRetain 000000018000b9d0     CdeLib:_gCdeCfgCmdLnParmPoolMemRetain.obj
+ 0003:0000275c       _gCdeCfgMofineRawSeparator 000000018000b9fc     CdeLib:_gCdeCfgMofineRawSeparator.obj
+ 0003:00002770       pinvalid_parameter_handler 000000018000ba10     CdeLib:_invalid_parameter_handler.obj
+ 0003:000027a0       gszEmpty                   000000018000ba40     CdeLib:VwxPrintf.obj
+ 0003:00003620       _gSTDOUTMode               000000018000c8c0     CdeLib:_gSTDOUTMode.obj
+ 0003:00003628       gImageHandle               000000018000c8c8     CdeLib:UefiBootServicesTableLib.obj
+ 0003:00003630       gST                        000000018000c8d0     CdeLib:UefiBootServicesTableLib.obj
+ 0003:00003638       gBS                        000000018000c8d8     CdeLib:UefiBootServicesTableLib.obj
+ 0003:00003640       _gCdeCfgCmdLnParmReportStatusCodeCOM1 000000018000c8e0     CdeLib:_gCdeCfgCmdLnParmReportStatusCodeCOM1.obj
+ 0003:00003641       _gCdeCfgCmdLnParmReportStatusCodeSTDOUT 000000018000c8e1     CdeLib:_gCdeCfgCmdLnParmReportStatusCodeSTDOUT.obj
+ 0003:00003648       efierrno                   000000018000c8e8     <common>
+ 0003:00003650       __errno                    000000018000c8f0     <common>
+ 0003:00003658       pConIOPutStr               000000018000c8f8     <common>
+ 0003:00003660       pConIOClr                  000000018000c900     <common>
+ 0003:00003668       pCdeEfiDevicePathToTextProtocol 000000018000c908     <common>
+ 0003:00003680       _iob                       000000018000c920     <common>
+ 0003:00005080       hCdeImage                  000000018000e320     <common>
+ 0003:00005088       pCdeRS                     000000018000e328     <common>
+ 0003:00005090       pCdeBS                     000000018000e330     <common>
+ 0003:00005098       pCdeST                     000000018000e338     <common>
+ 0003:000050a0       gszCdeDriverName           000000018000e340     <common>
+ 0003:000050a8       pEfiShellProtocol          000000018000e348     <common>
+
+ entry point at        0001:000009a8
+
+ Static symbols
+
+ 0001:00000924       _StdOutPutChar             0000000180000bc4 f   CdeLib:osifUefiShellEntryPoint.obj
+ 0001:00000960       _StdInGetChar              0000000180000c00 f   CdeLib:osifUefiShellEntryPoint.obj
+ 0001:00001098       __fputcpp                  0000000180001338 f   CdeLib:Fprintf.obj
+ 0001:00001f50       nfill                      00000001800021f0 f   CdeLib:VwxPrintf.obj
+ 0001:00001fc0       nprintfield                0000000180002260 f   CdeLib:VwxPrintf.obj
+ 0001:00002338       num2str                    00000001800025d8 f   CdeLib:VwxPrintf.obj
+ 0001:00002480       str2dev                    0000000180002720 f   CdeLib:VwxPrintf.obj
+ 0001:00003388       IsCharInNumberRange        0000000180003628 f   CdeLib:VwxScanf.obj
+ 0001:000033fc       str2num                    000000018000369c f   CdeLib:VwxScanf.obj
+ 0001:00004d04       myConIOClr                 0000000180004fa4 f   CdeLib:osifUefiShellCmdExec.obj
+ 0001:00004d10       myConIOPutStr              0000000180004fb0 f   CdeLib:osifUefiShellCmdExec.obj
+ 0001:00005900       PrintAscii                 0000000180005ba0 f   CdeLib:XDump.obj
+ 0001:000061f0       $$000000                   0000000180006490     CdeLib:setjmp64.obj
+ 0001:000064c0       $$000000                   0000000180006760     CdeLib:CdeGetCurrentPrivilegeLevel64.obj
+ 0001:0000707c       invalid_parameter_handler  000000018000731c f   CdeLib:_invalid_parameter_handler.obj
+ 0001:00007380       $$000000                   0000000180007620     CdeLib:longjmp64.obj
+ 0002:000010dc       szTwoSpaces                0000000180008afc     CdeLib:XDump.obj
+ 0002:000010e0       szOneSpace                 0000000180008b00     CdeLib:XDump.obj
+ 0002:000012f4       $unwind$main               0000000180008d14     main.obj
+ 0002:0000130c       $unwind$_GetCdeAppIf       0000000180008d2c     CdeLib:osifUefiShellEntryPoint.obj
+ 0002:00001314       $unwind$_StdOutPutChar     0000000180008d34     CdeLib:osifUefiShellEntryPoint.obj
+ 0002:0000131c       $unwind$__CdeChkCtrlC      0000000180008d3c     CdeLib:osifUefiShellEntryPoint.obj
+ 0002:00001324       $unwind$_MainEntryPointShell 0000000180008d44     CdeLib:osifUefiShellEntryPoint.obj
+ 0002:00001340       $unwind$fprintf            0000000180008d60     CdeLib:Fprintf.obj
+ 0002:0000134c       $unwind$printf             0000000180008d6c     CdeLib:Printf.obj
+ 0002:00001354       $unwind$sscanf             0000000180008d74     CdeLib:Sscanf.obj
+ 0002:0000135c       $unwind$realloc            0000000180008d7c     CdeLib:Realloc.obj
+ 0002:00001368       $unwind$strcpy             0000000180008d88     CdeLib:StrCpy.obj
+ 0002:00001374       $unwind$strcmp             0000000180008d94     CdeLib:StrCmp.obj
+ 0002:00001380       $unwind$memset             0000000180008da0     CdeLib:MemSet.obj
+ 0002:00001388       $unwind$wcscpy             0000000180008da8     CdeLib:WcsCpy.obj
+ 0002:00001394       $unwind$wcscmp             0000000180008db4     CdeLib:WcsCmp.obj
+ 0002:000013a0       $unwind$_CdeDbgPutChar     0000000180008dc0     CdeLib:_CdeDbgPutChar.obj
+ 0002:000013b8       $unwind$VwxPrintf          0000000180008dd8     CdeLib:VwxPrintf.obj
+ 0002:000013d4       $unwind$str2dev            0000000180008df4     CdeLib:VwxPrintf.obj
+ 0002:000013ec       $unwind$num2str            0000000180008e0c     CdeLib:VwxPrintf.obj
+ 0002:00001408       $unwind$nfill              0000000180008e28     CdeLib:VwxPrintf.obj
+ 0002:00001420       $unwind$nprintfield        0000000180008e40     CdeLib:VwxPrintf.obj
+ 0002:00001438       $unwind$str2num            0000000180008e58     CdeLib:VwxScanf.obj
+ 0002:0000144c       $unwind$VwxScanf           0000000180008e6c     CdeLib:VwxScanf.obj
+ 0002:00001468       $unwind$WcsStrTok          0000000180008e88     CdeLib:WcsStrTok.obj
+ 0002:00001484       $unwind$WcsStrPbrkSpn      0000000180008ea4     CdeLib:WcsStrPbrkSpn.obj
+ 0002:000014a0       $unwind$MemRealloc         0000000180008ec0     CdeLib:MemRealloc.obj
+ 0002:000014bc       $unwind$MemStrxCpy         0000000180008edc     CdeLib:MemStrxCpy.obj
+ 0002:000014d4       $unwind$MemStrxCmp         0000000180008ef4     CdeLib:MemStrxCmp.obj
+ 0002:000014f0       $unwind$osifIbmAtGetTime   0000000180008f10     CdeLib:osifIbmAtGetTime.obj
+ 0002:000014fc       $unwind$osifUefiShellMemAlloc 0000000180008f1c     CdeLib:osifUefiShellMemAlloc.obj
+ 0002:00001504       $unwind$osifUefiShellFileWrite 0000000180008f24     CdeLib:osifUefiShellFileWrite.obj
+ 0002:00001518       $unwind$osifUefiShellFileRead 0000000180008f38     CdeLib:osifUefiShellFileRead.obj
+ 0002:0000152c       $unwind$osifUefiShellFileSetPos 0000000180008f4c     CdeLib:osifUefiShellFileSetPos.obj
+ 0002:00001540       $unwind$osifUefiShellFileOpen 0000000180008f60     CdeLib:osifUefiShellFileOpen.obj
+ 0002:00001558       $unwind$osifUefiShellFileClose 0000000180008f78     CdeLib:osifUefiShellFileClose.obj
+ 0002:00001564       $unwind$osifUefiShellFileDelete 0000000180008f84     CdeLib:osifUefiShellFileDelete.obj
+ 0002:0000156c       $unwind$osifUefiShellFileRename 0000000180008f8c     CdeLib:osifUefiShellFileRename.obj
+ 0002:00001588       $unwind$myConIOPutStr      0000000180008fa8     CdeLib:osifUefiShellCmdExec.obj
+ 0002:00001598       $unwind$osifUefiShellCmdExec 0000000180008fb8     CdeLib:osifUefiShellCmdExec.obj
+ 0002:000015a8       $unwind$osifUefiShellGetEnv 0000000180008fc8     CdeLib:osifUefiShellGetEnv.obj
+ 0002:000015bc       $unwind$VMofine            0000000180008fdc     CdeLib:VMofine.obj
+ 0002:000015dc       $unwind$XDump              0000000180008ffc     CdeLib:XDump.obj
+ 0002:000015f4       $unwind$PrintAscii         0000000180009014     CdeLib:XDump.obj
+ 0002:00001610       $unwind$fclose             0000000180009030     CdeLib:Fclose.obj
+ 0002:00001620       $unwind$fgetc              0000000180009040     CdeLib:Fgetc.obj
+ 0002:00001628       $unwind$fwrite             0000000180009048     CdeLib:Fwrite.obj
+ 0002:00001640       $unwind$FilePointerValid   0000000180009060     CdeLib:Fwrite.obj
+ 0002:00001648       $unwind$sprintf            0000000180009068     CdeLib:Sprintf.obj
+ 0002:00001650       $unwind$raise              0000000180009070     CdeLib:raise.obj
+ 0002:00001660       $unwind$_CdeStr2Argv       0000000180009080     CdeLib:_CdeStr2Argv.obj
+ 0002:00001678       $unwind$_CdeLocateProtocol 0000000180009098     CdeLib:_CdeLocateProtocol.obj
+ 0002:00001680       $unwind$_initterm_e        00000001800090a0     CdeLib:_initterm.obj
+ 0002:0000168c       $unwind$_initterm          00000001800090ac     CdeLib:_initterm.obj
+ 0002:00001698       $unwind$fflush             00000001800090b8     CdeLib:Fflush.obj
+ 0002:000016a8       $unwind$fputc              00000001800090c8     CdeLib:Fputc.obj
+ 0002:000016b4       $unwind$_abort             00000001800090d4     CdeLib:_abort.obj
+ 0002:000016bc       $unwind$isxdigit           00000001800090dc     CdeLib:isxdigit.obj
+ 0002:000016c4       $unwind$_mktime64          00000001800090e4     CdeLib:mktime.obj
+ 0002:000016cc       $unwind$_gmltime           00000001800090ec     CdeLib:_gmltime.obj
+ 0002:000016d8       $unwind$wcschr             00000001800090f8     CdeLib:WcsChr.obj
+ 0002:000016e0       $unwind$wcscat             0000000180009100     CdeLib:WcsCat.obj
+ 0002:000016ec       $unwind$wcsncmp            000000018000910c     CdeLib:WcsNCmp.obj
+ 0002:000016fc       $unwind$wcsncpy            000000018000911c     CdeLib:WcsNCpy.obj
+ 0002:0000170c       $unwind$wcstok             000000018000912c     CdeLib:WcsTok.obj
+ 0002:0000171c       $unwind$_wcsicmp           000000018000913c     CdeLib:_WcsICmp.obj
+ 0002:00001728       $unwind$_CdeLocateHandleBuffer 0000000180009148     CdeLib:_CdeLocateHandleBuffer.obj
+ 0002:00001738       $unwind$_CdeConvertDevicePathToText 0000000180009158     CdeLib:_CdeConvertDevicePathToText.obj
+ 0002:00001740       $unwind$_CdeGetMapFromDevicePath 0000000180009160     CdeLib:_CdeGetMapFromDevicePath.obj
+ 0002:00001748       $unwind$_CdeGetCurDir      0000000180009168     CdeLib:_CdeGetCurDir.obj
+ 0002:00001750       $unwind$wcsrchr            0000000180009170     CdeLib:WcsRChr.obj
+ 0002:0000175c       $unwind$__CoreSprintf      000000018000917c     CdeLib:__CoreSprintf.obj
+ 0002:00001764       $unwind$__CoreClock        0000000180009184     CdeLib:__CoreClock.obj
+ 0002:00001770       $unwind$__CoreExit         0000000180009190     CdeLib:__CoreExit.obj
+ 0002:00001778       $unwind$__CoreMofine       0000000180009198     CdeLib:__CoreMofine.obj
+ 0002:00001780       $unwind$isalnum            00000001800091a0     CdeLib:isalnum.obj
+ 0002:0000178c       $unwind$remove             00000001800091ac     CdeLib:Remove.obj
+ 0002:000017a0       $unwind$fread              00000001800091c0     CdeLib:Fread.obj
+ 0002:000017b8       $unwind$vsnprintf          00000001800091d8     CdeLib:Vsnprintf.obj
+ 0002:000017d0       $unwind$invalid_parameter_handler 00000001800091f0     CdeLib:_invalid_parameter_handler.obj
+ 0002:000017e4       $unwind$exit               0000000180009204     CdeLib:exit.obj
+ 0002:000017ec       $unwind$day2gregorian      000000018000920c     CdeLib:_day2greg.obj
+ 0002:000017f8       $unwind$wcspbrk            0000000180009218     CdeLib:WcsPbrk.obj
+ 0002:00001804       $unwind$_CdePoolWcs2AppWcs 0000000180009224     CdeLib:_CdePoolWcs2AppWcs.obj
+ 0002:00001814       $unwind$isalpha            0000000180009234     CdeLib:isalpha.obj
+ 0002:00001820       $unwind$fopen              0000000180009240     CdeLib:Fopen.obj
+ 0002:00001834       $unwind$rewind             0000000180009254     CdeLib:Rewind.obj
+ 0002:0000183c       $unwind$abort              000000018000925c     CdeLib:abort.obj
+ 0002:00001844       $unwind$strncpy            0000000180009264     CdeLib:StrNCpy.obj
+ 0002:00001854       $unwind$strtok             0000000180009274     CdeLib:StrTok.obj
+ 0002:00001860       $unwind$fsetpos            0000000180009280     CdeLib:Fsetpos.obj
+ 0003:00000f20       gCdeServicesShell          000000018000a1c0     CdeLib:osifUefiShellEntryPoint.obj
+ 0003:00001070       CdeAppIfShell              000000018000a310     CdeLib:osifUefiShellEntryPoint.obj
+ 0003:00001580       _gEfiStatusCodeRuntimeProtocolGuid 000000018000a820     CdeLib:osifUefiShellEntryPoint.obj
+ 0003:00001590       pCdeAppIf                  000000018000a830     CdeLib:osifUefiShellEntryPoint.obj
+ 0003:00001598       ?RomParmVWXPRINTF@?1??_MainEntryPointShell@@9@9 000000018000a838     CdeLib:osifUefiShellEntryPoint.obj
+ 0003:000015a0       ?encstrings@?1??_MainEntryPointShell@@9@9 000000018000a840     CdeLib:osifUefiShellEntryPoint.obj
+ 0003:00001bc0       ?EfiLoadedImageProtocolGuid@?1??_MainEntryPointShell@@9@9 000000018000ae60     CdeLib:osifUefiShellEntryPoint.obj
+ 0003:00001bd0       ?EfiShellParametersProtocolGuid@?BC@??_MainEntryPointShell@@9@9 000000018000ae70     CdeLib:osifUefiShellEntryPoint.obj
+ 0003:00001be0       ?helpstrings@?BE@??_MainEntryPointShell@@9@9 000000018000ae80     CdeLib:osifUefiShellEntryPoint.obj
+ 0003:00001c10       ?ROMPARM@?BH@??_MainEntryPointShell@@9@9 000000018000aeb0     CdeLib:osifUefiShellEntryPoint.obj
+ 0003:00001c18       RomParm                    000000018000aeb8     CdeLib:Fprintf.obj
+ 0003:00001c20       RomParm                    000000018000aec0     CdeLib:Printf.obj
+ 0003:00001c28       RomParm                    000000018000aec8     CdeLib:Sscanf.obj
+ 0003:00001c34       ROMPARM                    000000018000aed4     CdeLib:StrCmp.obj
+ 0003:00001c3c       ROMPARM                    000000018000aedc     CdeLib:WcsCmp.obj
+ 0003:00001c50       rgszSysErrors              000000018000aef0     CdeLib:StrError.obj
+ 0003:00001da8       ?pszRet@?1??strefierror@@9@9 000000018000b048     CdeLib:StrError.obj
+ 0003:00001db0       rgszEfiErrors              000000018000b050     CdeLib:StrError.obj
+ 0003:00001eb0       _locale                    000000018000b150     CdeLib:_locale_C_.obj
+ 0003:00001f60       ?action@?6??MemRealloc@@9@9 000000018000b200     CdeLib:MemRealloc.obj
+ 0003:00002170       _gEfiDevicePathProtocolGuid 000000018000b410     CdeLib:osifUefiShellFileOpen.obj
+ 0003:00002180       _gEfiSimpleFileSystemProtocolGuid 000000018000b420     CdeLib:osifUefiShellFileOpen.obj
+ 0003:00002190       _gEfiDevicePathToTextProtocolGuid 000000018000b430     CdeLib:osifUefiShellFileOpen.obj
+ 0003:000021a0       ?wcsSHELL@?1??myConIOPutStr@@9@9 000000018000b440     CdeLib:osifUefiShellCmdExec.obj
+ 0003:000021d8       ?wcsMAP@?1??myConIOPutStr@@9@9 000000018000b478     CdeLib:osifUefiShellCmdExec.obj
+ 0003:000021f8       ?wcsALIAS@?1??myConIOPutStr@@9@9 000000018000b498     CdeLib:osifUefiShellCmdExec.obj
+ 0003:00002210       ?wcsBLK@?1??myConIOPutStr@@9@9 000000018000b4b0     CdeLib:osifUefiShellCmdExec.obj
+ 0003:00002228       ?wcsBLK2@?1??myConIOPutStr@@9@9 000000018000b4c8     CdeLib:osifUefiShellCmdExec.obj
+ 0003:00002238       ?wcsFS@?1??myConIOPutStr@@9@9 000000018000b4d8     CdeLib:osifUefiShellCmdExec.obj
+ 0003:00002250       ?wcsFS2@?1??myConIOPutStr@@9@9 000000018000b4f0     CdeLib:osifUefiShellCmdExec.obj
+ 0003:00002260       ?RomParm@?1??VMofine@@9@9  000000018000b500     CdeLib:VMofine.obj
+ 0003:00002268       ?rgszAddrXX@?1??XDump@@9@9 000000018000b508     CdeLib:XDump.obj
+ 0003:00002740       ROMPARM                    000000018000b9e0     CdeLib:WcsNCmp.obj
+ 0003:00002748       ROMPARM                    000000018000b9e8     CdeLib:WcsTok.obj
+ 0003:0000274c       ROMPARM                    000000018000b9ec     CdeLib:_WcsICmp.obj
+ 0003:00002754       ?RomParm@?1??__CoreSprintf@@9@9 000000018000b9f4     CdeLib:__CoreSprintf.obj
+ 0003:00002760       RomParm                    000000018000ba00     CdeLib:Vsnprintf.obj
+ 0003:00002768       ?sigorder@?1??_sig2idx@@9@9 000000018000ba08     CdeLib:_sig2idx.obj
+ 0003:00002780       ROMPARM                    000000018000ba20     CdeLib:StrTok.obj
+ 0003:000027b0       ?wcBuffer@?1??osifUefiShellFileWrite@@9@9 000000018000ba50     CdeLib:osifUefiShellFileWrite.obj
+ 0003:00002bc0       ?wcbuffer@?3??osifUefiShellFileRead@@9@9 000000018000be60     CdeLib:osifUefiShellFileRead.obj
+ 0003:00002fc0       ?wcsFilePath@?5??osifUefiShellFileOpen@@9@9 000000018000c260     CdeLib:osifUefiShellFileOpen.obj
+ 0003:000031d0       ?wcsFileName@?5??osifUefiShellFileOpen@@9@9 000000018000c470     CdeLib:osifUefiShellFileOpen.obj
+ 0003:000033d8       ?wcsDrive@?5??osifUefiShellFileOpen@@9@9 000000018000c678     CdeLib:osifUefiShellFileOpen.obj
+ 0003:000033f8       ?wcsDrive2@?5??osifUefiShellFileOpen@@9@9 000000018000c698     CdeLib:osifUefiShellFileOpen.obj
+ 0003:00003418       state                      000000018000c6b8     CdeLib:osifUefiShellCmdExec.obj
+ 0003:00003420       ?buffer@?1??osifUefiShellGetEnv@@9@9 000000018000c6c0     CdeLib:osifUefiShellGetEnv.obj
+ 0004:00000000       $pdata$main                000000018000e360     main.obj
+ 0004:0000000c       $pdata$_GetCdeAppIf        000000018000e36c     CdeLib:osifUefiShellEntryPoint.obj
+ 0004:00000018       $pdata$_StdOutPutChar      000000018000e378     CdeLib:osifUefiShellEntryPoint.obj
+ 0004:00000024       $pdata$__CdeChkCtrlC       000000018000e384     CdeLib:osifUefiShellEntryPoint.obj
+ 0004:00000030       $pdata$_MainEntryPointShell 000000018000e390     CdeLib:osifUefiShellEntryPoint.obj
+ 0004:0000003c       $pdata$fprintf             000000018000e39c     CdeLib:Fprintf.obj
+ 0004:00000048       $pdata$printf              000000018000e3a8     CdeLib:Printf.obj
+ 0004:00000054       $pdata$sscanf              000000018000e3b4     CdeLib:Sscanf.obj
+ 0004:00000060       $pdata$realloc             000000018000e3c0     CdeLib:Realloc.obj
+ 0004:0000006c       $pdata$strcpy              000000018000e3cc     CdeLib:StrCpy.obj
+ 0004:00000078       $pdata$strcmp              000000018000e3d8     CdeLib:StrCmp.obj
+ 0004:00000084       $pdata$memset              000000018000e3e4     CdeLib:MemSet.obj
+ 0004:00000090       $pdata$wcscpy              000000018000e3f0     CdeLib:WcsCpy.obj
+ 0004:0000009c       $pdata$wcscmp              000000018000e3fc     CdeLib:WcsCmp.obj
+ 0004:000000a8       $pdata$_CdeDbgPutChar      000000018000e408     CdeLib:_CdeDbgPutChar.obj
+ 0004:000000b4       $pdata$VwxPrintf           000000018000e414     CdeLib:VwxPrintf.obj
+ 0004:000000c0       $pdata$nfill               000000018000e420     CdeLib:VwxPrintf.obj
+ 0004:000000cc       $pdata$nprintfield         000000018000e42c     CdeLib:VwxPrintf.obj
+ 0004:000000d8       $pdata$num2str             000000018000e438     CdeLib:VwxPrintf.obj
+ 0004:000000e4       $pdata$str2dev             000000018000e444     CdeLib:VwxPrintf.obj
+ 0004:000000f0       $pdata$VwxScanf            000000018000e450     CdeLib:VwxScanf.obj
+ 0004:000000fc       $pdata$str2num             000000018000e45c     CdeLib:VwxScanf.obj
+ 0004:00000108       $pdata$WcsStrTok           000000018000e468     CdeLib:WcsStrTok.obj
+ 0004:00000114       $pdata$WcsStrPbrkSpn       000000018000e474     CdeLib:WcsStrPbrkSpn.obj
+ 0004:00000120       $pdata$MemRealloc          000000018000e480     CdeLib:MemRealloc.obj
+ 0004:0000012c       $pdata$MemStrxCpy          000000018000e48c     CdeLib:MemStrxCpy.obj
+ 0004:00000138       $pdata$MemStrxCmp          000000018000e498     CdeLib:MemStrxCmp.obj
+ 0004:00000144       $pdata$osifIbmAtGetTime    000000018000e4a4     CdeLib:osifIbmAtGetTime.obj
+ 0004:00000150       $pdata$osifUefiShellMemAlloc 000000018000e4b0     CdeLib:osifUefiShellMemAlloc.obj
+ 0004:0000015c       $pdata$osifUefiShellFileWrite 000000018000e4bc     CdeLib:osifUefiShellFileWrite.obj
+ 0004:00000168       $pdata$osifUefiShellFileRead 000000018000e4c8     CdeLib:osifUefiShellFileRead.obj
+ 0004:00000174       $pdata$osifUefiShellFileSetPos 000000018000e4d4     CdeLib:osifUefiShellFileSetPos.obj
+ 0004:00000180       $pdata$osifUefiShellFileOpen 000000018000e4e0     CdeLib:osifUefiShellFileOpen.obj
+ 0004:0000018c       $pdata$osifUefiShellFileClose 000000018000e4ec     CdeLib:osifUefiShellFileClose.obj
+ 0004:00000198       $pdata$osifUefiShellFileDelete 000000018000e4f8     CdeLib:osifUefiShellFileDelete.obj
+ 0004:000001a4       $pdata$osifUefiShellFileRename 000000018000e504     CdeLib:osifUefiShellFileRename.obj
+ 0004:000001b0       $pdata$myConIOPutStr       000000018000e510     CdeLib:osifUefiShellCmdExec.obj
+ 0004:000001bc       $pdata$osifUefiShellCmdExec 000000018000e51c     CdeLib:osifUefiShellCmdExec.obj
+ 0004:000001c8       $pdata$osifUefiShellGetEnv 000000018000e528     CdeLib:osifUefiShellGetEnv.obj
+ 0004:000001d4       $pdata$VMofine             000000018000e534     CdeLib:VMofine.obj
+ 0004:000001e0       $pdata$XDump               000000018000e540     CdeLib:XDump.obj
+ 0004:000001ec       $pdata$PrintAscii          000000018000e54c     CdeLib:XDump.obj
+ 0004:000001f8       $pdata$fclose              000000018000e558     CdeLib:Fclose.obj
+ 0004:00000204       $pdata$fgetc               000000018000e564     CdeLib:Fgetc.obj
+ 0004:00000210       $pdata$fwrite              000000018000e570     CdeLib:Fwrite.obj
+ 0004:0000021c       $pdata$FilePointerValid    000000018000e57c     CdeLib:Fwrite.obj
+ 0004:00000228       $pdata$sprintf             000000018000e588     CdeLib:Sprintf.obj
+ 0004:00000234       $pdata$raise               000000018000e594     CdeLib:raise.obj
+ 0004:00000240       $pdata$_CdeStr2Argv        000000018000e5a0     CdeLib:_CdeStr2Argv.obj
+ 0004:0000024c       $pdata$_CdeLocateProtocol  000000018000e5ac     CdeLib:_CdeLocateProtocol.obj
+ 0004:00000258       $pdata$_initterm_e         000000018000e5b8     CdeLib:_initterm.obj
+ 0004:00000264       $pdata$_initterm           000000018000e5c4     CdeLib:_initterm.obj
+ 0004:00000270       $pdata$fflush              000000018000e5d0     CdeLib:Fflush.obj
+ 0004:0000027c       $pdata$fputc               000000018000e5dc     CdeLib:Fputc.obj
+ 0004:00000288       $pdata$_abort              000000018000e5e8     CdeLib:_abort.obj
+ 0004:00000294       $pdata$isxdigit            000000018000e5f4     CdeLib:isxdigit.obj
+ 0004:000002a0       $pdata$_mktime64           000000018000e600     CdeLib:mktime.obj
+ 0004:000002ac       $pdata$_gmltime            000000018000e60c     CdeLib:_gmltime.obj
+ 0004:000002b8       $pdata$wcschr              000000018000e618     CdeLib:WcsChr.obj
+ 0004:000002c4       $pdata$wcscat              000000018000e624     CdeLib:WcsCat.obj
+ 0004:000002d0       $pdata$wcsncmp             000000018000e630     CdeLib:WcsNCmp.obj
+ 0004:000002dc       $pdata$wcsncpy             000000018000e63c     CdeLib:WcsNCpy.obj
+ 0004:000002e8       $pdata$wcstok              000000018000e648     CdeLib:WcsTok.obj
+ 0004:000002f4       $pdata$_wcsicmp            000000018000e654     CdeLib:_WcsICmp.obj
+ 0004:00000300       $pdata$_CdeLocateHandleBuffer 000000018000e660     CdeLib:_CdeLocateHandleBuffer.obj
+ 0004:0000030c       $pdata$_CdeConvertDevicePathToText 000000018000e66c     CdeLib:_CdeConvertDevicePathToText.obj
+ 0004:00000318       $pdata$_CdeGetMapFromDevicePath 000000018000e678     CdeLib:_CdeGetMapFromDevicePath.obj
+ 0004:00000324       $pdata$_CdeGetCurDir       000000018000e684     CdeLib:_CdeGetCurDir.obj
+ 0004:00000330       $pdata$wcsrchr             000000018000e690     CdeLib:WcsRChr.obj
+ 0004:0000033c       $pdata$__CoreSprintf       000000018000e69c     CdeLib:__CoreSprintf.obj
+ 0004:00000348       $pdata$__CoreClock         000000018000e6a8     CdeLib:__CoreClock.obj
+ 0004:00000354       $pdata$__CoreExit          000000018000e6b4     CdeLib:__CoreExit.obj
+ 0004:00000360       $pdata$__CoreMofine        000000018000e6c0     CdeLib:__CoreMofine.obj
+ 0004:0000036c       $pdata$isalnum             000000018000e6cc     CdeLib:isalnum.obj
+ 0004:00000378       $pdata$remove              000000018000e6d8     CdeLib:Remove.obj
+ 0004:00000384       $pdata$fread               000000018000e6e4     CdeLib:Fread.obj
+ 0004:00000390       $pdata$vsnprintf           000000018000e6f0     CdeLib:Vsnprintf.obj
+ 0004:0000039c       $pdata$invalid_parameter_handler 000000018000e6fc     CdeLib:_invalid_parameter_handler.obj
+ 0004:000003a8       $pdata$exit                000000018000e708     CdeLib:exit.obj
+ 0004:000003b4       $pdata$day2gregorian       000000018000e714     CdeLib:_day2greg.obj
+ 0004:000003c0       $pdata$wcspbrk             000000018000e720     CdeLib:WcsPbrk.obj
+ 0004:000003cc       $pdata$_CdePoolWcs2AppWcs  000000018000e72c     CdeLib:_CdePoolWcs2AppWcs.obj
+ 0004:000003d8       $pdata$isalpha             000000018000e738     CdeLib:isalpha.obj
+ 0004:000003e4       $pdata$fopen               000000018000e744     CdeLib:Fopen.obj
+ 0004:000003f0       $pdata$rewind              000000018000e750     CdeLib:Rewind.obj
+ 0004:000003fc       $pdata$abort               000000018000e75c     CdeLib:abort.obj
+ 0004:00000408       $pdata$strncpy             000000018000e768     CdeLib:StrNCpy.obj
+ 0004:00000414       $pdata$strtok              000000018000e774     CdeLib:StrTok.obj
+ 0004:00000420       $pdata$fsetpos             000000018000e780     CdeLib:Fsetpos.obj
