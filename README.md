@@ -99,6 +99,22 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ## Known Bugs
 
 ## Revision History
+### 20200507
+* add diagnostic driver CdeDiagTSCSync, that demonstrates syncrone timing of RTC and TSC-based <time.h> functions
+* remove diagnostic driver CdeDiagPCI (PCI is available in BDS phase only)
+* improved build configurations for all solution projects
+* update all UEFI shell batch files to configure POST LoadOptions/command lines
+    * [`setall.nsh`](https://github.com/KilianKegel/CdePkg/blob/master/LoadOptionShell/setall.nsh), to set command line defaults for all CdePkg drivers
+    * [`enaclock.nsh`](https://github.com/KilianKegel/CdePkg/blob/master/LoadOptionShell/enaclock.nsh), to set command line defaults for CdeDiagTSCDiag and clock only
+    * [`disall.nsh`](https://github.com/KilianKegel/CdePkg/blob/master/LoadOptionShell/disall.nsh), to prevent known CdePkg drivers from beeing started
+    * [`delall.nsh`](https://github.com/KilianKegel/CdePkg/blob/master/LoadOptionShell/delall.nsh), to delete all CdePkg related command lines from flash
+    * NOTE: 
+        1. run `setall.nsh` first
+        2. `disall.nsh`to prevent CdePkg drivers from beeing started if you don't want run all drivers
+        3. adjust `enaclock.nsh` to your needs
+* NOTE: This release is focused on real HW (MinnowBoard). Emulation mode doesn't allow hardware access (GPIO, RTC)
+  For Emulation Build the command lines are still stored in the [`CdeLoadOptions.h`](https://github.com/KilianKegel/CdePkg/blob/master/Include/CdeLoadOptions.h)
+  
 ### 20200409
 * add diagnostic drivers (CdeDiagGPIO, CdeDiagRTC, CdeDiagPCI, CdeDiagEFIVAR(iable)) for demonstration purpose
   (CdeDiagPCI under construction)
