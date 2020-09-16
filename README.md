@@ -99,6 +99,13 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ## Known Bugs
 
 ## Revision History
+### 20200916
+* update EDK2 source to `edk2-stable202008`
+    * add to FmpMinnowMaxSystem.dsc, FmpBlueSampleDevice.dsc, FmpGreenSampleDevice.dsc, FmpRedSampleDevice.dsc `[LibraryClasses.common]` to prevent build failure: 
+        * `  FmpDependencyLib|FmpDevicePkg\Library\FmpDependencyLib\FmpDependencyLib.inf`
+        * `  FmpDependencyCheckLib|FmpDevicePkg\Library\FmpDependencyCheckLibNull\FmpDependencyCheckLibNull.inf`
+        * `  FmpDependencyDeviceLib|FmpDevicePkg\Library\FmpDependencyDeviceLibNull\FmpDependencyDeviceLibNull.inf`
+
 ### 20200507
 * add diagnostic driver CdeDiagTSCSync, that demonstrates syncrone timing of RTC and TSC-based <time.h> functions
 * remove diagnostic driver CdeDiagPCI (PCI is available in BDS phase only)
