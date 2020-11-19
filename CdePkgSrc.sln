@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		CdePkgSrc\README.md = CdePkgSrc\README.md
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "torito-LINK", "CdePkgSrc\torito-LINK\torito-LINK.vcxproj", "{55DF9829-6366-4E46-AA8F-A36878C76770}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -37,6 +39,9 @@ Global
 		{8C250C8A-C234-450D-83ED-F0C898E1A739}.Release|x64.Build.0 = Release|x64
 		{8C250C8A-C234-450D-83ED-F0C898E1A739}.Release|x86.ActiveCfg = Release|Win32
 		{8C250C8A-C234-450D-83ED-F0C898E1A739}.Release|x86.Build.0 = Release|Win32
+		{55DF9829-6366-4E46-AA8F-A36878C76770}.Release|x64.ActiveCfg = Release|x64
+		{55DF9829-6366-4E46-AA8F-A36878C76770}.Release|x64.Build.0 = Release|x64
+		{55DF9829-6366-4E46-AA8F-A36878C76770}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
