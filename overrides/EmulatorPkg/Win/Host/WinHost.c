@@ -469,6 +469,7 @@ Returns:
   AddThunkProtocol (&mWinNtWndThunkIo, (CHAR16 *)PcdGetPtr (PcdEmuGop), TRUE);
   AddThunkProtocol (&mWinNtFileSystemThunkIo, (CHAR16 *)PcdGetPtr (PcdEmuFileSystem), TRUE);
   AddThunkProtocol (&mWinNtBlockIoThunkIo, (CHAR16 *)PcdGetPtr (PcdEmuVirtualDisk), TRUE);
+  AddThunkProtocol (&mWinNtSnpThunkIo, (CHAR16 *)PcdGetPtr (PcdEmuNetworkInterface), TRUE);
 
   //
   // Allocate space for gSystemMemory Array

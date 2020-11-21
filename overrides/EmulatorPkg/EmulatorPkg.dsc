@@ -176,7 +176,6 @@
 
 [PcdsFeatureFlag]
   gEfiMdeModulePkgTokenSpaceGuid.PcdDxeIplSwitchToLongMode|FALSE
-  gEfiMdeModulePkgTokenSpaceGuid.PcdStatusCodeUseSerial|TRUE
   gEfiMdeModulePkgTokenSpaceGuid.PcdPeiCoreImageLoaderSearchTeSectionFirst|FALSE
   gEfiMdeModulePkgTokenSpaceGuid.PcdDxeIplBuildPageTables|FALSE
 
@@ -188,6 +187,7 @@
   gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x1f
   gEfiMdeModulePkgTokenSpaceGuid.PcdMaxSizeNonPopulateCapsule|0x0
   gEfiMdeModulePkgTokenSpaceGuid.PcdMaxSizePopulateCapsule|0x0
+  gEfiMdeModulePkgTokenSpaceGuid.PcdStatusCodeUseSerial|TRUE
 
   gEmulatorPkgTokenSpaceGuid.PcdEmuFirmwareFdSize|0x002a0000
   gEmulatorPkgTokenSpaceGuid.PcdEmuFirmwareBlockSize|0x10000
