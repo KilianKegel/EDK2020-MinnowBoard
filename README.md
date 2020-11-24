@@ -64,19 +64,19 @@ NOTE: Visual Studio is here only used for editing the project. The build process
 1. install a build machine according to https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an-uefi-development-pc
 
 2. clone the EDK2020-MinnowBoard project `--recursive`<br>
-	`git.exe clone --progress --recursive -v "https://github.com/KilianKegel/EDK2020-MinnowBoard.git`<br>
+    * `git.exe clone --progress --recursive -v "https://github.com/KilianKegel/EDK2020-MinnowBoard.git`<br>
 
 ### Build
 3. To build the EDK emulation:<br>
-`launch.bat` to setup EDK2 / emulation (EmulatorPkg) build environment<br>
-`rd /s /q build` in the `edk2`directory to clean previous EDK2 / emulation build<br>
-`bldEMU.bat` to start the emulation build process in the EDK2 directory<br>
-`dbgemu.bat` to start the UEFI BIOS EMULATION<br>
+    * `launch.bat` to setup EDK2 / emulation (EmulatorPkg) build environment<br>
+    * `rd /s /q build` in the `edk2`directory to clean previous EDK2 / emulation build<br>
+    * `bldEMU.bat` to start the emulation build process in the EDK2 directory<br>
+    * `dbgemu.bat` to start the UEFI BIOS EMULATION<br>
 
 4. To build the MinnowBoard:<br>
-`launchbat` to setup MinnowBoard (`Vlv2TbltDevicePkg`) build environment<br>
-`rd /s /q build` in the `.\`directory to clean previous `Vlv2TbltDevicePkg` build<br>
-`bldMNW.bat DEBUG/RELEASE` <br>
+    * `launchbat` to setup MinnowBoard (`Vlv2TbltDevicePkg`) build environment<br>
+    * `rd /s /q build` in the `.\`directory to clean previous `Vlv2TbltDevicePkg` build<br>
+    * `bldMNW.bat DEBUG/RELEASE` <br>
 
 ### Edit
 
@@ -99,6 +99,9 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ## Known Bugs 
 
 ## Revision History
+### 20201124
+* fix EDK emulation
+
 ### 20200916
 * update EDK2 source to `edk2-stable202008`
     * add to FmpMinnowMaxSystem.dsc, FmpBlueSampleDevice.dsc, FmpGreenSampleDevice.dsc, FmpRedSampleDevice.dsc `[LibraryClasses.common]` to prevent build failure: 

@@ -412,22 +412,29 @@ Returns:
   SecPrint ("\n\rEDK II WIN Host Emulation Environment from http://www.tianocore.org/edk2/\n\r");
    if (1) {
      int i;
+     char* pWorkspace = getenv("WORKSPACE");
      SecPrint ("######################################################################################################\n");
      SecPrint ("add \"/debug\" command line switch, to connect to the debugger at the very beginning of POST emulation\n");
      SecPrint ("######################################################################################################\n");
+
+     if (NULL == pWorkspace)
+         pWorkspace = "";
      if (Argc > 1) {
        for (i = 1; i < Argc; i++) {
-         if (0 == strcmp("/debug", Argv[i])) {
+         if (0 == strncmp("/debug", Argv[i],strlen("/debug"))) {
            //SecPrint("IF YOU WANT TO DEBUG from the very beginning of the EMULATION:\n\t1. start the TASKMGR\n\t2. connect WinHost.exe to the debugger\n\t3. and press ENTER in this command box\nOR\n");
            SecPrint("\t1. start your debug engine\n");
-           SecPrint("\t2. attache to process WinHost.exe\n");
-           SecPrint("\t4. SET A SOFTWARE BREAKPOINT (F9) in line 431\n");
+           SecPrint("\t2. attach to process WinHost.exe in your SystemDebugger (Ctrl+Alt+P in VS2019)\n");
+           SecPrint("\t4. SET A SOFTWARE BREAKPOINT (F9) in %s\\overrides\\EmulatorPkg\\Win\\Host\\WinHost.c line 438\n",pWorkspace);
            SecPrint("\t5. and press ENTER in the WinHost command box\n");
            SecPrint("\t6. go back to the debug engine and RUN/SINGLE STEP the application\n");
            SecPrint("\t7. otherwise press enter to continue...\n");
  
            getchar();    //wait for keyboard input
- 
+           if (0 == strcmp("/debugbreak", Argv[i])) {
+               __debugbreak();
+           }
+
            SecPrint("");//now you can single step the entire boot/emulation process, good luck...
          }
        }
