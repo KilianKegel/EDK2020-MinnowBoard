@@ -100,7 +100,7 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 
 ## Revision History
 ### 20201205
-* update EDK2 source to `edk2-stable202011`
+* update EDK2 source to [`edk2-stable202011`](https://github.com/tianocore/edk2/releases/tag/edk2-stable202011)
 * NOTE: to run DEBUG build succesfully ASSERTS must be [disabled](https://github.com/KilianKegel/EDK2020-MinnowBoard/blob/master/overrides/edk2-platforms/PlatformPkgX64.dsc#L498)
 
 ### 20201124
