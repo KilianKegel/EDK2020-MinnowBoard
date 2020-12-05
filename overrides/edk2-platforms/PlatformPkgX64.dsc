@@ -234,10 +234,13 @@
   FileExplorerLib|MdeModulePkg/Library/FileExplorerLib/FileExplorerLib.inf
 
   VarCheckLib|MdeModulePkg/Library/VarCheckLib/VarCheckLib.inf
+  VariablePolicyLib|MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLib.inf
+  VariablePolicyHelperLib|MdeModulePkg/Library/VariablePolicyHelperLib/VariablePolicyHelperLib.inf
   ShellLib|ShellPkg/Library/UefiShellLib/UefiShellLib.inf
   FileHandleLib|MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib.inf
   SortLib|MdeModulePkg/Library/UefiSortLib/UefiSortLib.inf
   BaseCryptLib|CryptoPkg/Library/BaseCryptLib/BaseCryptLib.inf
+  RngLib|MdePkg/Library/BaseRngLib/BaseRngLib.inf
   OpensslLib|CryptoPkg/Library/OpensslLib/OpensslLib.inf
   IntrinsicLib|CryptoPkg/Library/IntrinsicLib/IntrinsicLib.inf
 !if $(NETWORK_TLS_ENABLE) == TRUE
@@ -492,7 +495,8 @@
   gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x0
   gEfiMdePkgTokenSpaceGuid.PcdReportStatusCodePropertyMask|0x3
 !else
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x2F
+#kgdebug  gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x2F
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x0
   gEfiMdePkgTokenSpaceGuid.PcdReportStatusCodePropertyMask|0x07
 !endif
 !if $(PERFORMANCE_ENABLE) == TRUE
@@ -1297,10 +1301,10 @@
 !endif
 
 !if $(CAPSULE_ENABLE)
-  !include FmpMinnowMaxSystem.dsc
-  !include FmpGreenSampleDevice.dsc
-  !include FmpBlueSampleDevice.dsc
-  !include FmpRedSampleDevice.dsc
+  !include Vlv2TbltDevicePkg/FmpMinnowMaxSystem.dsc
+  !include Vlv2TbltDevicePkg/FmpGreenSampleDevice.dsc
+  !include Vlv2TbltDevicePkg/FmpBlueSampleDevice.dsc
+  !include Vlv2TbltDevicePkg/FmpRedSampleDevice.dsc
 !endif
 
 !if $(MICOCODE_CAPSULE_ENABLE)

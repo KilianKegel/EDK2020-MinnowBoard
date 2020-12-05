@@ -1,9 +1,9 @@
 
 >>>>SecStartup
-CdeDiagRTCPRE a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(76)main()0000000040 INFO>##################################################################
-CdeDiagRTCPRE a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(77)main()0000000059 INFO>########################## CdePkg driver CdeDiagRTC EDK2 UEFI PRE(CdeLib) x86-32
-CdeDiagRTCPRE a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(78)main()0000000080 INFO>##################################################################
-0000000000000000: 57 00 10 00 06 00 07 29 - 11 20 26 02 40 80 FF 00  W...............
+CdeDiagRTCPRE b:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(76)main()0000000040 INFO>##################################################################
+CdeDiagRTCPRE b:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(77)main()0000000059 INFO>########################## CdePkg driver CdeDiagRTC EDK2 UEFI PRE(CdeLib) x86-32
+CdeDiagRTCPRE b:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(78)main()0000000080 INFO>##################################################################
+0000000000000000: 18 00 22 00 15 00 06 05 - 12 20 26 02 40 80 FF 00  ................
 0000000000000010: FF FF FF FF FF FF FF FF - FF FF FF FF 7B FD FF FF  ................
 0000000000000020: FF FF FF FF FF FF FF FF - F7 FF FF FF FF FF FF FF  ................
 0000000000000030: FF FF 20 FF FD FF FF EF - FF FF FF EF FB F7 FF FF  ................
@@ -12,7 +12,7 @@ CdeDiagRTCPRE a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(78)main()000000008
 0000000000000060: 7F FF DF 43 EF FD FF FF - FF DF FF FF FF FF FF FF  ...C............
 0000000000000070: FF FF FF DF FF FF FF FF - FF FF FF FF FF FF FF FF  ................
 
-CdeDiagGPIOPRE a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(323)main()0000000187 INFO>ARGC/ARGV config: 
+CdeDiagGPIOPRE b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(323)main()0000000187 INFO>ARGC/ARGV config: 
 argc: 1
 argv[0]: unknownCdeDriverPei
 argv[1]: 
@@ -20,10 +20,10 @@ argv[2]:
 argv[3]: 
 argv[4]: 
 
-CdeDiagGPIOPRE a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(329)main()0000000211 INFO>gpiobase -> FED0C000
-CdeDiagGPIOPRE a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(80)chkcmdln()0000000224 INFO>argc -> 1
-CdeDiagGPIOPRE a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(85)chkcmdln()0000000237 INFO>
-CdeDiagGPIOPRE a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(96)chkcmdln()0000000248 INFO>
+CdeDiagGPIOPRE b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(329)main()0000000211 INFO>gpiobase -> FED0C000
+CdeDiagGPIOPRE b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(80)chkcmdln()0000000224 INFO>argc -> 1
+CdeDiagGPIOPRE b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(85)chkcmdln()0000000237 INFO>
+CdeDiagGPIOPRE b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(96)chkcmdln()0000000248 INFO>
          uart1_rts_b FED0C000: 2003CC80 00008000 00000003 00000000
            uart1_txd FED0C010: 2003CC80 00008000 00000003 00000000
            uart1_rxd FED0C020: 2003CC80 00008000 00000003 00000000
@@ -163,7 +163,7 @@ CdeDiagGPIOPRE a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(96)chkcmdln()000
         pmu_pwrbtn_b FED0E080: 2003CC80 00008000 00000003 00000000
         pmu_batlow_b FED0E090: 2003CC80 00008000 00000006 00000400
       pmu_wake_lan_b FED0E0A0: 2003CC80 00008000 00000003 00000400
-          pmu_susclk FED0E0B0: 2003CD00 00008000 00000002 00000400
+          pmu_susclk FED0E0B0: 2003CD00 00008000 00000003 00000400
            usb_oc0_b FED0E0C0: 2003CC80 00008000 00000003 00000000
         pmu_slp_s3_b FED0E0D0: 2003C800 00008000 00000003 00000400
       pmu_ac_present FED0E0E0: 2003CD00 00008000 00000006 00000400
@@ -212,9 +212,9 @@ CdeDiagGPIOPRE a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(96)chkcmdln()000
     usb_ulpi_0_data5 FED0E390: 2003CD00 00008000 00000002 00000000
     usb_ulpi_0_data7 FED0E3A0: 2003CD00 00008000 00000002 00000000
       usb_ulpi_0_stp FED0E3B0: 2003CC80 00008000 00000003 00000000
-CdeDiagDumpDemoPRE a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(121)main()0000001794 INFO>##################################################################
-CdeDiagDumpDemoPRE a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(122)main()0000001814 INFO>########################## CdePkg driver CdeDiagDemoDump EDK2 UEFI PRE(CdeLib) x86-32
-CdeDiagDumpDemoPRE a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(123)main()0000001836 INFO>##################################################################
+CdeDiagDumpDemoPRE b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(121)main()0000001793 INFO>##################################################################
+CdeDiagDumpDemoPRE b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(122)main()0000001813 INFO>########################## CdePkg driver CdeDiagDemoDump EDK2 UEFI PRE(CdeLib) x86-32
+CdeDiagDumpDemoPRE b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(123)main()0000001835 INFO>##################################################################
 NOTE: This driver just demonstrates how to configure the
       CdeXDump() function for diagnostic mem/io/pci/whatever "dump"
 0000000000000000: 00 02 04 06 08 0A 0C 0E - 10 12 14 16 18 1A 1C 1E  ................
@@ -476,104 +476,104 @@ NOTE: This driver just demonstrates how to configure the
 00000000000007C0: C7C6C5C4C3C2C1C0  ........ 
 00000000000007E0: E7E6E5E4E3E2E1E0  ........ 
 
-CdeDiagDumpDemoPRE a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(143)main()0000004233 FATAL>4. Dump failed due to buffer limitations: required size is 58
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(152)main()0000004257 INFO>##################################################################
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(153)main()0000004277 INFO>########################## CdePkg driver CdeDiagTSCSyncRTC EDK2 UEFI PRE(CdeLib) x86-32
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(154)main()0000004299 INFO>##################################################################
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000005174 INFO>TSCTime: 2020/11/29 06:11,01 vs. RTCTime: 2020/11/29 06:11,02 ->     1 sec, 1253324281, secdiff 1
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000006174 INFO>TSCTime: 2020/11/29 06:11,02 vs. RTCTime: 2020/11/29 06:11,03 ->     2 sec, 1432073445, secdiff 1
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000007174 INFO>TSCTime: 2020/11/29 06:11,03 vs. RTCTime: 2020/11/29 06:11,04 ->     3 sec, 1432411673, secdiff 1
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000008174 INFO>TSCTime: 2020/11/29 06:11,04 vs. RTCTime: 2020/11/29 06:11,05 ->     4 sec, 1432411618, secdiff 1
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000009174 INFO>TSCTime: 2020/11/29 06:11,05 vs. RTCTime: 2020/11/29 06:11,06 ->     5 sec, 1432414368, secdiff 1
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000010174 INFO>TSCTime: 2020/11/29 06:11,06 vs. RTCTime: 2020/11/29 06:11,07 ->     6 sec, 1432379421, secdiff 1
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000011174 INFO>TSCTime: 2020/11/29 06:11,07 vs. RTCTime: 2020/11/29 06:11,08 ->     7 sec, 1432376781, secdiff 1
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000012174 INFO>TSCTime: 2020/11/29 06:11,08 vs. RTCTime: 2020/11/29 06:11,09 ->     8 sec, 1432457246, secdiff 1
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000013174 INFO>TSCTime: 2020/11/29 06:11,09 vs. RTCTime: 2020/11/29 06:11,10 ->     9 sec, 1432400893, secdiff 1
-CdeDiagTSCSyncPRE a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000014174 INFO>TSCTime: 2020/11/29 06:11,10 vs. RTCTime: 2020/11/29 06:11,11 ->    10 sec, 1432422409, secdiff 1
-argcvPre a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(59)main()0000014202 INFO>##################################################################
-argcvPre a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(60)main()0000014222 INFO>########################## ARGCV test EDK2 UEFI PRE(CdeLib) x86-32
-argcvPre a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(61)main()0000014242 INFO>##################################################################
-argcvPre a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(63)main()0000014262 FATAL>
+CdeDiagDumpDemoPRE b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(143)main()0000004227 FATAL>4. Dump failed due to buffer limitations: required size is 58
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(152)main()0000004251 INFO>##################################################################
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(153)main()0000004270 INFO>########################## CdePkg driver CdeDiagTSCSyncRTC EDK2 UEFI PRE(CdeLib) x86-32
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(154)main()0000004292 INFO>##################################################################
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000004419 INFO>TSCTime: 2020/12/05 15:22,22 vs. RTCTime: 2020/12/05 15:22,22 ->     1 sec, 154696729, secdiff 0
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000005418 INFO>TSCTime: 2020/12/05 15:22,23 vs. RTCTime: 2020/12/05 15:22,23 ->     2 sec, 614440827, secdiff 0
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000006418 INFO>TSCTime: 2020/12/05 15:22,24 vs. RTCTime: 2020/12/05 15:22,24 ->     3 sec, 614427902, secdiff 0
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000007418 INFO>TSCTime: 2020/12/05 15:22,25 vs. RTCTime: 2020/12/05 15:22,25 ->     4 sec, 614417430, secdiff 0
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000008418 INFO>TSCTime: 2020/12/05 15:22,26 vs. RTCTime: 2020/12/05 15:22,26 ->     5 sec, 614404791, secdiff 0
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000009418 INFO>TSCTime: 2020/12/05 15:22,27 vs. RTCTime: 2020/12/05 15:22,27 ->     6 sec, 614392724, secdiff 0
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000010418 INFO>TSCTime: 2020/12/05 15:22,28 vs. RTCTime: 2020/12/05 15:22,28 ->     7 sec, 614379986, secdiff 0
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000011418 INFO>TSCTime: 2020/12/05 15:22,29 vs. RTCTime: 2020/12/05 15:22,29 ->     8 sec, 614365862, secdiff 0
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000012418 INFO>TSCTime: 2020/12/05 15:22,30 vs. RTCTime: 2020/12/05 15:22,30 ->     9 sec, 614352959, secdiff 0
+CdeDiagTSCSyncPRE b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000013418 INFO>TSCTime: 2020/12/05 15:22,31 vs. RTCTime: 2020/12/05 15:22,31 ->    10 sec, 614340980, secdiff 0
+argcvPre b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(59)main()0000013446 INFO>##################################################################
+argcvPre b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(60)main()0000013466 INFO>########################## ARGCV test EDK2 UEFI PRE(CdeLib) x86-32
+argcvPre b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(61)main()0000013486 INFO>##################################################################
+argcvPre b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(63)main()0000013506 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-systeminterfacePRE a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(65)main()0000014287 INFO>##################################################################
-systeminterfacePRE a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(66)main()0000014310 INFO>########################## systeminterfacePEI demo EDK2 UEFI PRE(CdeLib) x86-32
-systeminterfacePRE a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(67)main()0000014334 INFO>##################################################################
-systeminterfacePRE a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(69)main()0000014357 INFO>--> 1, unknownCdeDriverPei argv[0] -> 
-systeminterfacePRE a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(70)main()0000014376 FATAL>
+systeminterfacePRE b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(65)main()0000013531 INFO>##################################################################
+systeminterfacePRE b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(66)main()0000013554 INFO>########################## systeminterfacePEI demo EDK2 UEFI PRE(CdeLib) x86-32
+systeminterfacePRE b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(67)main()0000013578 INFO>##################################################################
+systeminterfacePRE b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(69)main()0000013600 INFO>--> 1, unknownCdeDriverPei argv[0] -> 
+systeminterfacePRE b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(70)main()0000013619 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-timehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(89)main()0000014404 INFO>##################################################################
-timehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(90)main()0000014426 INFO>########################## CdePkg driver timehfunctions EDK2 UEFI PRE(CdeLib) x86-32
-timehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(91)main()0000014449 INFO>########################## NOTE: UTC only support, no timezones, no daylight saving.
-timehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(92)main()0000014473 INFO>########################## NOTE: In Emulation mode time syncronisation and system time/date is faulty due to lack of HW access 
-timehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(93)main()0000014502 INFO>##################################################################
-timehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(94)main()0000014523 INFO>Demonstrating  TIME.H functions difftime(), mktime(), time(), asctime(), ctime(), gmtime(), localtime() and strftime()
-timehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(96)main()0000014551 FATAL>
+timehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(89)main()0000013647 INFO>##################################################################
+timehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(90)main()0000013669 INFO>########################## CdePkg driver timehfunctions EDK2 UEFI PRE(CdeLib) x86-32
+timehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(91)main()0000013692 INFO>########################## NOTE: UTC only support, no timezones, no daylight saving.
+timehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(92)main()0000013716 INFO>########################## NOTE: In Emulation mode time syncronisation and system time/date is faulty due to lack of HW access 
+timehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(93)main()0000013745 INFO>##################################################################
+timehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(94)main()0000013766 INFO>Demonstrating  TIME.H functions difftime(), mktime(), time(), asctime(), ctime(), gmtime(), localtime() and strftime()
+timehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(96)main()0000013794 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-stringhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(74)main()0000014578 INFO>##################################################################
-stringhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(75)main()0000014601 INFO>########################## CdePkg driver stringhfunctions EDK2 UEFI PRE(CdeLib) x86-32
-stringhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(76)main()0000014626 INFO>##################################################################
-stringhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(78)main()0000014648 FATAL>
+stringhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(74)main()0000013821 INFO>##################################################################
+stringhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(75)main()0000013843 INFO>########################## CdePkg driver stringhfunctions EDK2 UEFI PRE(CdeLib) x86-32
+stringhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(76)main()0000013868 INFO>##################################################################
+stringhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(78)main()0000013890 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-wcharhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(313)main()0000014676 INFO>##################################################################
-wcharhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(314)main()0000014698 INFO>########################## CdePkg driver wcharhfunctions EDK2 UEFI PRE(CdeLib) x86-32
-wcharhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(315)main()0000014722 INFO>##################################################################
-wcharhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(317)main()0000014745 FATAL>
+wcharhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(313)main()0000013918 INFO>##################################################################
+wcharhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(314)main()0000013940 INFO>########################## CdePkg driver wcharhfunctions EDK2 UEFI PRE(CdeLib) x86-32
+wcharhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(315)main()0000013964 INFO>##################################################################
+wcharhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(317)main()0000013986 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-stdiohfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(350)main()0000014772 INFO>##################################################################
-stdiohfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(351)main()0000014794 INFO>########################## CdePkg driver stdiohfunctions EDK2 UEFI PRE(CdeLib) x86-32
-stdiohfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(352)main()0000014819 INFO>##################################################################
-stdiohfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(354)main()0000014841 FATAL>
+stdiohfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(350)main()0000014014 INFO>##################################################################
+stdiohfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(351)main()0000014036 INFO>########################## CdePkg driver stdiohfunctions EDK2 UEFI PRE(CdeLib) x86-32
+stdiohfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(352)main()0000014060 INFO>##################################################################
+stdiohfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(354)main()0000014082 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-stdlibhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(335)main()0000014869 INFO>##################################################################
-stdlibhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(336)main()0000014891 INFO>########################## CdePkg driver stdlibhfunctions EDK2 UEFI PRE(CdeLib) x86-32
-stdlibhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(337)main()0000014916 INFO>##################################################################
-stdlibhfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(339)main()0000014938 FATAL>
+stdlibhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(335)main()0000014109 INFO>##################################################################
+stdlibhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(336)main()0000014132 INFO>########################## CdePkg driver stdlibhfunctions EDK2 UEFI PRE(CdeLib) x86-32
+stdlibhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(337)main()0000014156 INFO>##################################################################
+stdlibhfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(339)main()0000014179 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-ctypehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(80)main()0000014966 INFO>##################################################################
-ctypehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(81)main()0000014988 INFO>########################## CdePkg driver ctypehfunctions EDK2 UEFI PRE(CdeLib) x86-32
-ctypehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(82)main()0000015012 INFO>##################################################################
-ctypehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(84)main()0000015034 FATAL>
+ctypehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(80)main()0000014207 INFO>##################################################################
+ctypehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(81)main()0000014229 INFO>########################## CdePkg driver ctypehfunctions EDK2 UEFI PRE(CdeLib) x86-32
+ctypehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(82)main()0000014253 INFO>##################################################################
+ctypehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(84)main()0000014275 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-wctypehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(86)main()0000015061 INFO>##################################################################
-wctypehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(87)main()0000015084 INFO>########################## CdePkg driver wctypehfunctions EDK2 UEFI PRE(CdeLib) x86-32
-wctypehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(88)main()0000015108 INFO>##################################################################
-wctypehfunctionsPRE a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(90)main()0000015131 FATAL>
+wctypehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(86)main()0000014302 INFO>##################################################################
+wctypehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(87)main()0000014324 INFO>########################## CdePkg driver wctypehfunctions EDK2 UEFI PRE(CdeLib) x86-32
+wctypehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(88)main()0000014349 INFO>##################################################################
+wctypehfunctionsPRE b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(90)main()0000014371 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-asserthfunctionsPre a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(67)main()0000015158 INFO>##################################################################
-asserthfunctionsPre a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(68)main()0000015181 INFO>########################## CdePkg driver asserthfunctions EDK2 UEFI PRE(CdeLib) x86-32
-asserthfunctionsPre a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(69)main()0000015205 INFO>##################################################################
-asserthfunctionsPre a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(71)main()0000015228 FATAL>
+asserthfunctionsPre b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(67)main()0000014399 INFO>##################################################################
+asserthfunctionsPre b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(68)main()0000014421 INFO>########################## CdePkg driver asserthfunctions EDK2 UEFI PRE(CdeLib) x86-32
+asserthfunctionsPre b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(69)main()0000014446 INFO>##################################################################
+asserthfunctionsPre b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(71)main()0000014468 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-localehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(61)main()0000015255 INFO>##################################################################
-localehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(62)main()0000015277 INFO>########################## CdePkg driver localehfunctions EDK2 UEFI PEI(CdeLib) x86-32
-localehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(63)main()0000015302 INFO>##################################################################
-localehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(65)main()0000015324 FATAL>
+localehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(61)main()0000014496 INFO>##################################################################
+localehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(62)main()0000014518 INFO>########################## CdePkg driver localehfunctions EDK2 UEFI PEI(CdeLib) x86-32
+localehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(63)main()0000014542 INFO>##################################################################
+localehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(65)main()0000014565 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-clockPRE a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(74)main()0000015351 INFO>##################################################################
-clockPRE a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(75)main()0000015371 INFO>########################## Test clock() in EDK2 UEFI PRE(CdeLib) x86-32
-clockPRE a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(76)main()0000015391 INFO>##################################################################
-clockPRE a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(78)main()0000015410 FATAL>
+clockPRE b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(74)main()0000014592 INFO>##################################################################
+clockPRE b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(75)main()0000014611 INFO>########################## Test clock() in EDK2 UEFI PRE(CdeLib) x86-32
+clockPRE b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(76)main()0000014631 INFO>##################################################################
+clockPRE b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(78)main()0000014651 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-CdeUnblockMemInitPRE a:\edk2020-minnowboard\CdePkg\CdeUnblockMemInit\main.c(53)main()0000015435 INFO>##################################################################
-CdeUnblockMemInitPRE a:\edk2020-minnowboard\CdePkg\CdeUnblockMemInit\main.c(54)main()0000015455 INFO>########################## CdeUnblockMemInitPRE()
-CdeUnblockMemInitPRE a:\edk2020-minnowboard\CdePkg\CdeUnblockMemInit\main.c(55)main()0000015473 INFO>##################################################################
+CdeUnblockMemInitPRE b:\edk2020-minnowboard\CdePkg\CdeUnblockMemInit\main.c(53)main()0000014676 INFO>##################################################################
+CdeUnblockMemInitPRE b:\edk2020-minnowboard\CdePkg\CdeUnblockMemInit\main.c(54)main()0000014696 INFO>########################## CdeUnblockMemInitPRE()
+CdeUnblockMemInitPRE b:\edk2020-minnowboard\CdePkg\CdeUnblockMemInit\main.c(55)main()0000014714 INFO>##################################################################
 >>>>MemoryInit Done
-CdeDiagRTCPei a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(76)main()0000017037 INFO>##################################################################
-CdeDiagRTCPei a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(77)main()0000017057 INFO>########################## CdePkg driver CdeDiagRTC EDK2 UEFI PEI(CdeLib) x86-32
-CdeDiagRTCPei a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(78)main()0000017077 INFO>##################################################################
-0000000000000000: 14 00 11 00 06 00 07 29 - 11 20 26 02 50 80 FF 00  ............P...
+CdeDiagRTCPei b:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(76)main()0000016279 INFO>##################################################################
+CdeDiagRTCPei b:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(77)main()0000016299 INFO>########################## CdePkg driver CdeDiagRTC EDK2 UEFI PEI(CdeLib) x86-32
+CdeDiagRTCPei b:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(78)main()0000016319 INFO>##################################################################
+0000000000000000: 34 00 22 00 15 00 06 05 - 12 20 26 02 50 80 FF 00  4...........P...
 0000000000000010: FF FF FF FF FF FF FF FF - FF FF FF FF 7B FD FF FF  ................
 0000000000000020: FF FF FF FF FF FF FF FF - F7 FF FF FF FF FF FF FF  ................
 0000000000000030: FF FF 20 FF FD FF FF EF - FF FF FF EF FB F7 FF FF  ................
@@ -582,7 +582,7 @@ CdeDiagRTCPei a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(78)main()000001707
 0000000000000060: 7F FF DF 43 EF FD FF FF - FF DF FF FF FF FF FF FF  ...C............
 0000000000000070: FF FF FF DF FF FF FF FF - FF FF FF FF FF FF FF FF  ................
 
-CdeDiagGPIOPei a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(323)main()0000017186 INFO>ARGC/ARGV config: 
+CdeDiagGPIOPei b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(323)main()0000016428 INFO>ARGC/ARGV config: 
 argc: 1
 argv[0]: unknownCdeDriverPei
 argv[1]: 
@@ -590,10 +590,10 @@ argv[2]:
 argv[3]: 
 argv[4]: 
 
-CdeDiagGPIOPei a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(329)main()0000017209 INFO>gpiobase -> FED0C000
-CdeDiagGPIOPei a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(80)chkcmdln()0000017223 INFO>argc -> 1
-CdeDiagGPIOPei a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(85)chkcmdln()0000017235 INFO>
-CdeDiagGPIOPei a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(96)chkcmdln()0000017247 INFO>
+CdeDiagGPIOPei b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(329)main()0000016452 INFO>gpiobase -> FED0C000
+CdeDiagGPIOPei b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(80)chkcmdln()0000016465 INFO>argc -> 1
+CdeDiagGPIOPei b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(85)chkcmdln()0000016477 INFO>
+CdeDiagGPIOPei b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(96)chkcmdln()0000016489 INFO>
          uart1_rts_b FED0C000: 2003CC80 00008000 00000003 00000000
            uart1_txd FED0C010: 2003CC81 00008000 00000002 00000000
            uart1_rxd FED0C020: 2003CC81 00008000 00000002 00000000
@@ -733,7 +733,7 @@ CdeDiagGPIOPei a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(96)chkcmdln()000
         pmu_pwrbtn_b FED0E080: 2003CC80 00008000 00000003 00000000
         pmu_batlow_b FED0E090: 2003CC80 00008000 00000006 00000400
       pmu_wake_lan_b FED0E0A0: 2003CC01 00008000 00000001 00000400
-          pmu_susclk FED0E0B0: 2003CC00 00008000 00000002 00000400
+          pmu_susclk FED0E0B0: 2003CC00 00008000 00000003 00000400
            usb_oc0_b FED0E0C0: 2003CA80 00008000 00000003 00000000
         pmu_slp_s3_b FED0E0D0: 2003C800 00008000 00000003 00000400
       pmu_ac_present FED0E0E0: 2003CD00 00008000 00000006 00000400
@@ -782,9 +782,9 @@ CdeDiagGPIOPei a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(96)chkcmdln()000
     usb_ulpi_0_data5 FED0E390: 2003CC00 00008000 00000000 00000000
     usb_ulpi_0_data7 FED0E3A0: 2003CC00 00008000 00000000 00000000
       usb_ulpi_0_stp FED0E3B0: 2003CC00 00008000 00000001 00000000
-CdeDiagDumpDemoPei a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(121)main()0000018790 INFO>##################################################################
-CdeDiagDumpDemoPei a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(122)main()0000018811 INFO>########################## CdePkg driver CdeDiagDemoDump EDK2 UEFI PEI(CdeLib) x86-32
-CdeDiagDumpDemoPei a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(123)main()0000018833 INFO>##################################################################
+CdeDiagDumpDemoPei b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(121)main()0000018030 INFO>##################################################################
+CdeDiagDumpDemoPei b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(122)main()0000018050 INFO>########################## CdePkg driver CdeDiagDemoDump EDK2 UEFI PEI(CdeLib) x86-32
+CdeDiagDumpDemoPei b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(123)main()0000018072 INFO>##################################################################
 NOTE: This driver just demonstrates how to configure the
       CdeXDump() function for diagnostic mem/io/pci/whatever "dump"
 0000000000000000: 00 02 04 06 08 0A 0C 0E - 10 12 14 16 18 1A 1C 1E  ................
@@ -1046,100 +1046,100 @@ NOTE: This driver just demonstrates how to configure the
 00000000000007C0: C7C6C5C4C3C2C1C0  ........ 
 00000000000007E0: E7E6E5E4E3E2E1E0  ........ 
 
-CdeDiagDumpDemoPei a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(143)main()0000021230 FATAL>4. Dump failed due to buffer limitations: required size is 58
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(152)main()0000021253 INFO>##################################################################
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(153)main()0000021272 INFO>########################## CdePkg driver CdeDiagTSCSyncRTC EDK2 UEFI PEI(CdeLib) x86-32
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(154)main()0000021295 INFO>##################################################################
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000022174 INFO>TSCTime: 2020/11/29 06:11,18 vs. RTCTime: 2020/11/29 06:11,19 ->     1 sec, 1260845256, secdiff 1
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000023174 INFO>TSCTime: 2020/11/29 06:11,19 vs. RTCTime: 2020/11/29 06:11,20 ->     2 sec, 1432242614, secdiff 1
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000024174 INFO>TSCTime: 2020/11/29 06:11,20 vs. RTCTime: 2020/11/29 06:11,21 ->     3 sec, 1432379465, secdiff 1
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000025174 INFO>TSCTime: 2020/11/29 06:11,21 vs. RTCTime: 2020/11/29 06:11,22 ->     4 sec, 1432379476, secdiff 1
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000026174 INFO>TSCTime: 2020/11/29 06:11,22 vs. RTCTime: 2020/11/29 06:11,23 ->     5 sec, 1432379520, secdiff 1
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000027174 INFO>TSCTime: 2020/11/29 06:11,23 vs. RTCTime: 2020/11/29 06:11,24 ->     6 sec, 1432376792, secdiff 1
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000028174 INFO>TSCTime: 2020/11/29 06:11,24 vs. RTCTime: 2020/11/29 06:11,25 ->     7 sec, 1432478850, secdiff 1
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000029174 INFO>TSCTime: 2020/11/29 06:11,25 vs. RTCTime: 2020/11/29 06:11,26 ->     8 sec, 1432446576, secdiff 1
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000030174 INFO>TSCTime: 2020/11/29 06:11,26 vs. RTCTime: 2020/11/29 06:11,27 ->     9 sec, 1432411706, secdiff 1
-CdeDiagTSCSyncPei a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000031174 INFO>TSCTime: 2020/11/29 06:11,27 vs. RTCTime: 2020/11/29 06:11,28 ->    10 sec, 1432414412, secdiff 1
-argcvPei a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(59)main()0000031199 INFO>##################################################################
-argcvPei a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(60)main()0000031219 INFO>########################## ARGCV test EDK2 UEFI PEI(CdeLib) x86-32
-argcvPei a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(61)main()0000031239 INFO>##################################################################
-argcvPei a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(63)main()0000031259 FATAL>
+CdeDiagDumpDemoPei b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(143)main()0000020463 FATAL>4. Dump failed due to buffer limitations: required size is 58
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(152)main()0000020486 INFO>##################################################################
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(153)main()0000020506 INFO>########################## CdePkg driver CdeDiagTSCSyncRTC EDK2 UEFI PEI(CdeLib) x86-32
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(154)main()0000020528 INFO>##################################################################
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000021418 INFO>TSCTime: 2020/12/05 15:22,38 vs. RTCTime: 2020/12/05 15:22,39 ->     1 sec, 1277352296, secdiff 1
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000022418 INFO>TSCTime: 2020/12/05 15:22,39 vs. RTCTime: 2020/12/05 15:22,40 ->     2 sec, 1432411563, secdiff 1
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000023418 INFO>TSCTime: 2020/12/05 15:22,40 vs. RTCTime: 2020/12/05 15:22,41 ->     3 sec, 1432560140, secdiff 1
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000024418 INFO>TSCTime: 2020/12/05 15:22,41 vs. RTCTime: 2020/12/05 15:22,42 ->     4 sec, 1432536655, secdiff 1
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000025418 INFO>TSCTime: 2020/12/05 15:22,42 vs. RTCTime: 2020/12/05 15:22,43 ->     5 sec, 1432567114, secdiff 1
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000026418 INFO>TSCTime: 2020/12/05 15:22,43 vs. RTCTime: 2020/12/05 15:22,44 ->     6 sec, 1432603150, secdiff 1
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000027418 INFO>TSCTime: 2020/12/05 15:22,44 vs. RTCTime: 2020/12/05 15:22,45 ->     7 sec, 1432586166, secdiff 1
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000028418 INFO>TSCTime: 2020/12/05 15:22,45 vs. RTCTime: 2020/12/05 15:22,46 ->     8 sec, 1432582558, secdiff 1
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000029418 INFO>TSCTime: 2020/12/05 15:22,46 vs. RTCTime: 2020/12/05 15:22,47 ->     9 sec, 1432554882, secdiff 1
+CdeDiagTSCSyncPei b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000030418 INFO>TSCTime: 2020/12/05 15:22,47 vs. RTCTime: 2020/12/05 15:22,48 ->    10 sec, 1432604954, secdiff 1
+argcvPei b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(59)main()0000030443 INFO>##################################################################
+argcvPei b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(60)main()0000030463 INFO>########################## ARGCV test EDK2 UEFI PEI(CdeLib) x86-32
+argcvPei b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(61)main()0000030483 INFO>##################################################################
+argcvPei b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(63)main()0000030503 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-systeminterfacePEI a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(65)main()0000031283 INFO>##################################################################
-systeminterfacePEI a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(66)main()0000031305 INFO>########################## systeminterfacePEI demo EDK2 UEFI PEI(CdeLib) x86-32
-systeminterfacePEI a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(67)main()0000031329 INFO>##################################################################
-systeminterfacePEI a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(69)main()0000031352 INFO>--> 1, unknownCdeDriverPei argv[0] -> 
-systeminterfacePEI a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(70)main()0000031371 FATAL>
+systeminterfacePEI b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(65)main()0000030526 INFO>##################################################################
+systeminterfacePEI b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(66)main()0000030549 INFO>########################## systeminterfacePEI demo EDK2 UEFI PEI(CdeLib) x86-32
+systeminterfacePEI b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(67)main()0000030573 INFO>##################################################################
+systeminterfacePEI b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(69)main()0000030595 INFO>--> 1, unknownCdeDriverPei argv[0] -> 
+systeminterfacePEI b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfacePEI\main.c(70)main()0000030614 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-timehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(89)main()0000031401 INFO>##################################################################
-timehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(90)main()0000031422 INFO>########################## CdePkg driver timehfunctions EDK2 UEFI PEI(CdeLib) x86-32
-timehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(91)main()0000031446 INFO>########################## NOTE: UTC only support, no timezones, no daylight saving.
-timehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(92)main()0000031470 INFO>########################## NOTE: In Emulation mode time syncronisation and system time/date is faulty due to lack of HW access 
-timehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(93)main()0000031499 INFO>##################################################################
-timehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(94)main()0000031520 INFO>Demonstrating  TIME.H functions difftime(), mktime(), time(), asctime(), ctime(), gmtime(), localtime() and strftime()
-timehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(96)main()0000031548 FATAL>
+timehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(89)main()0000030643 INFO>##################################################################
+timehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(90)main()0000030665 INFO>########################## CdePkg driver timehfunctions EDK2 UEFI PEI(CdeLib) x86-32
+timehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(91)main()0000030688 INFO>########################## NOTE: UTC only support, no timezones, no daylight saving.
+timehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(92)main()0000030712 INFO>########################## NOTE: In Emulation mode time syncronisation and system time/date is faulty due to lack of HW access 
+timehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(93)main()0000030741 INFO>##################################################################
+timehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(94)main()0000030762 INFO>Demonstrating  TIME.H functions difftime(), mktime(), time(), asctime(), ctime(), gmtime(), localtime() and strftime()
+timehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(96)main()0000030790 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-stringhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(74)main()0000031580 INFO>##################################################################
-stringhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(75)main()0000031602 INFO>########################## CdePkg driver stringhfunctions EDK2 UEFI PEI(CdeLib) x86-32
-stringhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(76)main()0000031627 INFO>##################################################################
-stringhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(78)main()0000031649 FATAL>
+stringhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(74)main()0000030822 INFO>##################################################################
+stringhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(75)main()0000030844 INFO>########################## CdePkg driver stringhfunctions EDK2 UEFI PEI(CdeLib) x86-32
+stringhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(76)main()0000030869 INFO>##################################################################
+stringhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(78)main()0000030891 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-wcharhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(313)main()0000031683 INFO>##################################################################
-wcharhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(314)main()0000031705 INFO>########################## CdePkg driver wcharhfunctions EDK2 UEFI PEI(CdeLib) x86-32
-wcharhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(315)main()0000031729 INFO>##################################################################
-wcharhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(317)main()0000031751 FATAL>
+wcharhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(313)main()0000030924 INFO>##################################################################
+wcharhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(314)main()0000030946 INFO>########################## CdePkg driver wcharhfunctions EDK2 UEFI PEI(CdeLib) x86-32
+wcharhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(315)main()0000030970 INFO>##################################################################
+wcharhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(317)main()0000030992 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-stdiohfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(350)main()0000031782 INFO>##################################################################
-stdiohfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(351)main()0000031804 INFO>########################## CdePkg driver stdiohfunctions EDK2 UEFI PEI(CdeLib) x86-32
-stdiohfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(352)main()0000031829 INFO>##################################################################
-stdiohfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(354)main()0000031851 FATAL>
+stdiohfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(350)main()0000031023 INFO>##################################################################
+stdiohfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(351)main()0000031045 INFO>########################## CdePkg driver stdiohfunctions EDK2 UEFI PEI(CdeLib) x86-32
+stdiohfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(352)main()0000031069 INFO>##################################################################
+stdiohfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(354)main()0000031091 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-stdlibhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(335)main()0000031883 INFO>##################################################################
-stdlibhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(336)main()0000031906 INFO>########################## CdePkg driver stdlibhfunctions EDK2 UEFI PEI(CdeLib) x86-32
-stdlibhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(337)main()0000031930 INFO>##################################################################
-stdlibhfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(339)main()0000031953 FATAL>
+stdlibhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(335)main()0000031124 INFO>##################################################################
+stdlibhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(336)main()0000031146 INFO>########################## CdePkg driver stdlibhfunctions EDK2 UEFI PEI(CdeLib) x86-32
+stdlibhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(337)main()0000031171 INFO>##################################################################
+stdlibhfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(339)main()0000031193 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-ctypehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(80)main()0000031980 INFO>##################################################################
-ctypehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(81)main()0000032002 INFO>########################## CdePkg driver ctypehfunctions EDK2 UEFI PEI(CdeLib) x86-32
-ctypehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(82)main()0000032026 INFO>##################################################################
-ctypehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(84)main()0000032048 FATAL>
+ctypehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(80)main()0000031220 INFO>##################################################################
+ctypehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(81)main()0000031242 INFO>########################## CdePkg driver ctypehfunctions EDK2 UEFI PEI(CdeLib) x86-32
+ctypehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(82)main()0000031266 INFO>##################################################################
+ctypehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(84)main()0000031288 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-wctypehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(86)main()0000032078 INFO>##################################################################
-wctypehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(87)main()0000032100 INFO>########################## CdePkg driver wctypehfunctions EDK2 UEFI PEI(CdeLib) x86-32
-wctypehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(88)main()0000032125 INFO>##################################################################
-wctypehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(90)main()0000032147 FATAL>
+wctypehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(86)main()0000031318 INFO>##################################################################
+wctypehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(87)main()0000031340 INFO>########################## CdePkg driver wctypehfunctions EDK2 UEFI PEI(CdeLib) x86-32
+wctypehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(88)main()0000031364 INFO>##################################################################
+wctypehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(90)main()0000031387 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-asserthfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(67)main()0000032174 INFO>##################################################################
-asserthfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(68)main()0000032196 INFO>########################## CdePkg driver asserthfunctions EDK2 UEFI PEI(CdeLib) x86-32
-asserthfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(69)main()0000032221 INFO>##################################################################
-asserthfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(71)main()0000032243 FATAL>
+asserthfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(67)main()0000031413 INFO>##################################################################
+asserthfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(68)main()0000031435 INFO>########################## CdePkg driver asserthfunctions EDK2 UEFI PEI(CdeLib) x86-32
+asserthfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(69)main()0000031460 INFO>##################################################################
+asserthfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(71)main()0000031482 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-localehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(61)main()0000032269 INFO>##################################################################
-localehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(62)main()0000032292 INFO>########################## CdePkg driver localehfunctions EDK2 UEFI PEI(CdeLib) x86-32
-localehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(63)main()0000032316 INFO>##################################################################
-localehfunctionsPei a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(65)main()0000032339 FATAL>
+localehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(61)main()0000031508 INFO>##################################################################
+localehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(62)main()0000031530 INFO>########################## CdePkg driver localehfunctions EDK2 UEFI PEI(CdeLib) x86-32
+localehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(63)main()0000031555 INFO>##################################################################
+localehfunctionsPei b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(65)main()0000031577 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-clockPei a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(74)main()0000032365 INFO>##################################################################
-clockPei a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(75)main()0000032385 INFO>########################## Test clock() in EDK2 UEFI PEI(CdeLib) x86-32
-clockPei a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(76)main()0000032405 INFO>##################################################################
-clockPei a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(78)main()0000032424 FATAL>
+clockPei b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(74)main()0000031603 INFO>##################################################################
+clockPei b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(75)main()0000031623 INFO>########################## Test clock() in EDK2 UEFI PEI(CdeLib) x86-32
+clockPei b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(76)main()0000031643 INFO>##################################################################
+clockPei b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(78)main()0000031662 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-CdeDiagRTCDxe a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(76)main()0000000053 INFO>##################################################################
-CdeDiagRTCDxe a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(77)main()0000000071 INFO>########################## CdePkg driver CdeDiagRTC EDK2 UEFI DXE(CdeLib) x86-64
-CdeDiagRTCDxe a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(78)main()0000000091 INFO>##################################################################
-0000000000000000: 30 00 11 00 06 00 07 29 - 11 20 26 02 40 80 FF 00  0...............
+CdeDiagRTCDxe b:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(76)main()0000000053 INFO>##################################################################
+CdeDiagRTCDxe b:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(77)main()0000000072 INFO>########################## CdePkg driver CdeDiagRTC EDK2 UEFI DXE(CdeLib) x86-64
+CdeDiagRTCDxe b:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(78)main()0000000092 INFO>##################################################################
+0000000000000000: 50 00 22 00 15 00 06 05 - 12 20 26 02 40 80 FF 00  P...............
 0000000000000010: FF FF FF FF FF FF FF FF - FF FF FF FF 7B FD FF FF  ................
 0000000000000020: FF FF FF FF FF FF FF FF - F7 FF FF FF FF FF FF FF  ................
 0000000000000030: FF FF 20 FF FD FF FF EF - FF FF FF EF FB F7 FF FF  ................
@@ -1148,7 +1148,7 @@ CdeDiagRTCDxe a:\edk2020-minnowboard\CdePkg\CdeDiagRTC\main.c(78)main()000000009
 0000000000000060: 7F FF DF 43 EF FD FF FF - FF DF FF FF FF FF FF FF  ...C............
 0000000000000070: FF FF FF DF FF FF FF FF - FF FF FF FF FF FF FF FF  ................
 
-CdeDiagGPIODxe a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(323)main()0000000194 INFO>ARGC/ARGV config: 
+CdeDiagGPIODxe b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(323)main()0000000194 INFO>ARGC/ARGV config: 
 argc: 1
 argv[0]: unknownCdeDriverDxe
 argv[1]: 
@@ -1156,10 +1156,10 @@ argv[2]:
 argv[3]: 
 argv[4]: 
 
-CdeDiagGPIODxe a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(329)main()0000000217 INFO>gpiobase -> FED0C000
-CdeDiagGPIODxe a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(80)chkcmdln()0000000230 INFO>argc -> 1
-CdeDiagGPIODxe a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(85)chkcmdln()0000000243 INFO>
-CdeDiagGPIODxe a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(96)chkcmdln()0000000254 INFO>
+CdeDiagGPIODxe b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(329)main()0000000217 INFO>gpiobase -> FED0C000
+CdeDiagGPIODxe b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(80)chkcmdln()0000000231 INFO>argc -> 1
+CdeDiagGPIODxe b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(85)chkcmdln()0000000243 INFO>
+CdeDiagGPIODxe b:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(96)chkcmdln()0000000254 INFO>
          uart1_rts_b 00000000FED0C000: 2003CC80 00008000 00000003 00000000
            uart1_txd 00000000FED0C010: 2003CC81 00008000 00000002 00000000
            uart1_rxd 00000000FED0C020: 2003CC81 00008000 00000002 00000000
@@ -1348,15 +1348,15 @@ CdeDiagGPIODxe a:\edk2020-minnowboard\CdePkg\CdeDiagGPIO\main.c(96)chkcmdln()000
     usb_ulpi_0_data5 00000000FED0E390: 2003CC00 00008000 00000000 00000000
     usb_ulpi_0_data7 00000000FED0E3A0: 2003CC00 00008000 00000000 00000000
       usb_ulpi_0_stp 00000000FED0E3B0: 2003CC00 00008000 00000001 00000000
-CdeDiagEFIVARDxe a:\edk2020-minnowboard\CdePkg\CdeDiagEFIVAR\main.c(76)main()0000001971 INFO>##################################################################
-CdeDiagEFIVARDxe a:\edk2020-minnowboard\CdePkg\CdeDiagEFIVAR\main.c(77)main()0000001990 INFO>########################## CdePkg driver CdeDiagEFIVAR EDK2 UEFI DXE(CdeLib) x86-64
-CdeDiagEFIVARDxe a:\edk2020-minnowboard\CdePkg\CdeDiagEFIVAR\main.c(78)main()0000002011 INFO>##################################################################
-CdeDiagEFIVARDxe a:\edk2020-minnowboard\CdePkg\CdeDiagEFIVAR\main.c(156)main()0000002030 INFO>-->
+CdeDiagEFIVARDxe b:\edk2020-minnowboard\CdePkg\CdeDiagEFIVAR\main.c(76)main()0000001969 INFO>##################################################################
+CdeDiagEFIVARDxe b:\edk2020-minnowboard\CdePkg\CdeDiagEFIVAR\main.c(77)main()0000001989 INFO>########################## CdePkg driver CdeDiagEFIVAR EDK2 UEFI DXE(CdeLib) x86-64
+CdeDiagEFIVARDxe b:\edk2020-minnowboard\CdePkg\CdeDiagEFIVAR\main.c(78)main()0000002010 INFO>##################################################################
+CdeDiagEFIVARDxe b:\edk2020-minnowboard\CdePkg\CdeDiagEFIVAR\main.c(156)main()0000002029 INFO>-->
 04B37FE8-F6AE-480B-BDD5-37D98C5E89AA, size    1, name "VarErrorFlag"
 0D9A1427-E02A-437D-926B-AA521FD722BA, size    3, name "PciLanInfo"
-10BA6BBE-A97E-41C3-9A07-607AD9BD60E5, size 5728, name "MemoryConfig"
-10BA6BBE-A97E-41C3-9A07-607AD9BD60E5, size  261, name "PlatformInfo"
 10BA6BBE-A97E-41C3-9A07-607AD9BD60E5, size  275, name "PlatformCpuInfo"
+10BA6BBE-A97E-41C3-9A07-607AD9BD60E5, size  261, name "PlatformInfo"
+10BA6BBE-A97E-41C3-9A07-607AD9BD60E5, size 5728, name "MemoryConfig"
 149DA854-7D19-4FAA-A91E-862EA1324BE6, size   20, name "FmpState"
 3812723D-7E48-4E29-BC27-F5A39AC94EF1, size    1, name "ItkBiosModVar"
 39B68C46-F7FB-441B-B6EC-16B0F69821F3, size   22, name "CapsuleMax"
@@ -1369,12 +1369,12 @@ CdeDiagEFIVARDxe a:\edk2020-minnowboard\CdePkg\CdeDiagEFIVAR\main.c(156)main()00
 72E2945A-00DA-448E-9AA7-075AD840F9D4, size   20, name "FmpState"
 79179BFD-704D-4C90-9E02-0AB8D968C18A, size   20, name "FmpState"
 86843F56-675D-40A5-9530-BC858372F103, size    1, name "OsSelection"
-8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size  207, name "Boot0003"
-8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size  174, name "Boot0004"
+8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size   12, name "BootOrder"
+8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size  174, name "Boot0005"
 8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size    2, name "Timeout"
 8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size    2, name "HwErrRecSupport"
-8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size   10, name "BootOrder"
 8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size    1, name "VendorKeys"
+8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size    1, name "SecureBoot"
 8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size   74, name "Boot0000"
 8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size    3, name "PlatformLang"
 8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size    4, name "Lang"
@@ -1384,9 +1384,10 @@ CdeDiagEFIVARDxe a:\edk2020-minnowboard\CdePkg\CdeDiagEFIVAR\main.c(156)main()00
 8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size   84, name "Boot0002"
 8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size   14, name "Key0000"
 8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size   14, name "Key0001"
-8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size    1, name "SecureBoot"
 8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size   64, name "SignatureSupport"
 8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size    1, name "SetupMode"
+8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size  138, name "Boot0003"
+8BE4DF61-93CA-11D2-AA0D-00E098032B8C, size  207, name "Boot0004"
 9073E4E0-60EC-4B6E-9903-4C223C260F3C, size    1, name "VendorKeysNv"
 937FE521-95AE-4D1A-8929-48BCD90AD31A, size   60, name "0008A209BD87"
 9FB9A8A1-2F4A-43A6-889C-D0F7B6C47AD5, size   20, name "ClientId"
@@ -1398,9 +1399,9 @@ EB704011-1402-11D3-8E77-00A0C969723B, size    4, name "MTC"
 EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9, size  925, name "SetupRecovery"
 EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9, size  925, name "Setup"
 EC87D643-EBA4-4BB5-A1E5-3F3E36B20DA9, size    2, name "110"
-CdeDiagDumpDemoDxe a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(121)main()0000002416 INFO>##################################################################
-CdeDiagDumpDemoDxe a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(122)main()0000002435 INFO>########################## CdePkg driver CdeDiagDemoDump EDK2 UEFI DXE(CdeLib) x86-64
-CdeDiagDumpDemoDxe a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(123)main()0000002457 INFO>##################################################################
+CdeDiagDumpDemoDxe b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(121)main()0000002422 INFO>##################################################################
+CdeDiagDumpDemoDxe b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(122)main()0000002442 INFO>########################## CdePkg driver CdeDiagDemoDump EDK2 UEFI DXE(CdeLib) x86-64
+CdeDiagDumpDemoDxe b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(123)main()0000002464 INFO>##################################################################
 NOTE: This driver just demonstrates how to configure the
       CdeXDump() function for diagnostic mem/io/pci/whatever "dump"
 0000000000000000: 00 02 04 06 08 0A 0C 0E - 10 12 14 16 18 1A 1C 1E  ................
@@ -1662,110 +1663,110 @@ NOTE: This driver just demonstrates how to configure the
 00000000000007C0: C7C6C5C4C3C2C1C0  ........ 
 00000000000007E0: E7E6E5E4E3E2E1E0  ........ 
 
-CdeDiagDumpDemoDxe a:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(143)main()0000004846 FATAL>4. Dump failed due to buffer limitations: required size is 58
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(152)main()0000004866 INFO>##################################################################
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(153)main()0000004886 INFO>########################## CdePkg driver CdeDiagTSCSyncRTC EDK2 UEFI DXE(CdeLib) x86-64
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(154)main()0000004908 INFO>##################################################################
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000005305 INFO>TSCTime: 2020/11/29 06:11,34 vs. RTCTime: 2020/11/29 06:11,35 ->     1 sec, 553532177, secdiff 1
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000006305 INFO>TSCTime: 2020/11/29 06:11,35 vs. RTCTime: 2020/11/29 06:11,36 ->     2 sec, 1432744610, secdiff 1
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000007305 INFO>TSCTime: 2020/11/29 06:11,36 vs. RTCTime: 2020/11/29 06:11,37 ->     3 sec, 1432570931, secdiff 1
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000008305 INFO>TSCTime: 2020/11/29 06:11,37 vs. RTCTime: 2020/11/29 06:11,38 ->     4 sec, 1432537524, secdiff 1
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000009305 INFO>TSCTime: 2020/11/29 06:11,38 vs. RTCTime: 2020/11/29 06:11,39 ->     5 sec, 1432583581, secdiff 1
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000010305 INFO>TSCTime: 2020/11/29 06:11,39 vs. RTCTime: 2020/11/29 06:11,40 ->     6 sec, 1432555971, secdiff 1
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000011305 INFO>TSCTime: 2020/11/29 06:11,40 vs. RTCTime: 2020/11/29 06:11,41 ->     7 sec, 1432539339, secdiff 1
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000012305 INFO>TSCTime: 2020/11/29 06:11,41 vs. RTCTime: 2020/11/29 06:11,42 ->     8 sec, 1432543255, secdiff 1
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000013305 INFO>TSCTime: 2020/11/29 06:11,42 vs. RTCTime: 2020/11/29 06:11,43 ->     9 sec, 1432589290, secdiff 1
-CdeDiagTSCSyncDxe a:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000014305 INFO>TSCTime: 2020/11/29 06:11,43 vs. RTCTime: 2020/11/29 06:11,44 ->    10 sec, 1432583867, secdiff 1
-argcvDxe a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(59)main()0000014328 INFO>##################################################################
-argcvDxe a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(60)main()0000014348 INFO>########################## ARGCV test EDK2 UEFI DXE(CdeLib) x86-64
-argcvDxe a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(61)main()0000014368 INFO>##################################################################
-argcvDxe a:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(63)main()0000014387 FATAL>
+CdeDiagDumpDemoDxe b:\edk2020-minnowboard\CdePkg\CdeDiagDemoDump\main.c(143)main()0000004852 FATAL>4. Dump failed due to buffer limitations: required size is 58
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(152)main()0000004871 INFO>##################################################################
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(153)main()0000004891 INFO>########################## CdePkg driver CdeDiagTSCSyncRTC EDK2 UEFI DXE(CdeLib) x86-64
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(154)main()0000004913 INFO>##################################################################
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000005333 INFO>TSCTime: 2020/12/05 15:22,54 vs. RTCTime: 2020/12/05 15:22,55 ->     1 sec, 587030323, secdiff 1
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000006333 INFO>TSCTime: 2020/12/05 15:22,55 vs. RTCTime: 2020/12/05 15:22,56 ->     2 sec, 1432785970, secdiff 1
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000007333 INFO>TSCTime: 2020/12/05 15:22,56 vs. RTCTime: 2020/12/05 15:22,57 ->     3 sec, 1432568027, secdiff 1
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000008333 INFO>TSCTime: 2020/12/05 15:22,57 vs. RTCTime: 2020/12/05 15:22,58 ->     4 sec, 1432628175, secdiff 1
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000009333 INFO>TSCTime: 2020/12/05 15:22,58 vs. RTCTime: 2020/12/05 15:22,59 ->     5 sec, 1432557676, secdiff 1
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000010333 INFO>TSCTime: 2020/12/05 15:22,59 vs. RTCTime: 2020/12/05 15:23,00 ->     6 sec, 1432629396, secdiff -59
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000011333 INFO>TSCTime: 2020/12/05 15:23,00 vs. RTCTime: 2020/12/05 15:23,01 ->     7 sec, 1432213838, secdiff 1
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000012333 INFO>TSCTime: 2020/12/05 15:23,01 vs. RTCTime: 2020/12/05 15:23,02 ->     8 sec, 1432630826, secdiff 1
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000013333 INFO>TSCTime: 2020/12/05 15:23,02 vs. RTCTime: 2020/12/05 15:23,03 ->     9 sec, 1432720806, secdiff 1
+CdeDiagTSCSyncDxe b:\edk2020-minnowboard\CdePkg\CdeDiagTSCSync\main.c(255)main()0000014332 INFO>TSCTime: 2020/12/05 15:23,03 vs. RTCTime: 2020/12/05 15:23,04 ->    10 sec, 1432611862, secdiff 1
+argcvDxe b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(59)main()0000014356 INFO>##################################################################
+argcvDxe b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(60)main()0000014376 INFO>########################## ARGCV test EDK2 UEFI DXE(CdeLib) x86-64
+argcvDxe b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(61)main()0000014395 INFO>##################################################################
+argcvDxe b:\edk2020-minnowboard\CdeValidationPkg\HOSTED_ENV\argcv\main.c(63)main()0000014415 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-systeminterfaceDXE a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfaceDXE\main.c(63)main()0000014410 INFO>##################################################################
-systeminterfaceDXE a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfaceDXE\main.c(64)main()0000014432 INFO>########################## systeminterfaceDXE demo EDK2 UEFI DXE(CdeLib) x86-64
-systeminterfaceDXE a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfaceDXE\main.c(65)main()0000014456 INFO>##################################################################
-systeminterfaceDXE a:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfaceDXE\main.c(67)main()0000014479 FATAL>
+systeminterfaceDXE b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfaceDXE\main.c(63)main()0000014438 INFO>##################################################################
+systeminterfaceDXE b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfaceDXE\main.c(64)main()0000014460 INFO>########################## systeminterfaceDXE demo EDK2 UEFI DXE(CdeLib) x86-64
+systeminterfaceDXE b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfaceDXE\main.c(65)main()0000014484 INFO>##################################################################
+systeminterfaceDXE b:\edk2020-minnowboard\CdeValidationPkg\SYSTEM_IF\systeminterfaceDXE\main.c(67)main()0000014506 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-templateDxe a:\edk2020-minnowboard\CdeValidationPkg\template\main.c(64)main()0000014503 INFO>##################################################################
-templateDxe a:\edk2020-minnowboard\CdeValidationPkg\template\main.c(65)main()0000014523 INFO>########################## CdePkg driver template EDK2 UEFI DXE(CdeLib) x86-64
-templateDxe a:\edk2020-minnowboard\CdeValidationPkg\template\main.c(66)main()0000014543 INFO>##################################################################
-templateDxe a:\edk2020-minnowboard\CdeValidationPkg\template\main.c(68)main()0000014563 FATAL>
+templateDxe b:\edk2020-minnowboard\CdeValidationPkg\template\main.c(64)main()0000014531 INFO>##################################################################
+templateDxe b:\edk2020-minnowboard\CdeValidationPkg\template\main.c(65)main()0000014550 INFO>########################## CdePkg driver template EDK2 UEFI DXE(CdeLib) x86-64
+templateDxe b:\edk2020-minnowboard\CdeValidationPkg\template\main.c(66)main()0000014571 INFO>##################################################################
+templateDxe b:\edk2020-minnowboard\CdeValidationPkg\template\main.c(68)main()0000014590 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-timehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(89)main()0000014584 INFO>##################################################################
-timehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(90)main()0000014606 INFO>########################## CdePkg driver timehfunctions EDK2 UEFI DXE(CdeLib) x86-64
-timehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(91)main()0000014629 INFO>########################## NOTE: UTC only support, no timezones, no daylight saving.
-timehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(92)main()0000014653 INFO>########################## NOTE: In Emulation mode time syncronisation and system time/date is faulty due to lack of HW access 
-timehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(93)main()0000014682 INFO>##################################################################
-timehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(94)main()0000014703 INFO>Demonstrating  TIME.H functions difftime(), mktime(), time(), asctime(), ctime(), gmtime(), localtime() and strftime()
-timehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(96)main()0000014731 FATAL>
+timehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(89)main()0000014612 INFO>##################################################################
+timehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(90)main()0000014633 INFO>########################## CdePkg driver timehfunctions EDK2 UEFI DXE(CdeLib) x86-64
+timehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(91)main()0000014657 INFO>########################## NOTE: UTC only support, no timezones, no daylight saving.
+timehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(92)main()0000014681 INFO>########################## NOTE: In Emulation mode time syncronisation and system time/date is faulty due to lack of HW access 
+timehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(93)main()0000014709 INFO>##################################################################
+timehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(94)main()0000014731 INFO>Demonstrating  TIME.H functions difftime(), mktime(), time(), asctime(), ctime(), gmtime(), localtime() and strftime()
+timehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\timehfunctions\main.c(96)main()0000014758 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-stringhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(74)main()0000014755 INFO>##################################################################
-stringhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(75)main()0000014777 INFO>########################## CdePkg driver stringhfunctions EDK2 UEFI DXE(CdeLib) x86-64
-stringhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(76)main()0000014802 INFO>##################################################################
-stringhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(78)main()0000014824 FATAL>
+stringhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(74)main()0000014782 INFO>##################################################################
+stringhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(75)main()0000014805 INFO>########################## CdePkg driver stringhfunctions EDK2 UEFI DXE(CdeLib) x86-64
+stringhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(76)main()0000014829 INFO>##################################################################
+stringhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STRING_H\stringhfunctions\main.c(78)main()0000014851 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-wcharhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(313)main()0000014849 INFO>##################################################################
-wcharhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(314)main()0000014871 INFO>########################## CdePkg driver wcharhfunctions EDK2 UEFI DXE(CdeLib) x86-64
-wcharhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(315)main()0000014895 INFO>##################################################################
-wcharhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(317)main()0000014917 FATAL>
+wcharhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(313)main()0000014876 INFO>##################################################################
+wcharhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(314)main()0000014898 INFO>########################## CdePkg driver wcharhfunctions EDK2 UEFI DXE(CdeLib) x86-64
+wcharhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(315)main()0000014922 INFO>##################################################################
+wcharhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\WCHAR_H\wcharhfunctions\main.c(317)main()0000014944 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-stdiohfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(350)main()0000014941 INFO>##################################################################
-stdiohfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(351)main()0000014963 INFO>########################## CdePkg driver stdiohfunctions EDK2 UEFI DXE(CdeLib) x86-64
-stdiohfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(352)main()0000014987 INFO>##################################################################
-stdiohfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(354)main()0000015009 FATAL>
+stdiohfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(350)main()0000014969 INFO>##################################################################
+stdiohfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(351)main()0000014990 INFO>########################## CdePkg driver stdiohfunctions EDK2 UEFI DXE(CdeLib) x86-64
+stdiohfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(352)main()0000015015 INFO>##################################################################
+stdiohfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STDIO_H\stdiohfunctions\main.c(354)main()0000015037 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-stdlibhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(335)main()0000015034 INFO>##################################################################
-stdlibhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(336)main()0000015056 INFO>########################## CdePkg driver stdlibhfunctions EDK2 UEFI DXE(CdeLib) x86-64
-stdlibhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(337)main()0000015081 INFO>##################################################################
-stdlibhfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(339)main()0000015103 FATAL>
+stdlibhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(335)main()0000015061 INFO>##################################################################
+stdlibhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(336)main()0000015083 INFO>########################## CdePkg driver stdlibhfunctions EDK2 UEFI DXE(CdeLib) x86-64
+stdlibhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(337)main()0000015108 INFO>##################################################################
+stdlibhfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\STDLIB_H\stdlibhfunctions\main.c(339)main()0000015130 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-ctypehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(80)main()0000015128 INFO>##################################################################
-ctypehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(81)main()0000015150 INFO>########################## CdePkg driver ctypehfunctions EDK2 UEFI DXE(CdeLib) x86-64
-ctypehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(82)main()0000015174 INFO>##################################################################
-ctypehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(84)main()0000015196 FATAL>
+ctypehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(80)main()0000015155 INFO>##################################################################
+ctypehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(81)main()0000015177 INFO>########################## CdePkg driver ctypehfunctions EDK2 UEFI DXE(CdeLib) x86-64
+ctypehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(82)main()0000015201 INFO>##################################################################
+ctypehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\CTYPE_H\ctypehfunctions\main.c(84)main()0000015223 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-wctypehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(86)main()0000015220 INFO>##################################################################
-wctypehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(87)main()0000015242 INFO>########################## CdePkg driver wctypehfunctions EDK2 UEFI DXE(CdeLib) x86-64
-wctypehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(88)main()0000015267 INFO>##################################################################
-wctypehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(90)main()0000015289 FATAL>
+wctypehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(86)main()0000015247 INFO>##################################################################
+wctypehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(87)main()0000015269 INFO>########################## CdePkg driver wctypehfunctions EDK2 UEFI DXE(CdeLib) x86-64
+wctypehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(88)main()0000015294 INFO>##################################################################
+wctypehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\WCTYPE_H\wctypehfunctions\main.c(90)main()0000015316 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-asserthfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(67)main()0000015314 INFO>##################################################################
-asserthfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(68)main()0000015336 INFO>########################## CdePkg driver asserthfunctions EDK2 UEFI DXE(CdeLib) x86-64
-asserthfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(69)main()0000015361 INFO>##################################################################
-asserthfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(71)main()0000015383 FATAL>
+asserthfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(67)main()0000015341 INFO>##################################################################
+asserthfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(68)main()0000015363 INFO>########################## CdePkg driver asserthfunctions EDK2 UEFI DXE(CdeLib) x86-64
+asserthfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(69)main()0000015387 INFO>##################################################################
+asserthfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\ASSERT_H\asserthfunctions\main.c(71)main()0000015410 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-localehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(61)main()0000015407 INFO>##################################################################
-localehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(62)main()0000015430 INFO>########################## CdePkg driver localehfunctions EDK2 UEFI DXE(CdeLib) x86-64
-localehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(63)main()0000015454 INFO>##################################################################
-localehfunctionsDxe a:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(65)main()0000015476 FATAL>
+localehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(61)main()0000015434 INFO>##################################################################
+localehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(62)main()0000015456 INFO>########################## CdePkg driver localehfunctions EDK2 UEFI DXE(CdeLib) x86-64
+localehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(63)main()0000015481 INFO>##################################################################
+localehfunctionsDxe b:\edk2020-minnowboard\CdeValidationPkg\LOCALE_H\localehfunctions\main.c(65)main()0000015503 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-clockDxe a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(74)main()0000015501 INFO>##################################################################
-clockDxe a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(75)main()0000015520 INFO>########################## Test clock() in EDK2 UEFI DXE(CdeLib) x86-64
-clockDxe a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(76)main()0000015540 INFO>##################################################################
-clockDxe a:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(78)main()0000015560 FATAL>
+clockDxe b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(74)main()0000015528 INFO>##################################################################
+clockDxe b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(75)main()0000015547 INFO>########################## Test clock() in EDK2 UEFI DXE(CdeLib) x86-64
+clockDxe b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(76)main()0000015567 INFO>##################################################################
+clockDxe b:\edk2020-minnowboard\CdeValidationPkg\TIME_H\clock\main.c(78)main()0000015586 FATAL>
 A command line is not injected into NVRAM ("LoadOption.efi") - driver terminated
 
-Ip4Dxe a:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(94)main()0000015589 INFO>##################################################################
-Ip4Dxe a:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(95)main()0000015609 INFO>########################## Welcome to the CdePkg Library for UEFI POST drivers
-Ip4Dxe a:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(96)main()0000015631 INFO>##################################################################
-Ip4Dxe a:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(577)Ip4DriverBindingStart()0000015776 INFO>Hello world
+Ip4Dxe b:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(94)main()0000015615 INFO>##################################################################
+Ip4Dxe b:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(95)main()0000015636 INFO>########################## Welcome to the CdePkg Library for UEFI POST drivers
+Ip4Dxe b:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(96)main()0000015658 INFO>##################################################################
+Ip4Dxe b:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(577)Ip4DriverBindingStart()0000015801 INFO>Hello world
 Welcome, to BDS phase...
-Ip4Dxe a:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(591)Ip4DriverBindingStart()0000016371 INFO>Status == 0000000000000003, Unsupported
-Ip4Dxe a:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(577)Ip4DriverBindingStart()0000016496 INFO>Hello world
+Ip4Dxe b:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(591)Ip4DriverBindingStart()0000015819 INFO>Status == 0000000000000003, Unsupported
+Ip4Dxe b:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(577)Ip4DriverBindingStart()0000016532 INFO>Hello world
 Welcome, to BDS phase...
-Ip4Dxe a:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(591)Ip4DriverBindingStart()0000016514 INFO>Status == 0000000000000000, Success
+Ip4Dxe b:\edk2020-minnowboard\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(591)Ip4DriverBindingStart()0000016550 INFO>Status == 0000000000000000, Success
 Press F7 for BootMenu!
 **  WARNING: Test Key is used.  **
 UEFI Interactive Shell v2.2

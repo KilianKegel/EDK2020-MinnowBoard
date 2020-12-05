@@ -22,7 +22,7 @@ rem     echo WINDDK 3790.1830 is installed
 rem )
 
 rem
-rem VS2015 installation check...
+rem MSVC v140/VS2015 C++ build tools (v14.00) installation check...
 rem
 
 if not exist "c:\Program Files (x86)\Microsoft Visual Studio 14.0\vc\bin\vcvars32.bat" (
@@ -31,10 +31,10 @@ if not exist "c:\Program Files (x86)\Microsoft Visual Studio 14.0\vc\bin\vcvars3
     pause
     goto EOF
     ) else (
-       echo VS2015 is installed
+       echo MSVC v140/VS2015 C++ build tools ^(v14.00^) is installed
     )
 ) else (
-    echo VS2015 is installed
+    echo MSVC v140/VS2015 C++ build tools ^(v14.00^) is installed
 )
 
 python --version > NUL 2>&1

@@ -99,6 +99,10 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ## Known Bugs 
 
 ## Revision History
+### 20201205
+* update EDK2 source to `edk2-stable202011`
+* NOTE: to run DEBUG build succesfully ASSERTS must be [disabled](overrides\edk2-platforms\PlatformPkgX64.dsc#L499)
+
 ### 20201124
 * fix EDK emulation
 
