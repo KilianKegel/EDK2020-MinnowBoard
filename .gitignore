@@ -10,7 +10,7 @@ vc140.pdb
 ./x64/
 ./Release/
 ./edk2-platforms/
-CdeValidationPkg/library/ 
-./CdeValidationPkg/_CdeMofineLibrary/x64
-./CdeValidationPkg/_CdeMofineLibrary/Win32
+CdePkgValidation/library/ 
+./CdePkgValidation/_CdeMofineLibrary/x64
+./CdePkgValidation/_CdeMofineLibrary/Win32
 CdePkgSrc

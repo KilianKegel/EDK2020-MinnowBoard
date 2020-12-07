@@ -17,7 +17,7 @@ https://github.com/MinnowBoard-org/
 
 ## Introduction **EDK2020-Minnowboard**
 **This **EDK2020-Minnowboard** introduces the [**_CdePkg_**](https://github.com/KilianKegel/CdePkg#cdepkg) and
-the [**_CdeValidationPkg_**](https://github.com/KilianKegel/CdeValidationPkg#cdevalidationpkg) to the
+the [**_CdePkgValidation_**](https://github.com/KilianKegel/CdePkgValidation#CdePkgValidation) to the
 UEFI/Tianocore open source community.**
 
 **EDK2020-Minnowboard** is the Git-*Super-Project* in the [EDK2020-MinnowBoard](https://github.com/KilianKegel/EDK2020-MinnowBoard) project to build the MinnowBoard UEFI BIOS.
@@ -35,12 +35,12 @@ to get the MinnowBoard running with the open source [UEFI BIOS Tianocore\EDK2](h
 The MinnowBoard is the only free available hardware/PC platform to get UEFI Tianocore BIOS running.
 
 **EDK2020-MinnowBoard** is the Git-*Super-Project* to build the MinnowBoard UEFI BIOS and demonstrates
-[**_CdePkg_**](https://github.com/KilianKegel/CdePkg#cdepkg) and [**_CdeValidationPkg_**](https://github.com/KilianKegel/CdeValidationPkg#cdevalidationpkg)
+[**_CdePkg_**](https://github.com/KilianKegel/CdePkg#cdepkg) and [**_CdePkgValidation_**](https://github.com/KilianKegel/CdePkgValidation#CdePkgValidation)
 on real hardware.
 
 ## Goal
 1. 	**The main aspect is, to introduce the [**_CdePkg_**](https://github.com/KilianKegel/CdePkg#cdepkg) and
-	the [**_CdeValidationPkg_**](https://github.com/KilianKegel/CdeValidationPkg#cdevalidationpkg) to the
+	the [**_CdePkgValidation_**](https://github.com/KilianKegel/CdePkgValidation#CdePkgValidation) to the
 	UEFI/Tianocore open source community.**
 
 2. get the MinnowBoard and the EDK2 Emulation (EmulatorPkg) running with the latest released EDK2020 and the latest Visual Studio VS2019 build environment
@@ -84,7 +84,7 @@ EDK2020-MinnowBoard is the Git-[Superproject **EDK2020-MinnowBoard**](https://gi
 
 It includes the *edk2* which is the Git-[Subproject **edk2-vUDK2018**](https://github.com/KilianKegel/edk2-vUDK2018), that in turn
 includes the *Cde*-directories as GIT-[Subproject **CdePkg**](https://github.com/KilianKegel/CdePkg) and 
-GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidationPkg).
+GIT-[Subproject **CdePkgValidation**](https://github.com/KilianKegel/CdePkgValidation).
 
 ## Related Projects
 | related project|annotation|
@@ -94,7 +94,7 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 |[Visual DOS Tools for UEFI Shell](https://github.com/KilianKegel/Visual-DOS-Tools-for-UEFI-Shell#visual-dos-tools-for-uefi-shell)|more command implementation|
 |[Visual HWTools for UEFI Shell](https://github.com/KilianKegel/Visual-HWTools-for-UEFI-Shell#visual-hwtools-for-uefi-shell)|HWTools: PCI- and GPIOSpy for Baytrail. MemSpy for all.|
 |[CdePkg](https://github.com/KilianKegel/CdePkg#cdepkg)|*Torito C Library* redone for UEFI POST usage|
-|[CdeValidationPkg](https://github.com/KilianKegel/CdeValidationPkg#cdevalidationpkg)|Unit tests for *CdePkg*|
+|[CdePkgValidation](https://github.com/KilianKegel/CdePkgValidation#CdePkgValidation)|Unit tests for *CdePkg*|
 
 ## Known Bugs 
 
@@ -177,7 +177,7 @@ GIT-[Subproject **CdeValidationPkg**](https://github.com/KilianKegel/CdeValidati
 ### 20190822
 * place CDE*.SLN solution files into EDK2 directory, to be able to use Visual Studio solutions
   EDK2 directory without MinnowBoard build environment
-* improve CdeValidationPkg
+* improve CdePkgValidation
 
 ### 20190811
 * add validation driver/executables for all `ctype.h`- and `wctype.h`-related functions:

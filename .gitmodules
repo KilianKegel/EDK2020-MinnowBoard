@@ -13,3 +13,6 @@
 [submodule "CdeValidationPkg"]
 	path = CdeValidationPkg
 	url = https://github.com/KilianKegel/CdeValidationPkg.git
+[submodule "CdePkgValidation"]
+	path = CdePkgValidation
+	url = https://github.com/KilianKegel/CdePkgValidation
