@@ -69,6 +69,16 @@ rem ### local tools #######################################################
 rem #######################################################################
 if not exist openssl-1.0.2r-x64_86-win64 (
     powershell "& {[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri "https://indy.fulgan.com/SSL/openssl-1.0.2r-x64_86-win64.zip -OutFile openssl-1.0.2r-x64_86-win64.zip"}"
+
+    if not exist openssl-1.0.2r-x64_86-win64.zip (
+    rem #######################################################################
+    rem ### if https://indy.fulgan.com/SSL/openssl-1.0.2r-x64_86-win64.zip not available
+    rem #######################################################################
+        git clone https://github.com/KilianKegel/openSSLBinary.git
+        move openSSLBinary\openssl-1.0.2r-x64_86-win64.zip .
+        rd /s /q openSSLBinary
+    )    
+
     powershell Expand-Archive openssl-1.0.2r-x64_86-win64.zip)
 )
 if not exist nasm-2.13.03 (
