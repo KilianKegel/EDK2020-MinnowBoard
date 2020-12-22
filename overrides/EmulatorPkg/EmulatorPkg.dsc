@@ -294,22 +294,22 @@
   
   #KGDebug start
   CdePkg/CdeServices/CdeServicesPei.inf
-  #CdePkg/CdeWelcomePei/CdeWelcomePei.inf
-  CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
-
-  CdePkgValidation/HOSTED_ENV/argcv/buildPEI.inf
-  CdePkgValidation/SYSTEM_IF/systeminterfacePEI/buildPEI.inf
-  CdePkgValidation/template/buildPEI.inf
-  CdePkgValidation/TIME_H/clock/buildPEI.inf
-  CdePkgValidation/TIME_H/timehfunctions/buildPEI.inf
-  CdePkgValidation/STRING_H/stringhfunctions/buildPEI.inf
-  CdePkgValidation/WCHAR_H/wcharhfunctions/buildPEI.inf
-  CdePkgValidation/STDIO_H/stdiohfunctions/buildPEI.inf
-  CdePkgValidation/STDLIB_H/stdlibhfunctions/buildPEI.inf
-  CdePkgValidation/CTYPE_H/ctypehfunctions/buildPEI.inf
-  CdePkgValidation/WCTYPE_H/wctypehfunctions/buildPEI.inf
-  CdePkgValidation/ASSERT_H/asserthfunctions/buildPEI.inf
-  CdePkgValidation/LOCALE_H/localehfunctions/buildPEI.inf
+  CdePkg/CdeWelcomePei/CdeWelcomePei.inf
+ # CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
+ #
+ # CdePkgValidation/HOSTED_ENV/argcv/buildPEI.inf
+ # CdePkgValidation/SYSTEM_IF/systeminterfacePEI/buildPEI.inf
+ # CdePkgValidation/template/buildPEI.inf
+ # CdePkgValidation/TIME_H/clock/buildPEI.inf
+ # CdePkgValidation/TIME_H/timehfunctions/buildPEI.inf
+ # CdePkgValidation/STRING_H/stringhfunctions/buildPEI.inf
+ # CdePkgValidation/WCHAR_H/wcharhfunctions/buildPEI.inf
+ # CdePkgValidation/STDIO_H/stdiohfunctions/buildPEI.inf
+ # CdePkgValidation/STDLIB_H/stdlibhfunctions/buildPEI.inf
+ # CdePkgValidation/CTYPE_H/ctypehfunctions/buildPEI.inf
+ # CdePkgValidation/WCTYPE_H/wctypehfunctions/buildPEI.inf
+ # CdePkgValidation/ASSERT_H/asserthfunctions/buildPEI.inf
+ # CdePkgValidation/LOCALE_H/localehfunctions/buildPEI.inf
 #KGDebug end
   
   MdeModulePkg/Universal/PCD/Pei/Pcd.inf  {
@@ -341,22 +341,23 @@
   }
   #KGDebug
   CdePkg/CdeServices/CdeServicesDxe.inf
-  #CdePkg/CdeWelcomeDxe/CdeWelcomeDxe.inf
-  CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
+  CdePkg/CdeWelcomeDxe/CdeWelcomeDxe.inf
 
-  CdePkgValidation/HOSTED_ENV/argcv/buildDXE.inf
-  CdePkgValidation/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf
-  CdePkgValidation/template/buildDXE.inf
-  CdePkgValidation/TIME_H/clock/buildDXE.inf
-  CdePkgValidation/TIME_H/timehfunctions/buildDXE.inf
-  CdePkgValidation/STRING_H/stringhfunctions/buildDXE.inf
-  CdePkgValidation/WCHAR_H/wcharhfunctions/buildDXE.inf
-  CdePkgValidation/STDIO_H/stdiohfunctions/buildDXE.inf
-  CdePkgValidation/STDLIB_H/stdlibhfunctions/buildDXE.inf
-  CdePkgValidation/CTYPE_H/ctypehfunctions/buildDXE.inf
-  CdePkgValidation/WCTYPE_H/wctypehfunctions/buildDXE.inf
-  CdePkgValidation/ASSERT_H/asserthfunctions/buildDXE.inf
-  CdePkgValidation/LOCALE_H/localehfunctions/buildDXE.inf
+ # CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
+ #
+ # CdePkgValidation/HOSTED_ENV/argcv/buildDXE.inf
+ # CdePkgValidation/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf
+ # CdePkgValidation/template/buildDXE.inf
+ # CdePkgValidation/TIME_H/clock/buildDXE.inf
+ # CdePkgValidation/TIME_H/timehfunctions/buildDXE.inf
+ # CdePkgValidation/STRING_H/stringhfunctions/buildDXE.inf
+ # CdePkgValidation/WCHAR_H/wcharhfunctions/buildDXE.inf
+ # CdePkgValidation/STDIO_H/stdiohfunctions/buildDXE.inf
+ # CdePkgValidation/STDLIB_H/stdlibhfunctions/buildDXE.inf
+ # CdePkgValidation/CTYPE_H/ctypehfunctions/buildDXE.inf
+ # CdePkgValidation/WCTYPE_H/wctypehfunctions/buildDXE.inf
+ # CdePkgValidation/ASSERT_H/asserthfunctions/buildDXE.inf
+ # CdePkgValidation/LOCALE_H/localehfunctions/buildDXE.inf
   #KGDebug
 
   MdeModulePkg/Universal/PCD/Dxe/Pcd.inf {
