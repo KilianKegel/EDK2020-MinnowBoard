@@ -342,6 +342,8 @@
   #KGDebug
   CdePkg/CdeServices/CdeServicesDxe.inf
   CdePkg/CdeWelcomeDxe/CdeWelcomeDxe.inf
+  #CdePkg/CdeServices/CdeServicesSmm.inf
+  CdePkg/CdeWelcomeSmm/CdeWelcomeSmm.inf
 
  # CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
  #

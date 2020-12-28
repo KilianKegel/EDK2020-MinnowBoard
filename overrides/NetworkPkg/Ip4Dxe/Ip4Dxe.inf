@@ -111,4 +111,4 @@
   Ip4DxeExtra.uni
 
 [Depex]
-  gCdeDxeProtocolGuid
+  gCdeServicesDxeGuid

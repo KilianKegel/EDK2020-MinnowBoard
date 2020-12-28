@@ -336,43 +336,43 @@ FvNameGuid         = B73FE497-B92E-416e-8326-45AD0D270091
 #KGDebug
 INF  CdePkg/CdeServices/CdeServicesPei.inf
 #INF  CdePkg/CdeWelcomePei/CdeWelcomePei.inf
-INF CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
-INF CdePkg/CdeDiagRTC/buildPEI.inf
-INF CdePkg/CdeDiagRTC/buildPRE.inf
-INF CdePkg/CdeDiagGPIO/buildPRE.inf
-INF CdePkg/CdeDiagGPIO/buildPEI.inf
-#INF CdePkg/CdeDiagEFIVAR/buildPEI.inf
-#INF CdePkg/CdeDiagEFIVAR/buildPRE.inf
-INF CdePkg/CdeDiagDemoDump/buildPEI.inf
-INF CdePkg/CdeDiagDemoDump/buildPRE.inf
-INF CdePkg/CdeDiagTSCSync/buildPEI.inf
-INF CdePkg/CdeDiagTSCSync/buildPRE.inf
-
-#INF  CdePkgValidation/template/buildPEI.inf
-INF  CdePkgValidation/HOSTED_ENV/argcv/buildPRE.inf
-INF  CdePkgValidation/SYSTEM_IF/systeminterfacePEI/buildPRE.inf
-INF  CdePkgValidation/TIME_H/timehfunctions/buildPRE.inf
-INF  CdePkgValidation/STRING_H/stringhfunctions/buildPRE.inf
-INF  CdePkgValidation/WCHAR_H/wcharhfunctions/buildPRE.inf
-INF  CdePkgValidation/STDIO_H/stdiohfunctions/buildPRE.inf
-INF  CdePkgValidation/STDLIB_H/stdlibhfunctions/buildPRE.inf
-INF  CdePkgValidation/CTYPE_H/ctypehfunctions/buildPRE.inf
-INF  CdePkgValidation/WCTYPE_H/wctypehfunctions/buildPRE.inf
-INF  CdePkgValidation/ASSERT_H/asserthfunctions/buildPRE.inf
-INF  CdePkgValidation/LOCALE_H/localehfunctions/buildPRE.inf
-INF  CdePkgValidation/TIME_H/clock/buildPRE.inf
-INF  CdePkgValidation/HOSTED_ENV/argcv/buildPEI.inf
-INF  CdePkgValidation/SYSTEM_IF/systeminterfacePEI/buildPEI.inf
-INF  CdePkgValidation/TIME_H/timehfunctions/buildPEI.inf
-INF  CdePkgValidation/STRING_H/stringhfunctions/buildPEI.inf
-INF  CdePkgValidation/WCHAR_H/wcharhfunctions/buildPEI.inf
-INF  CdePkgValidation/STDIO_H/stdiohfunctions/buildPEI.inf
-INF  CdePkgValidation/STDLIB_H/stdlibhfunctions/buildPEI.inf
-INF  CdePkgValidation/CTYPE_H/ctypehfunctions/buildPEI.inf
-INF  CdePkgValidation/WCTYPE_H/wctypehfunctions/buildPEI.inf
-INF  CdePkgValidation/ASSERT_H/asserthfunctions/buildPEI.inf
-INF  CdePkgValidation/LOCALE_H/localehfunctions/buildPEI.inf
-INF  CdePkgValidation/TIME_H/clock/buildPEI.inf
+#INF CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
+#INF CdePkg/CdeDiagRTC/buildPEI.inf
+#INF CdePkg/CdeDiagRTC/buildPRE.inf
+#INF CdePkg/CdeDiagGPIO/buildPRE.inf
+#INF CdePkg/CdeDiagGPIO/buildPEI.inf
+##INF CdePkg/CdeDiagEFIVAR/buildPEI.inf
+##INF CdePkg/CdeDiagEFIVAR/buildPRE.inf
+#INF CdePkg/CdeDiagDemoDump/buildPEI.inf
+#INF CdePkg/CdeDiagDemoDump/buildPRE.inf
+#INF CdePkg/CdeDiagTSCSync/buildPEI.inf
+#INF CdePkg/CdeDiagTSCSync/buildPRE.inf
+#
+##INF  CdePkgValidation/template/buildPEI.inf
+#INF  CdePkgValidation/HOSTED_ENV/argcv/buildPRE.inf
+#INF  CdePkgValidation/SYSTEM_IF/systeminterfacePEI/buildPRE.inf
+#INF  CdePkgValidation/TIME_H/timehfunctions/buildPRE.inf
+#INF  CdePkgValidation/STRING_H/stringhfunctions/buildPRE.inf
+#INF  CdePkgValidation/WCHAR_H/wcharhfunctions/buildPRE.inf
+#INF  CdePkgValidation/STDIO_H/stdiohfunctions/buildPRE.inf
+#INF  CdePkgValidation/STDLIB_H/stdlibhfunctions/buildPRE.inf
+#INF  CdePkgValidation/CTYPE_H/ctypehfunctions/buildPRE.inf
+#INF  CdePkgValidation/WCTYPE_H/wctypehfunctions/buildPRE.inf
+#INF  CdePkgValidation/ASSERT_H/asserthfunctions/buildPRE.inf
+#INF  CdePkgValidation/LOCALE_H/localehfunctions/buildPRE.inf
+#INF  CdePkgValidation/TIME_H/clock/buildPRE.inf
+#INF  CdePkgValidation/HOSTED_ENV/argcv/buildPEI.inf
+#INF  CdePkgValidation/SYSTEM_IF/systeminterfacePEI/buildPEI.inf
+#INF  CdePkgValidation/TIME_H/timehfunctions/buildPEI.inf
+#INF  CdePkgValidation/STRING_H/stringhfunctions/buildPEI.inf
+#INF  CdePkgValidation/WCHAR_H/wcharhfunctions/buildPEI.inf
+#INF  CdePkgValidation/STDIO_H/stdiohfunctions/buildPEI.inf
+#INF  CdePkgValidation/STDLIB_H/stdlibhfunctions/buildPEI.inf
+#INF  CdePkgValidation/CTYPE_H/ctypehfunctions/buildPEI.inf
+#INF  CdePkgValidation/WCTYPE_H/wctypehfunctions/buildPEI.inf
+#INF  CdePkgValidation/ASSERT_H/asserthfunctions/buildPEI.inf
+#INF  CdePkgValidation/LOCALE_H/localehfunctions/buildPEI.inf
+#INF  CdePkgValidation/TIME_H/clock/buildPEI.inf
 #
 # ATTENTION: CdeUnblockMemInit has to be the last driver in the list to be started as Cde-PRE-memory driver
 #
@@ -447,27 +447,29 @@ FILE FREEFORM = C3E36D09-8294-4b97-A857-D5288FE33E28 {
 
 #KGDebug
 INF  CdePkg/CdeServices/CdeServicesDxe.inf
-#INF  CdePkg/CdeWelcomeDxe/CdeWelcomeDxe.inf
+INF  CdePkg/CdeServices/CdeServicesSmm.inf
+INF  CdePkg/CdeWelcomeDxe/CdeWelcomeDxe.inf
+INF  CdePkg/CdeWelcomeSmm/CdeWelcomeSmm.inf
 INF  CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
-INF  CdePkg/CdeDiagRTC/buildDXE.inf
-INF  CdePkg/CdeDiagGPIO/buildDXE.inf
-INF  CdePkg/CdeDiagEFIVAR/buildDXE.inf
-INF  CdePkg/CdeDiagDemoDump/buildDXE.inf
-INF  CdePkg/CdeDiagTSCSync/buildDXE.inf
-
-INF  CdePkgValidation/HOSTED_ENV/argcv/buildDXE.inf
-INF  CdePkgValidation/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf
-INF  CdePkgValidation/template/buildDXE.inf
-INF  CdePkgValidation/TIME_H/timehfunctions/buildDXE.inf
-INF  CdePkgValidation/STRING_H/stringhfunctions/buildDXE.inf
-INF  CdePkgValidation/WCHAR_H/wcharhfunctions/buildDXE.inf
-INF  CdePkgValidation/STDIO_H/stdiohfunctions/buildDXE.inf
-INF  CdePkgValidation/STDLIB_H/stdlibhfunctions/buildDXE.inf
-INF  CdePkgValidation/CTYPE_H/ctypehfunctions/buildDXE.inf
-INF  CdePkgValidation/WCTYPE_H/wctypehfunctions/buildDXE.inf
-INF  CdePkgValidation/ASSERT_H/asserthfunctions/buildDXE.inf
-INF  CdePkgValidation/LOCALE_H/localehfunctions/buildDXE.inf
-INF  CdePkgValidation/TIME_H/clock/buildDXE.inf
+#INF  CdePkg/CdeDiagRTC/buildDXE.inf
+#INF  CdePkg/CdeDiagGPIO/buildDXE.inf
+#INF  CdePkg/CdeDiagEFIVAR/buildDXE.inf
+#INF  CdePkg/CdeDiagDemoDump/buildDXE.inf
+#INF  CdePkg/CdeDiagTSCSync/buildDXE.inf
+#
+#INF  CdePkgValidation/HOSTED_ENV/argcv/buildDXE.inf
+#INF  CdePkgValidation/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf
+#INF  CdePkgValidation/template/buildDXE.inf
+#INF  CdePkgValidation/TIME_H/timehfunctions/buildDXE.inf
+#INF  CdePkgValidation/STRING_H/stringhfunctions/buildDXE.inf
+#INF  CdePkgValidation/WCHAR_H/wcharhfunctions/buildDXE.inf
+#INF  CdePkgValidation/STDIO_H/stdiohfunctions/buildDXE.inf
+#INF  CdePkgValidation/STDLIB_H/stdlibhfunctions/buildDXE.inf
+#INF  CdePkgValidation/CTYPE_H/ctypehfunctions/buildDXE.inf
+#INF  CdePkgValidation/WCTYPE_H/wctypehfunctions/buildDXE.inf
+#INF  CdePkgValidation/ASSERT_H/asserthfunctions/buildDXE.inf
+#INF  CdePkgValidation/LOCALE_H/localehfunctions/buildDXE.inf
+#INF  CdePkgValidation/TIME_H/clock/buildDXE.inf
 #KGDebug
 
 INF MdeModulePkg/Core/Dxe/DxeMain.inf

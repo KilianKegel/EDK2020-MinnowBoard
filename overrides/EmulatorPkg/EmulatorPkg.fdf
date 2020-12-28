@@ -154,6 +154,8 @@ INF  MdeModulePkg/Core/DxeIplPeim/DxeIpl.inf
 #KGDebug
 INF  CdePkg/CdeServices/CdeServicesDxe.inf
 INF  CdePkg/CdeWelcomeDxe/CdeWelcomeDxe.inf
+#INF  CdePkg/CdeServices/CdeServicesSmm.inf
+#INF  CdePkg/CdeWelcomeSmm/CdeWelcomeSmm.inf
 #INF  CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
 #
 #INF  CdePkgValidation/HOSTED_ENV/argcv/buildDXE.inf
