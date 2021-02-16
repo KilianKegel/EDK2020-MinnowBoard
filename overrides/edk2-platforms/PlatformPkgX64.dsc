@@ -946,6 +946,7 @@
   CdePkgValidation/WCTYPE_H/wctypehfunctions/buildDXE.inf
   CdePkgValidation/ASSERT_H/asserthfunctions/buildDXE.inf
   CdePkgValidation/LOCALE_H/localehfunctions/buildDXE.inf
+  overrides/GigUndiDxe/GigUndiDxe/GigUndiDxe.inf
   #KGDebug
 
   MdeModulePkg/Core/Dxe/DxeMain.inf {

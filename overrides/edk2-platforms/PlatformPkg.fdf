@@ -468,6 +468,7 @@ INF  CdePkgValidation/WCTYPE_H/wctypehfunctions/buildDXE.inf
 INF  CdePkgValidation/ASSERT_H/asserthfunctions/buildDXE.inf
 INF  CdePkgValidation/LOCALE_H/localehfunctions/buildDXE.inf
 INF  CdePkgValidation/TIME_H/clock/buildDXE.inf
+INF  overrides/GigUndiDxe/GigUndiDxe/GigUndiDxe.inf
 #KGDebug
 
 INF MdeModulePkg/Core/Dxe/DxeMain.inf
