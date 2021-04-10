@@ -8,12 +8,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D50FA0CE-6F63-496A-AEFE-CC665E775B50}"
 	ProjectSection(SolutionItems) = preProject
 		CdePkg\CdeLib\CdeLib.inf = CdePkg\CdeLib\CdeLib.inf
+		CdePkg\CdeLib\CdeLib.mak = CdePkg\CdeLib\CdeLib.mak
 		CdePkg\CdePkg.dec = CdePkg\CdePkg.dec
 		CdePkg\CdePkg.dsc = CdePkg\CdePkg.dsc
 		CdePkg\CdeServices\CdeServicesDxe.inf = CdePkg\CdeServices\CdeServicesDxe.inf
 		CdePkg\CdeServices\CdeServicesPei.inf = CdePkg\CdeServices\CdeServicesPei.inf
 		overrides\EmulatorPkg\EmulatorPkg.dsc = overrides\EmulatorPkg\EmulatorPkg.dsc
 		overrides\EmulatorPkg\EmulatorPkg.fdf = overrides\EmulatorPkg\EmulatorPkg.fdf
+		CdePkg\CdeLib\FeedTheBuildProcess.c = CdePkg\CdeLib\FeedTheBuildProcess.c
 		CdePkg\implemented.md = CdePkg\implemented.md
 		overrides\edk2-platforms\PlatformPkg.fdf = overrides\edk2-platforms\PlatformPkg.fdf
 		overrides\edk2-platforms\PlatformPkgX64.dsc = overrides\edk2-platforms\PlatformPkgX64.dsc

@@ -13,14 +13,15 @@
 ##
 
 [Defines]
-  INF_VERSION                    = 0x00010005
-  BASE_NAME                      = Ip4Dxe
-  MODULE_UNI_FILE                = Ip4Dxe.uni
-  FILE_GUID                      = 9FB1A1F3-3B71-4324-B39A-745CBB015FFF
-  MODULE_TYPE                    = UEFI_DRIVER
-  VERSION_STRING                 = 1.0
-  ENTRY_POINT                    = _MainEntryPointDxe
-  UNLOAD_IMAGE                   = NetLibDefaultUnload
+    INF_VERSION         = 0x00010005
+    BASE_NAME           = Ip4Dxe
+    MODULE_UNI_FILE     = Ip4Dxe.uni
+    FILE_GUID           = 9FB1A1F3-3B71-4324-B39A-745CBB015FFF
+    MODULE_TYPE         = UEFI_DRIVER
+    VERSION_STRING      = 1.0
+    ENTRY_POINT         = _MainEntryPointDxe
+    IMAGE_ENTRY_POINT   = _ovrdCdeImageEntryPointDxe
+    UNLOAD_IMAGE        = NetLibDefaultUnload
 
 #
 # The following information is for reference only and not required by the build tools.
