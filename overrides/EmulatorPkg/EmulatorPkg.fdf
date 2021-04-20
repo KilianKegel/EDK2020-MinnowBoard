@@ -115,6 +115,9 @@ APRIORI DXE {
   INF  MdeModulePkg/Universal/Metronome/Metronome.inf
   }
 #KGDebug
+
+INF CdePkg/CdeAppShell/buildShell.inf
+
 INF  CdePkg/CdeServices/CdeServicesPei.inf
 #INF  CdePkg/CdeWelcomePei/CdeWelcomePei.inf
 INF  CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf

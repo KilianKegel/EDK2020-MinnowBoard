@@ -370,7 +370,9 @@
       DebugLib|MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
       SerialPortLib|EmulatorPkg/Library/DxeEmuStdErrSerialPortLib/DxeEmuStdErrSerialPortLib.inf
   }
-
+  
+  CdePkg/CdeAppShell/buildShell.inf
+  
   MdeModulePkg/Universal/Metronome/Metronome.inf
   EmulatorPkg/RealTimeClockRuntimeDxe/RealTimeClock.inf
   EmulatorPkg/ResetRuntimeDxe/Reset.inf
