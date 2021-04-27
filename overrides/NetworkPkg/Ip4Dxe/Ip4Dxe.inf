@@ -20,7 +20,7 @@
     MODULE_TYPE         = UEFI_DRIVER
     VERSION_STRING      = 1.0
     ENTRY_POINT         = _MainEntryPointDxe
-    IMAGE_ENTRY_POINT   = _ovrdCdeImageEntryPointDxe
+    IMAGE_ENTRY_POINT   = __cdeImageEntryPointDxe
     UNLOAD_IMAGE        = NetLibDefaultUnload
 
 #

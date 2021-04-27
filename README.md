@@ -99,6 +99,20 @@ GIT-[Subproject **CdePkgValidation**](https://github.com/KilianKegel/CdePkgValid
 ## Known Bugs 
 
 ## Revision History
+### 20210427
+* source tree redesign
+* torito C library redesign to coexist with / replace EDK2 driver functions
+* configure CdePkg to support original tianocore DEBUG traces
+* extend Microsft intrinsic __acrt_iob_func() to support variable length I/O buffer count
+* improve EDK2 emulator support:
+  1. check privileg level before _enable() and _disable()
+  2. provide BREAKPOINT entries __cdeImageEntryPointPeiINT3(), __cdeImageEntryPointDxeINT3()
+* remove dependancy from 'LoadOptions'
+  CdePkg based drivers can start w/o LoadOptions and just get argv[0], argc == 1, if the LoadfOptions driver is not present in the system
+* add missing UEFI SHELL Emulation support
+* minor face lifts
+  1. move forward to better module naming scheme with prefix '__cde'
+
 ### 20201205
 * update EDK2 source to [`edk2-stable202011`](https://github.com/tianocore/edk2/releases/tag/edk2-stable202011)
 * NOTE: to run DEBUG build succesfully ASSERTS must be [disabled](https://github.com/KilianKegel/EDK2020-MinnowBoard/blob/master/overrides/edk2-platforms/PlatformPkgX64.dsc#L498)
