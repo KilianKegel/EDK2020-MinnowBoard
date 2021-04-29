@@ -99,6 +99,9 @@ GIT-[Subproject **CdePkgValidation**](https://github.com/KilianKegel/CdePkgValid
 ## Known Bugs 
 
 ## Revision History
+### 20210429
+* remove .xdata and .pdata sections ($unwind$ and $pdata$ symbols) from .OBJ before binding the library
+  
 ### 20210427
 * source tree redesign
 * torito C library redesign to coexist with / replace EDK2 driver functions
