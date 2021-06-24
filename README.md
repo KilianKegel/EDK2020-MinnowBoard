@@ -99,6 +99,13 @@ GIT-[Subproject **CdePkgValidation**](https://github.com/KilianKegel/CdePkgValid
 ## Known Bugs 
 
 ## Revision History
+### 20210624
+* enable Tianocore DEBUG macro for CDE-based/injected drivers to allow usage of
+  DEBUG traces with RELEASE BIOS versions
+* add support for BIOS vendor (A)
+    * adjust include path
+    * provide component description and configuration files
+
 ### 20210429
 * remove .xdata and .pdata sections ($unwind$ and $pdata$ symbols) from .OBJ before binding the library
   

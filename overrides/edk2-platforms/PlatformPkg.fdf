@@ -386,6 +386,9 @@ INF MdeModulePkg/Universal/FaultTolerantWritePei/FaultTolerantWritePei.inf
 INF MdeModulePkg/Universal/Variable/Pei/VariablePei.inf
 
 INF Vlv2TbltDevicePkg/PlatformPei/PlatformPei.inf
+#kgtest
+INF overrides/UefiCpuPkg/CpuIoPei/CpuIoPei.inf
+
 
 INF RuleOverride = BINARY Vlv2SocBinPkg/$(DXE_ARCHITECTURE)$(TARGET)/IA32/SeCUma.inf
 

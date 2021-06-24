@@ -869,7 +869,7 @@
   Vlv2SocBinPkg/$(DXE_ARCHITECTURE)$(TARGET)/IA32/PeiSmmControl.inf
   MdeModulePkg/Universal/PCD/Pei/Pcd.inf
   Vlv2SocBinPkg/$(DXE_ARCHITECTURE)$(TARGET)/IA32/CpuPeim.inf
-  UefiCpuPkg/CpuIoPei/CpuIoPei.inf
+  overrides/UefiCpuPkg/CpuIoPei/CpuIoPei.inf
   UefiCpuPkg/Universal/Acpi/S3Resume2Pei/S3Resume2Pei.inf
   UefiCpuPkg/PiSmmCommunication/PiSmmCommunicationPei.inf
 

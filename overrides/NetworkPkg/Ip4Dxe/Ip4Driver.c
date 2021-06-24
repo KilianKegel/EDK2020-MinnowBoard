@@ -7,6 +7,7 @@ Copyright (c) 2005 - 2019, Intel Corporation. All rights reserved.<BR>
 SPDX-License-Identifier: BSD-2-Clause-Patent
 
 **/
+#define NTIANOCORETRACE
 
 #include "Ip4Impl.h"
 #include <stdio.h>      // include if required
@@ -94,6 +95,9 @@ INT32 main(INT32 Argc, CHAR8 **Argv)
   CDEMOFINE/*MOduleFIleliNE*/((MFNINF(1) "##################################################################\n"));
   CDEMOFINE/*MOduleFIleliNE*/((MFNINF(1) "########################## Welcome to the CdePkg Library for UEFI POST drivers\n"));
   CDEMOFINE/*MOduleFIleliNE*/((MFNINF(1) "##################################################################\n"));
+  DEBUG((DEBUG_INFO, "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"));
+  DEBUG((DEBUG_WARN, "$$$$$$$$$$$$$$$$$$$$$$$$$$ Welcome from the TIANOCORE DEBUG MACRO \n"));
+  DEBUG((DEBUG_ERROR, "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"));
   
 
   EfiCreateProtocolNotifyEvent (
