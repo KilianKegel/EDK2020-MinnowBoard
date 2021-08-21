@@ -335,19 +335,10 @@ FvNameGuid         = B73FE497-B92E-416e-8326-45AD0D270091
 
 #KGDebug
 INF  CdePkg/CdeServices/CdeServicesPei.inf
-INF  CdePkg/CdeWelcomePei/CdeWelcomePei.inf
+INF CdePkg/CdeWelcome/buildPRE.inf
+INF CdePkg/CdeWelcome/buildPEI.inf
 INF CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
-#INF CdePkg/CdeDiagRTC/buildPEI.inf
-#INF CdePkg/CdeDiagRTC/buildPRE.inf
-#INF CdePkg/CdeDiagGPIO/buildPRE.inf
-#INF CdePkg/CdeDiagGPIO/buildPEI.inf
-###INF CdePkg/CdeDiagEFIVAR/buildPEI.inf
-###INF CdePkg/CdeDiagEFIVAR/buildPRE.inf
-#INF CdePkg/CdeDiagDemoDump/buildPEI.inf
-#INF CdePkg/CdeDiagDemoDump/buildPRE.inf
-#INF CdePkg/CdeDiagTSCSync/buildPEI.inf
-#INF CdePkg/CdeDiagTSCSync/buildPRE.inf
-#
+
 ##INF  CdePkgValidation/template/buildPEI.inf
 #INF  CdePkgValidation/HOSTED_ENV/argcv/buildPRE.inf
 #INF  CdePkgValidation/SYSTEM_IF/systeminterfacePEI/buildPRE.inf
@@ -449,15 +440,12 @@ FILE FREEFORM = C3E36D09-8294-4b97-A857-D5288FE33E28 {
   #
 
 #KGDebug
-INF  CdePkg/CdeServices/CdeServicesDxe.inf
-INF  CdePkg/CdeWelcomeDxe/CdeWelcomeDxe.inf
-#INF  CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
-#INF  CdePkg/CdeDiagRTC/buildDXE.inf
-#INF  CdePkg/CdeDiagGPIO/buildDXE.inf
-#INF  CdePkg/CdeDiagEFIVAR/buildDXE.inf
-#INF  CdePkg/CdeDiagDemoDump/buildDXE.inf
-#INF  CdePkg/CdeDiagTSCSync/buildDXE.inf
-#
+INF CdePkg/CdeServices/CdeServicesSmm.inf
+INF CdePkg/CdeServices/CdeServicesDxe.inf
+INF CdePkg/CdeWelcome/buildDXE.inf
+INF CdePkg/CdeWelcome/buildSMM.inf
+INF CdePkg/CdeWelcome/buildAPP.inf
+
 #INF  CdePkgValidation/HOSTED_ENV/argcv/buildDXE.inf
 #INF  CdePkgValidation/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf
 #INF  CdePkgValidation/template/buildDXE.inf
@@ -683,7 +671,7 @@ INF FatPkg/EnhancedFatDxe/Fat.inf
 #
 # UEFI Shell
 #
-#INF  ShellPkg/Application/Shell/Shell.inf
+INF  ShellPkg/Application/Shell/Shell.inf
 
 #
 # dp command

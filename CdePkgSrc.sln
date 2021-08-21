@@ -17,7 +17,18 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeLib", "CdePkgSrc\CdeLib\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E2E08017-93A8-431F-A899-7C340F365F3E}"
 	ProjectSection(SolutionItems) = preProject
+		CdePkgSrc\clean.bat = CdePkgSrc\clean.bat
+		CdePkgSrc\depenancy.txt = CdePkgSrc\depenancy.txt
+		CdePkgSrc\CdeLib\Tools\PostBuild.c = CdePkgSrc\CdeLib\Tools\PostBuild.c
+		CdePkgSrc\CdeLib\Tools\PostBuildEvent.bat = CdePkgSrc\CdeLib\Tools\PostBuildEvent.bat
+		CdePkgSrc\CdeLib\Tools\PreBuild.c = CdePkgSrc\CdeLib\Tools\PreBuild.c
+		CdePkgSrc\CdeLib\Tools\PreLinkEvent.bat = CdePkgSrc\CdeLib\Tools\PreLinkEvent.bat
 		CdePkgSrc\README.md = CdePkgSrc\README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CdeServicesSmm", "CdePkgSrc\CdeServicesSmm\CdeServicesSmm.vcxproj", "{283D2619-E2D2-4156-B46C-18D23CDA5FBF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
 	EndProjectSection
 EndProject
 Global
@@ -37,6 +48,10 @@ Global
 		{8C250C8A-C234-450D-83ED-F0C898E1A739}.Release|x64.Build.0 = Release|x64
 		{8C250C8A-C234-450D-83ED-F0C898E1A739}.Release|x86.ActiveCfg = Release|Win32
 		{8C250C8A-C234-450D-83ED-F0C898E1A739}.Release|x86.Build.0 = Release|Win32
+		{283D2619-E2D2-4156-B46C-18D23CDA5FBF}.Release|x64.ActiveCfg = Release|x64
+		{283D2619-E2D2-4156-B46C-18D23CDA5FBF}.Release|x64.Build.0 = Release|x64
+		{283D2619-E2D2-4156-B46C-18D23CDA5FBF}.Release|x86.ActiveCfg = Release|Win32
+		{283D2619-E2D2-4156-B46C-18D23CDA5FBF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

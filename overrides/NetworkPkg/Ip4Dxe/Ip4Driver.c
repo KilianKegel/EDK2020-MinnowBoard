@@ -7,15 +7,16 @@ Copyright (c) 2005 - 2019, Intel Corporation. All rights reserved.<BR>
 SPDX-License-Identifier: BSD-2-Clause-Patent
 
 **/
-#define NTIANOCORETRACE
-
+//#define CDE_DONT_OVERRIDE_DEBUG
 #include "Ip4Impl.h"
 #include <stdio.h>      // include if required
 #include <stdlib.h>     // include if required
 #include <string.h>     // include if required
 #include <ctype.h>      // include if required
 #include <wctype.h>     // include if required
+
 #include <CDE.h>        // include to have CDE base definitions, e.g. CDEMOFINE()
+
 extern char *strefierror(EFI_STATUS errcode);   // declare ANSI C strerror() counterpart for UEFI strefierror()
 
 EFI_DRIVER_BINDING_PROTOCOL gIp4DriverBinding = {
@@ -579,7 +580,9 @@ Ip4DriverBindingStart (
   Ip4Cfg2  = NULL;
   DataItem = NULL;
   CDEMOFINE((MFNINF(1) "Hello world\n"));
+  CDEMOFINE((MFNINF(1) "Hello world2\n"));
   printf("Welcome, to BDS phase...\n");
+  CDEMOFINE((MFNINF(1) "Hello world3\n"));
 
   //
   // Test for the Ip4 service binding protocol

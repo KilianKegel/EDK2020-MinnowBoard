@@ -294,8 +294,10 @@
   
   #KGDebug start
   CdePkg/CdeServices/CdeServicesPei.inf
-  CdePkg/CdeWelcomePei/CdeWelcomePei.inf
   CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
+
+  CdePkg/CdeWelcome/buildPRE.inf
+  CdePkg/CdeWelcome/buildPEI.inf
 
   CdePkgValidation/HOSTED_ENV/argcv/buildPEI.inf
   CdePkgValidation/SYSTEM_IF/systeminterfacePEI/buildPEI.inf
@@ -341,8 +343,11 @@
   }
   #KGDebug
   CdePkg/CdeServices/CdeServicesDxe.inf
-  CdePkg/CdeWelcomeDxe/CdeWelcomeDxe.inf
   CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
+
+  CdePkg/CdeWelcome/buildDXE.inf
+  #CdePkg/CdeWelcome/buildSMM.inf
+  CdePkg/CdeWelcome/buildAPP.inf
 
   CdePkgValidation/HOSTED_ENV/argcv/buildDXE.inf
   CdePkgValidation/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf
