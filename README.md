@@ -99,6 +99,14 @@ GIT-[Subproject **CdePkgValidation**](https://github.com/KilianKegel/CdePkgValid
 ## Known Bugs 
 
 ## Revision History
+### 20210912
+* initial version of *TORO C LIBRARY* (`toroC64.lib` and `toroC32.lib`)
+* *TORITO C LIBRARY* is _discontinued_ from now on
+* add Microsoft C Library functions for UEFIShell applications only
+  - `_findfirst()`
+  - `_findnext()`
+  - `_findclose()`
+
 ### 20210624
 * enable Tianocore DEBUG macro for CDE-based/injected drivers to allow usage of
   DEBUG traces with RELEASE BIOS versions

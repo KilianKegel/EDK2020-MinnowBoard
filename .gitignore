@@ -14,3 +14,4 @@ CdePkgValidation/library/
 ./CdePkgValidation/_CdeMofineLibrary/x64
 ./CdePkgValidation/_CdeMofineLibrary/Win32
 CdePkgSrc
+CdePkgTest
