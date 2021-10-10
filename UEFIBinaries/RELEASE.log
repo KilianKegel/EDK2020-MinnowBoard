@@ -3,7 +3,7 @@
 
 
 ----------------
-(null)//t:\edk2020-minnowboard20210624_23\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
+(null)//a:\edk2020-minnowboard20210912\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
  Parameters are typechecked at build time by compilers from GNU, MICROSOFT and others during 2015 to 2021 
 Printing 256 bytes of initilaized memory in a "dump"-format:
 0000: 00 01 02 03 04 05 06 07 - 08 09 0A 0B 0C 0D 0E 0F
@@ -27,7 +27,7 @@ Printing 256 bytes of initilaized memory in a "dump"-format:
 
 
 ----------------
-cdeWelcomePei//t:\edk2020-minnowboard20210624_23\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
+cdeWelcomePei//a:\edk2020-minnowboard20210912\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
  Parameters are typechecked at build time by compilers from GNU, MICROSOFT and others during 2015 to 2021 
 Printing 256 bytes of initilaized memory in a "dump"-format:
 0000: 00 01 02 03 04 05 06 07 - 08 09 0A 0B 0C 0D 0E 0F
@@ -47,15 +47,15 @@ Printing 256 bytes of initilaized memory in a "dump"-format:
 00E0: E0 E1 E2 E3 E4 E5 E6 E7 - E8 E9 EA EB EC ED EE EF
 00F0: F0 F1 F2 F3 F4 F5 F6 F7 - F8 F9 FA FB FC FD FE FF
 3s...      2s...      1s...      0s...                 
-CpuIoPei t:\edk2020-minnowboard20210624_23\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(921)main()0000010565 INFO>WELCOME TO THE JUNGLE
-CpuIoPei t:\edk2020-minnowboard20210624_23\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(891)CpuIoInitialize()0000010581 DEBUG_INFO>welcome to the jungle from CpuIoPei
-CpuIoPei t:\edk2020-minnowboard20210624_23\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(921)main()0000010601 INFO>WELCOME TO THE JUNGLE
-CpuIoPei t:\edk2020-minnowboard20210624_23\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(891)CpuIoInitialize()0000010617 DEBUG_INFO>welcome to the jungle from CpuIoPei
-CpuIoPei t:\edk2020-minnowboard20210624_23\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(907)CpuIoInitialize()0000010637 DEBUG_INFO>CpuIO PPI has been loaded into memory.  Reinstalled PPI=0x7a60e090
+CpuIoPei a:\edk2020-minnowboard20210912\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(921)main()0000010574 INFO>WELCOME TO THE JUNGLE
+CpuIoPei a:\edk2020-minnowboard20210912\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(891)CpuIoInitialize()0000010589 DEBUG_INFO>welcome to the jungle from CpuIoPei
+CpuIoPei a:\edk2020-minnowboard20210912\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(921)main()0000010609 INFO>WELCOME TO THE JUNGLE
+CpuIoPei a:\edk2020-minnowboard20210912\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(891)CpuIoInitialize()0000010625 DEBUG_INFO>welcome to the jungle from CpuIoPei
+CpuIoPei a:\edk2020-minnowboard20210912\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(907)CpuIoInitialize()0000010644 DEBUG_INFO>CpuIO PPI has been loaded into memory.  Reinstalled PPI=0x7a60d080
 
 
 ----------------
-cdeWelcomeDxe//t:\edk2020-minnowboard20210624_23\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
+cdeWelcomeDxe//a:\edk2020-minnowboard20210912\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
  Parameters are typechecked at build time by compilers from GNU, MICROSOFT and others during 2015 to 2021 
 Printing 256 bytes of initilaized memory in a "dump"-format:
 0000: 00 01 02 03 04 05 06 07 - 08 09 0A 0B 0C 0D 0E 0F
@@ -78,7 +78,7 @@ Printing 256 bytes of initilaized memory in a "dump"-format:
 
 
 ----------------
-cdeWelcomeSmm//t:\edk2020-minnowboard20210624_23\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
+cdeWelcomeSmm//a:\edk2020-minnowboard20210912\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
  Parameters are typechecked at build time by compilers from GNU, MICROSOFT and others during 2015 to 2021 
 Printing 256 bytes of initilaized memory in a "dump"-format:
 0000: 00 01 02 03 04 05 06 07 - 08 09 0A 0B 0C 0D 0E 0F
@@ -98,37 +98,37 @@ Printing 256 bytes of initilaized memory in a "dump"-format:
 00E0: E0 E1 E2 E3 E4 E5 E6 E7 - E8 E9 EA EB EC ED EE EF
 00F0: F0 F1 F2 F3 F4 F5 F6 F7 - F8 F9 FA FB FC FD FE FF
 3s...      2s...      1s...      0s...                 
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(96)main()0000008854 INFO>##################################################################
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(97)main()0000008881 INFO>########################## Welcome to the CdePkg Library for UEFI POST drivers
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(98)main()0000008910 INFO>##################################################################
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(99)main()0000008936 DEBUG_INFO>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(100)main()0000008964 DEBUG_WARN>$$$$$$$$$$$$$$$$$$$$$$$$$$ Welcome from the TIANOCORE DEBUG MACRO 
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(101)main()0000008992 DEBUG_ERROR>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(582)Ip4DriverBindingStart()0000009207 INFO>Hello world
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(583)Ip4DriverBindingStart()0000009802 INFO>Hello world2
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(96)main()0000008853 INFO>##################################################################
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(97)main()0000008874 INFO>########################## Welcome to the CdePkg Library for UEFI POST drivers
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(98)main()0000008895 INFO>##################################################################
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(99)main()0000008916 DEBUG_INFO>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(100)main()0000008937 DEBUG_WARN>$$$$$$$$$$$$$$$$$$$$$$$$$$ Welcome from the TIANOCORE DEBUG MACRO 
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(101)main()0000008958 DEBUG_ERROR>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(582)Ip4DriverBindingStart()0000009135 INFO>Hello world
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(583)Ip4DriverBindingStart()0000009490 INFO>Hello world2
 Welcome, to BDS phase...
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(585)Ip4DriverBindingStart()0000009827 INFO>Hello world3
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(598)Ip4DriverBindingStart()0000009850 INFO>Status == 0000000000000003, Unsupported
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(582)Ip4DriverBindingStart()0000009994 INFO>Hello world
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(583)Ip4DriverBindingStart()0000010017 INFO>Hello world2
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(585)Ip4DriverBindingStart()0000009510 INFO>Hello world3
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(598)Ip4DriverBindingStart()0000009527 INFO>Status == 0000000000000003, Unsupported
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(582)Ip4DriverBindingStart()0000012314 INFO>Hello world
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(583)Ip4DriverBindingStart()0000012331 INFO>Hello world2
 Welcome, to BDS phase...
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(585)Ip4DriverBindingStart()0000010042 INFO>Hello world3
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(598)Ip4DriverBindingStart()0000010065 INFO>Status == 0000000000000000, Success
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(585)Ip4DriverBindingStart()0000012351 INFO>Hello world3
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(598)Ip4DriverBindingStart()0000012368 INFO>Status == 0000000000000000, Success
 Press F7 for BootMenu!
 **  WARNING: Test Key is used.  **
 UEFI Interactive Shell v2.2
 EDK II
 UEFI v2.70 (EDK II, 0x00010000)
 Mapping table
-      FS0: Alias(s):HD0a0:;BLK0:
-          PciRoot(0x0)/Pci(0x14,0x0)/USB(0x0,0x0)
+      FS0: Alias(s):HD0b0d0:;BLK0:
+          PciRoot(0x0)/Pci(0x14,0x0)/USB(0x1,0x0)/USB(0x3,0x0)
 Press ESC in 5 seconds to skip startup.nsh or any other key to continue.Press ESC in 4 seconds to skip startup.nsh or any other key to continue.Press ESC in 3 seconds to skip startup.nsh or any other key to continue.Press ESC in 2 seconds to skip startup.nsh or any other key to continue.Press ESC in 1 seconds to skip startup.nsh or any other key to continue.
-Shell> FS0:
-FS0:\> CDEWELCOMEAPP.EFI
+Shell> fs0:
+FS0:\> cdewelcomeapp.efi
 
 
 ----------------
-CDEWELCOMEAPP.EFI//t:\edk2020-minnowboard20210624_23\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
+cdewelcomeapp.efi//a:\edk2020-minnowboard20210912\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
  Parameters are typechecked at build time by compilers from GNU, MICROSOFT and others during 2015 to 2021 
 Printing 256 bytes of initilaized memory in a "dump"-format:
 0000: 00 01 02 03 04 05 06 07 - 08 09 0A 0B 0C 0D 0E 0F

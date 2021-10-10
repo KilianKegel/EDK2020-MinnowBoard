@@ -3,7 +3,7 @@
 
 
 ----------------
-(null)//t:\edk2020-minnowboard20210624_23\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
+(null)//a:\edk2020-minnowboard20210912\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
  Parameters are typechecked at build time by compilers from GNU, MICROSOFT and others during 2015 to 2021 
 Printing 256 bytes of initilaized memory in a "dump"-format:
 0000: 00 01 02 03 04 05 06 07 - 08 09 0A 0B 0C 0D 0E 0F
@@ -40,22 +40,22 @@ Setup MMIO size ...
 Install PPI: E767BF7F-4DB6-5B34-1011-4FBE4CA7AFD2
 PROGRESS CODE: V3020003 I0
 Loading PEIM E4CEDF93-672A-4782-A7FD-5FC6D239377D
-Loading PEIM at 0x000FFF86CA0 EntryPoint=0x000FFF86FBD SeCUma.efi
+Loading PEIM at 0x000FFF86D20 EntryPoint=0x000FFF8703D SeCUma.efi
 PROGRESS CODE: V3020002 I0
 Install PPI: CBD86677-362F-4C04-9459-A741326E05CF
 Info: SeC PPI load sucessfully
 PROGRESS CODE: V3020003 I0
 Loading PEIM C779F6D8-7113-4AA1-9648-EB1633C7D53B
-Loading PEIM at 0x000FFF88A20 EntryPoint=0x000FFF88E1C CapsulePei.efi
+Loading PEIM at 0x000FFF88AA0 EntryPoint=0x000FFF88E9C CapsulePei.efi
 PROGRESS CODE: V3020002 I0
 Install PPI: 3ACF33EE-D892-40F4-A2FC-3854D2E1323D
 PROGRESS CODE: V3020003 I0
 Loading PEIM D9F5B28C-9FF1-47D6-B503-3DC23BD345FF
-Loading PEIM at 0x000FFF8E9A0 EntryPoint=0x000FFF8EBE0 PchEarlyInitPeim.efi
+Loading PEIM at 0x000FFF8EA20 EntryPoint=0x000FFF8EC60 PchEarlyInitPeim.efi
 PROGRESS CODE: V3020002 I0
 PROGRESS CODE: V3020003 I0
 Loading PEIM D4EE25EA-0B48-43AE-A016-4D6E8B6C43B3
-Loading PEIM at 0x000FFF92520 EntryPoint=0x000FFF92840 MemoryInit.efi
+Loading PEIM at 0x000FFF925A0 EntryPoint=0x000FFF928C0 MemoryInit.efi
 PROGRESS CODE: V3020002 I0
 Reg_EFF_DualCH_EN = 0x100301C0.
 Buffer size brefore add 165B, after adjust 1668.
@@ -160,7 +160,7 @@ Temp Stack : BaseAddress=0xFEF8C400 Length=0x3C00
 Temp Heap  : BaseAddress=0xFEF80000 Length=0xC400
 Total temporary memory:    65536 bytes.
   temporary memory stack ever used:       15360 bytes.
-  temporary memory heap used for HobList: 10808 bytes.
+  temporary memory heap used for HobList: 10792 bytes.
   temporary memory heap occupied by memory pages: 5120 bytes.
 Memory Allocation 0x00000002 0xFEF8B000 - 0xFEF8BFFF
 Old Stack size 15360, New stack size 131072
@@ -173,12 +173,12 @@ Reinstall PPI: 8C8CE578-8A3D-4F1C-9935-896185C32DD3
 Reinstall PPI: 5473C07A-3DCB-4DCA-BD6F-1E9689E7349A
 Reinstall PPI: B9E0ABFE-5979-4914-977F-6DEE78C278A6
 Install PPI: F894643D-C449-42D1-8EA8-85BDD8C65BDE
-Notify: PPI Guid: F894643D-C449-42D1-8EA8-85BDD8C65BDE, Peim notify entry point: FFF815E9
+Notify: PPI Guid: F894643D-C449-42D1-8EA8-85BDD8C65BDE, Peim notify entry point: FFF81669
 Install PPI: 49EDB1C1-BF21-4761-BB12-EB0031AABB39
-Notify: PPI Guid: 49EDB1C1-BF21-4761-BB12-EB0031AABB39, Peim notify entry point: FFF75106
+Notify: PPI Guid: 49EDB1C1-BF21-4761-BB12-EB0031AABB39, Peim notify entry point: FFF75186
 The 1th FV start address is 0x0007AFCD000, size is 0x00028000, handle is 0x7AFCD000
 Install PPI: 49EDB1C1-BF21-4761-BB12-EB0031AABB39
-Notify: PPI Guid: 49EDB1C1-BF21-4761-BB12-EB0031AABB39, Peim notify entry point: FFF75106
+Notify: PPI Guid: 49EDB1C1-BF21-4761-BB12-EB0031AABB39, Peim notify entry point: FFF75186
 The 2th FV start address is 0x0007AD9D000, size is 0x00220000, handle is 0x7AD9D000
 Found firmware volume Image File 7AD9D048 in FV[2] 7AD9D000
 Loading PEIM 9B3ADA4F-AE56-4C24-8DEA-F03B7558AE50
@@ -372,8 +372,8 @@ Usage = 0, Func# = 0, IntType = 0, Pull Up/Down = 6, MMIO Base = 0xFED0E340, Set
 Usage = 0, Func# = 0, IntType = 0, Pull Up/Down = 6, MMIO Base = 0xFED0E350, Set PAD_VAL = 0x00000000, Set CONF0 = 0x2003CC00
 Usage = 0, Func# = 0, IntType = 0, Pull Up/Down = 6, MMIO Base = 0xFED0E3B0, Set PAD_VAL = 0x00000001, Set CONF0 = 0x2003CC00
 Usage = 0, Func# = 0, IntType = 0, Pull Up/Down = 6, MMIO Base = 0xFED0E280, Set PAD_VAL = 0x00000000, Set CONF0 = 0x2003CC00
-ACPI Wake Status Register: 0101
-ACPI Wake Event Data: 06
+ACPI Wake Status Register: 0001
+ACPI Wake Event Data: 02
 Setting BootMode to BOOT_WITH_FULL_CONFIGURATION
 PlatformEarlyInitEntry: Setup Variable does not exist.
 PlatformEarlyInitEntry: Set PcdNvStoreDefaultId to STANDARD
@@ -398,7 +398,7 @@ Install PPI: 15344673-D365-4BE2-8513-1497CC07611D
 PchPolicySetupInit() - End
 Install PPI: 7408D748-FC8C-4EE6-9288-C4BEC092A410
 Install PPI: EF398D58-9DFD-4103-BF94-78C6F4FE712F
-Notify: PPI Guid: 7408D748-FC8C-4EE6-9288-C4BEC092A410, Peim notify entry point: FFF7CACD
+Notify: PPI Guid: 7408D748-FC8C-4EE6-9288-C4BEC092A410, Peim notify entry point: FFF7CB4D
 InstallPlatformClocksNotify()...
 Register PPI Notify: 9CA93627-B65B-4324-A202-C0B461764543
 InstallPlatformSysCtrlGPIONotify()...
@@ -539,24 +539,24 @@ Install PPI: A31280AD-481E-41B6-95E8-127F4C984779
 Install PPI: 1A36E4E7-FAB6-476A-8E75-695A0576FDD7
 Install PPI: 0AE8CE5D-E448-4437-A8D7-EBF5F194F731
 DiscoverPeimsAndOrderWithApriori(): Found 0x1 PEI FFS files in the 2th FV
-Customized Guided section Memory Size required is 0x846010 and address is 0x7A523000
-ProcessFvFile() FV at 0x7A523010, FvAlignment required is 0x10
+Customized Guided section Memory Size required is 0x847010 and address is 0x7A522000
+ProcessFvFile() FV at 0x7A522010, FvAlignment required is 0x10
 Install PPI: EA7CA24B-DED5-4DAD-A389-BF827E8F9B38
-Notify: PPI Guid: EA7CA24B-DED5-4DAD-A389-BF827E8F9B38, Peim notify entry point: FFF75106
-The 3th FV start address is 0x0007A523010, size is 0x00846000, handle is 0x7A523010
+Notify: PPI Guid: EA7CA24B-DED5-4DAD-A389-BF827E8F9B38, Peim notify entry point: FFF75186
+The 3th FV start address is 0x0007A522010, size is 0x00847000, handle is 0x7A522010
 Install PPI: 49EDB1C1-BF21-4761-BB12-EB0031AABB39
-Notify: PPI Guid: 49EDB1C1-BF21-4761-BB12-EB0031AABB39, Peim notify entry point: FFF75106
-The FV 7A523010 has already been processed!
+Notify: PPI Guid: 49EDB1C1-BF21-4761-BB12-EB0031AABB39, Peim notify entry point: FFF75186
+The FV 7A522010 has already been processed!
 DiscoverPeimsAndOrderWithApriori(): Found 0x0 PEI FFS files in the 3th FV
 Loading PEIM CDE000FF-6D26-4A97-92CB-28C113B0D4EA
-Loading PEIM at 0x0007A521000 EntryPoint=0x0007A521579 cdeWelcomePei.efi
+Loading PEIM at 0x0007A520000 EntryPoint=0x0007A520579 cdeWelcomePei.efi
 PROGRESS CODE: V3020002 I0
 POSTCODE=<3A20>
 Install PPI: CDE000FF-6D26-4A97-92CB-28C113B0D4EA
 
 
 ----------------
-cdeWelcomePei//t:\edk2020-minnowboard20210624_23\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
+cdeWelcomePei//a:\edk2020-minnowboard20210912\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
  Parameters are typechecked at build time by compilers from GNU, MICROSOFT and others during 2015 to 2021 
 Printing 256 bytes of initilaized memory in a "dump"-format:
 0000: 00 01 02 03 04 05 06 07 - 08 09 0A 0B 0C 0D 0E 0F
@@ -578,24 +578,24 @@ Printing 256 bytes of initilaized memory in a "dump"-format:
 3s...      2s...      1s...      0s...                 
 PROGRESS CODE: V3020003 I0
 Loading PEIM CDE00011-3212-4114-8E7E-7BDE2BFE14BC
-Loading PEIM at 0x0007A51E000 EntryPoint=0x0007A51E320 CdeLoadOptionsPei.efi
+Loading PEIM at 0x0007A51D000 EntryPoint=0x0007A51D320 CdeLoadOptionsPei.efi
 PROGRESS CODE: V3020002 I0
 Install PPI: CDE00000-2C09-4284-90F9-9A988ABDF6FB
 PROGRESS CODE: V3020003 I0
 Loading PEIM AE265864-CF5D-41A8-913D-71C155E76442
-Loading PEIM at 0x0007A51B000 EntryPoint=0x0007A51BFDD CpuIoPei.efi
+Loading PEIM at 0x0007A51A000 EntryPoint=0x0007A51AFE6 CpuIoPei.efi
 PROGRESS CODE: V3020002 I0
 Install PPI: AE265864-CF5D-41A8-913D-71C155E76442
-CpuIoPei t:\edk2020-minnowboard20210624_23\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(921)main()0000014341 INFO>WELCOME TO THE JUNGLE
-CpuIoPei t:\edk2020-minnowboard20210624_23\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(891)CpuIoInitialize()0000014357 DEBUG_INFO>welcome to the jungle from CpuIoPei
+CpuIoPei a:\edk2020-minnowboard20210912\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(921)main()0000014340 INFO>WELCOME TO THE JUNGLE
+CpuIoPei a:\edk2020-minnowboard20210912\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(891)CpuIoInitialize()0000014356 DEBUG_INFO>welcome to the jungle from CpuIoPei
 Install PPI: E6AF1F7B-FC3F-46DA-A828-A3B457A44282
 PROGRESS CODE: V3020003 I0
 Install PPI: AE265864-CF5D-41A8-913D-71C155E76442
-CpuIoPei t:\edk2020-minnowboard20210624_23\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(921)main()0000014389 INFO>WELCOME TO THE JUNGLE
-CpuIoPei t:\edk2020-minnowboard20210624_23\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(891)CpuIoInitialize()0000014405 DEBUG_INFO>welcome to the jungle from CpuIoPei
-CpuIoPei t:\edk2020-minnowboard20210624_23\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(907)CpuIoInitialize()0000014425 DEBUG_INFO>CpuIO PPI has been loaded into memory.  Reinstalled PPI=0x7a51d870
+CpuIoPei a:\edk2020-minnowboard20210912\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(921)main()0000014388 INFO>WELCOME TO THE JUNGLE
+CpuIoPei a:\edk2020-minnowboard20210912\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(891)CpuIoInitialize()0000014404 DEBUG_INFO>welcome to the jungle from CpuIoPei
+CpuIoPei a:\edk2020-minnowboard20210912\overrides\UefiCpuPkg\CpuIoPei\CpuIoPei.c(907)CpuIoInitialize()0000014423 DEBUG_INFO>CpuIO PPI has been loaded into memory.  Reinstalled PPI=0x7a51c840
 Loading PEIM 24169E35-2454-4940-92BC-82321A2C7562
-Loading PEIM at 0x0007A518000 EntryPoint=0x0007A51831D VlvInitPeim.efi
+Loading PEIM at 0x0007A517000 EntryPoint=0x0007A51731D VlvInitPeim.efi
 PROGRESS CODE: V3020002 I0
 VlvInitPeiEntryPoint start....
 
@@ -630,9 +630,9 @@ Install mVlvPeiInitPpi Done....
 PROGRESS CODE: V3020003 I0
 DXE IPL Entry
 Loading PEIM D6A2CB7F-6A18-4E2F-B43B-9920A733700A
-Loading PEIM at 0x0007A4FE000 EntryPoint=0x0007A4FEB94 DxeCore.efi
+Loading PEIM at 0x0007A4FD000 EntryPoint=0x0007A4FDB94 DxeCore.efi
 PROGRESS CODE: V3021001 I0
-Loading DXE CORE at 0x0007A4FE000 EntryPoint=0x0007A4FEB94
+Loading DXE CORE at 0x0007A4FD000 EntryPoint=0x0007A4FDB94
 AddressBits=36 5LevelPaging=0 1GPage=0
 Pml5=1 Pml4=1 Pdp=64 TotalPage=66
 Install PPI: 605EA650-C65C-42E1-BA80-91A52AB618C6
@@ -644,7 +644,7 @@ PCIE   BASE: E0000000     Size : 4000000
 PCI32  BASE: A8000000     Limit: DFFFFFFF
 PCI64  BASE: F00000000     Limit: FFFFFFFFF
 UC    START: F00000000     End  : 1000000000
-HandOffToDxeCore() Stack Base: 0x7A4DE000, Stack Size: 0x20000
+HandOffToDxeCore() Stack Base: 0x7A4DD000, Stack Size: 0x20000
     PDB = c:\work\mnw2\Build\Vlv2TbltDevicePkg\DEBUG_VS2015x86\X64\Vlv2DeviceRefCodePkg\ValleyView2Soc\SouthCluster\S3Support\Dxe\PchS3Support\DEBUG\PchS3SupportDxe.pdb
 SmmControlDriverEntryInit() Start
 SmmControlDriverEntryInit() End
@@ -655,7 +655,7 @@ InstallPchSpi() End
 
 
 ----------------
-cdeWelcomeDxe//t:\edk2020-minnowboard20210624_23\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
+cdeWelcomeDxe//a:\edk2020-minnowboard20210912\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
  Parameters are typechecked at build time by compilers from GNU, MICROSOFT and others during 2015 to 2021 
 Printing 256 bytes of initilaized memory in a "dump"-format:
 0000: 00 01 02 03 04 05 06 07 - 08 09 0A 0B 0C 0D 0E 0F
@@ -707,7 +707,7 @@ SMRAM Map Buffer installed complet
 
 
 ----------------
-cdeWelcomeSmm//t:\edk2020-minnowboard20210624_23\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
+cdeWelcomeSmm//a:\edk2020-minnowboard20210912\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
  Parameters are typechecked at build time by compilers from GNU, MICROSOFT and others during 2015 to 2021 
 Printing 256 bytes of initilaized memory in a "dump"-format:
 0000: 00 01 02 03 04 05 06 07 - 08 09 0A 0B 0C 0D 0E 0F
@@ -1048,12 +1048,12 @@ InitializePpmAcpiTable(): InstallAcpiTable()
 InitializePpmAcpiTable(): InstallAcpiTable() Success
 SMRAM Map Buffer too small
 SMRAM Map Buffer installed complet
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(96)main()0000011620 INFO>##################################################################
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(97)main()0000011641 INFO>########################## Welcome to the CdePkg Library for UEFI POST drivers
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(98)main()0000011663 INFO>##################################################################
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(99)main()0000011683 DEBUG_INFO>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(100)main()0000011705 DEBUG_WARN>$$$$$$$$$$$$$$$$$$$$$$$$$$ Welcome from the TIANOCORE DEBUG MACRO 
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(101)main()0000011727 DEBUG_ERROR>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(96)main()0000011621 INFO>##################################################################
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(97)main()0000011641 INFO>########################## Welcome to the CdePkg Library for UEFI POST drivers
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(98)main()0000011663 INFO>##################################################################
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(99)main()0000011683 DEBUG_INFO>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(100)main()0000011704 DEBUG_WARN>$$$$$$$$$$$$$$$$$$$$$$$$$$ Welcome from the TIANOCORE DEBUG MACRO 
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(101)main()0000011726 DEBUG_ERROR>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 SMRAM Map Buffer too small
 SMRAM Map Buffer installed complet
 SmmLockBoxSmmLib SmmLockBoxSmmConstructor - Enter
@@ -1489,16 +1489,16 @@ SmmLockBoxDxeLib SetLockBoxAttributes - Exit (Success)
 VBT data found
 SataControllerStart() Start
 SataControllerStart() End
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(582)Ip4DriverBindingStart()0000013571 INFO>Hello world
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(583)Ip4DriverBindingStart()0000014159 INFO>Hello world2
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(582)Ip4DriverBindingStart()0000013570 INFO>Hello world
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(583)Ip4DriverBindingStart()0000013925 INFO>Hello world2
 Welcome, to BDS phase...
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(585)Ip4DriverBindingStart()0000014178 INFO>Hello world3
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(598)Ip4DriverBindingStart()0000014196 INFO>Status == 0000000000000003, Unsupported
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(582)Ip4DriverBindingStart()0000014307 INFO>Hello world
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(583)Ip4DriverBindingStart()0000014324 INFO>Hello world2
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(585)Ip4DriverBindingStart()0000013945 INFO>Hello world3
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(598)Ip4DriverBindingStart()0000013962 INFO>Status == 0000000000000003, Unsupported
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(582)Ip4DriverBindingStart()0000014746 INFO>Hello world
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(583)Ip4DriverBindingStart()0000014762 INFO>Hello world2
 Welcome, to BDS phase...
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(585)Ip4DriverBindingStart()0000014344 INFO>Hello world3
-Ip4Dxe t:\edk2020-minnowboard20210624_23\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(598)Ip4DriverBindingStart()0000014361 INFO>Status == 0000000000000000, Success
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(585)Ip4DriverBindingStart()0000014783 INFO>Hello world3
+Ip4Dxe a:\edk2020-minnowboard20210912\overrides\NetworkPkg\Ip4Dxe\Ip4Driver.c(598)Ip4DriverBindingStart()0000014799 INFO>Status == 0000000000000000, Success
 Press F7 for BootMenu!
 **  WARNING: Test Key is used.  **
 =============ISPBase=90C00000==============
@@ -1619,15 +1619,15 @@ UEFI Interactive Shell v2.2
 EDK II
 UEFI v2.70 (EDK II, 0x00010000)
 Mapping table
-      FS0: Alias(s):HD0a0:;BLK0:
-          PciRoot(0x0)/Pci(0x14,0x0)/USB(0x0,0x0)
+      FS0: Alias(s):HD0b0d0:;BLK0:
+          PciRoot(0x0)/Pci(0x14,0x0)/USB(0x1,0x0)/USB(0x3,0x0)
 Press ESC in 5 seconds to skip startup.nsh or any other key to continue.Press ESC in 4 seconds to skip startup.nsh or any other key to continue.Press ESC in 3 seconds to skip startup.nsh or any other key to continue.Press ESC in 2 seconds to skip startup.nsh or any other key to continue.Press ESC in 1 seconds to skip startup.nsh or any other key to continue.
-Shell> FS0:
-FS0:\> CDEWELCOMEAPP.EFI
+Shell> fs0:
+FS0:\> cdewelcomeapp.efi
 
 
 ----------------
-CDEWELCOMEAPP.EFI//t:\edk2020-minnowboard20210624_23\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
+cdewelcomeapp.efi//a:\edk2020-minnowboard20210912\CdePkg\CdeWelcome\main.c(78): INTRODUCTION: "CDETRACE" macro. ->
  Parameters are typechecked at build time by compilers from GNU, MICROSOFT and others during 2015 to 2021 
 Printing 256 bytes of initilaized memory in a "dump"-format:
 0000: 00 01 02 03 04 05 06 07 - 08 09 0A 0B 0C 0D 0E 0F

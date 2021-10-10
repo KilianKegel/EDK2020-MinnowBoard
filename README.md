@@ -99,13 +99,50 @@ GIT-[Subproject **CdePkgValidation**](https://github.com/KilianKegel/CdePkgValid
 ## Known Bugs 
 
 ## Revision History
+### 20211010
+* add Microsoft C Library functions for UEFIShell 64Bit applications only
+  - `_mkdir()`
+  - `_stat64i32()` that is the Microsoft version of POSIX `stat()`
+
+  add POSIX C Library functions
+  - `strnlen()`, `wcsnlen()`
 ### 20210912
 * initial version of *TORO C LIBRARY* (`toroC64.lib` and `toroC32.lib`)
 * *TORITO C LIBRARY* is _discontinued_ from now on
-* add Microsoft C Library functions for UEFIShell applications only
+* add Microsoft C Library functions for UEFIShell 64Bit applications only
+  - `getc()`
   - `_findfirst()`
   - `_findnext()`
   - `_findclose()`
+
+### 20210821
+* rename library file to `toroC64.lib` and `toroC32.lib`
+* add SMM support
+* fixed bugs related to length modifiers for string format specifiers
+    - `wprintf()` with `%ls`,  `%hs` and Microsoft specific  `%S`
+    - `printf()` with `%ls`,  `%hs` and Microsoft specific  `%S`
+    - the string `(null)` was reported wrongly in wide format on `NULL` pointer (e.g. `wprintf()`or `%ls` modifier)
+* add Standard C Library functions 
+  - `mblen()`
+  - `mbstowcs()`
+  - `mbtowc()`
+  - `wcstombs()`
+  - `wctomb()`
+  - `wctob()`
+  - `wmemchr()`
+  - `vfwprintf()`
+* adjust `vfprintf()` and `vfwprintf()` to redirect `stdout` and `stderr` to `ReportStatusCode` interface
+* change TimeStampCounter (TSC) calibration from RTC MC146818 to PIT i8254 base, since RTC is faulty on AMD systems.
+* introduce new `IMAGE_ENTRY_POINT`:
+  - `_cdeCRT0UefiPei` and respectively `_cdeCRT0UefiPeiEDK` for EDK build
+  - `_cdeCRT0UefiDxe` and respectively `_cdeCRT0UefiDxeEDK` for EDK build
+  - `_cdeCRT0UefiSmm` and respectively `_cdeCRT0UefiSmmEDK` for EDK build
+  - `_cdeCRT0UefiShell` and respectively `_cdeCRT0UefiShellEDK` for EDK build
+* adjust EMULATION time base to 2GHz
+
+### 20210626
+* add dedicated FATAL ERROR message to DXE+PEI CRT0 if CdeServices protocol  fails to
+  be located, due to DEPEX or APRIORI issue
 
 ### 20210624
 * enable Tianocore DEBUG macro for CDE-based/injected drivers to allow usage of
