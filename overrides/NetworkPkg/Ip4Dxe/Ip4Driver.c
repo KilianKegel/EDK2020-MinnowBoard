@@ -8,16 +8,17 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 
 **/
 //#define CDE_DONT_OVERRIDE_DEBUG
+//#define NCDETRACE
 #include "Ip4Impl.h"
+#include <CDE.h>        // include to have CDE base definitions, e.g. CDETRACE()
 #include <stdio.h>      // include if required
 #include <stdlib.h>     // include if required
 #include <string.h>     // include if required
 #include <ctype.h>      // include if required
 #include <wctype.h>     // include if required
 
-#include <CDE.h>        // include to have CDE base definitions, e.g. CDEMOFINE()
 
-extern char *strefierror(EFI_STATUS errcode);   // declare ANSI C strerror() counterpart for UEFI strefierror()
+extern char *_strefierror(EFI_STATUS errcode);   // declare ANSI C strerror() counterpart for UEFI strefierror()
 
 EFI_DRIVER_BINDING_PROTOCOL gIp4DriverBinding = {
   Ip4DriverBindingSupported,
@@ -93,9 +94,9 @@ INT32 main(INT32 Argc, CHAR8 **Argv)
         are available to the driver, additionally to the ordinary UEFI API and library interface
 
   */
-  CDEMOFINE/*MOduleFIleliNE*/((MFNINF(1) "##################################################################\n"));
-  CDEMOFINE/*MOduleFIleliNE*/((MFNINF(1) "########################## Welcome to the CdePkg Library for UEFI POST drivers\n"));
-  CDEMOFINE/*MOduleFIleliNE*/((MFNINF(1) "##################################################################\n"));
+  CDETRACE((TRCINF(1) "##################################################################\n"));
+  CDETRACE((TRCINF(1) "########################## Welcome to the CdePkg Library for UEFI POST drivers\n"));
+  CDETRACE((TRCINF(1) "##################################################################\n"));
   DEBUG((DEBUG_INFO, "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"));
   DEBUG((DEBUG_WARN, "$$$$$$$$$$$$$$$$$$$$$$$$$$ Welcome from the TIANOCORE DEBUG MACRO \n"));
   DEBUG((DEBUG_ERROR, "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"));
@@ -579,10 +580,10 @@ Ip4DriverBindingStart (
   IpSb     = NULL;
   Ip4Cfg2  = NULL;
   DataItem = NULL;
-  CDEMOFINE((MFNINF(1) "Hello world\n"));
-  CDEMOFINE((MFNINF(1) "Hello world2\n"));
+  CDETRACE((TRCINF(1) "Hello world\n"));
+  CDETRACE((TRCINF(1) "Hello world2\n"));
   printf("Welcome, to BDS phase...\n");
-  CDEMOFINE((MFNINF(1) "Hello world3\n"));
+  CDETRACE((TRCINF(1) "Hello world3\n"));
 
   //
   // Test for the Ip4 service binding protocol
@@ -595,7 +596,7 @@ Ip4DriverBindingStart (
                   ControllerHandle,
                   EFI_OPEN_PROTOCOL_TEST_PROTOCOL
                   );
-  CDEMOFINE((MFNINF(1) "Status == %016X, %s\n", Status,strefierror(Status)));
+  CDETRACE((TRCINF(1) "Status == %016zX, %s\n", Status,_strefierror(Status)));
 
   if (Status == EFI_SUCCESS) {
     return EFI_ALREADY_STARTED;

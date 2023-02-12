@@ -337,7 +337,7 @@ FvNameGuid         = B73FE497-B92E-416e-8326-45AD0D270091
 INF  CdePkg/CdeServices/CdeServicesPei.inf
 INF CdePkg/CdeWelcome/buildPRE.inf
 INF CdePkg/CdeWelcome/buildPEI.inf
-INF CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
+#INF CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
 
 ##INF  CdePkgValidation/template/buildPEI.inf
 #INF  CdePkgValidation/HOSTED_ENV/argcv/buildPRE.inf
@@ -442,24 +442,25 @@ FILE FREEFORM = C3E36D09-8294-4b97-A857-D5288FE33E28 {
 #KGDebug
 INF CdePkg/CdeServices/CdeServicesSmm.inf
 INF CdePkg/CdeServices/CdeServicesDxe.inf
+#  CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
 INF CdePkg/CdeWelcome/buildDXE.inf
 INF CdePkg/CdeWelcome/buildSMM.inf
 INF CdePkg/CdeWelcome/buildAPP.inf
 
-#INF  CdePkgValidation/HOSTED_ENV/argcv/buildDXE.inf
-#INF  CdePkgValidation/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf
-#INF  CdePkgValidation/template/buildDXE.inf
-#INF  CdePkgValidation/TIME_H/timehfunctions/buildDXE.inf
-#INF  CdePkgValidation/STRING_H/stringhfunctions/buildDXE.inf
-#INF  CdePkgValidation/WCHAR_H/wcharhfunctions/buildDXE.inf
-#INF  CdePkgValidation/STDIO_H/stdiohfunctions/buildDXE.inf
-#INF  CdePkgValidation/STDLIB_H/stdlibhfunctions/buildDXE.inf
-#INF  CdePkgValidation/CTYPE_H/ctypehfunctions/buildDXE.inf
-#INF  CdePkgValidation/WCTYPE_H/wctypehfunctions/buildDXE.inf
-#INF  CdePkgValidation/ASSERT_H/asserthfunctions/buildDXE.inf
-#INF  CdePkgValidation/LOCALE_H/localehfunctions/buildDXE.inf
-#INF  CdePkgValidation/TIME_H/clock/buildDXE.inf
-#INF  overrides/GigUndiDxe/GigUndiDxe/GigUndiDxe.inf
+INF  CdePkgValidation/HOSTED_ENV/argcv/buildDXE.inf
+INF  CdePkgValidation/SYSTEM_IF/systeminterfaceDXE/buildDXE.inf
+INF  CdePkgValidation/template/buildDXE.inf
+INF  CdePkgValidation/TIME_H/timehfunctions/buildDXE.inf
+INF  CdePkgValidation/STRING_H/stringhfunctions/buildDXE.inf
+INF  CdePkgValidation/WCHAR_H/wcharhfunctions/buildDXE.inf
+INF  CdePkgValidation/STDIO_H/stdiohfunctions/buildDXE.inf
+INF  CdePkgValidation/STDLIB_H/stdlibhfunctions/buildDXE.inf
+INF  CdePkgValidation/CTYPE_H/ctypehfunctions/buildDXE.inf
+INF  CdePkgValidation/WCTYPE_H/wctypehfunctions/buildDXE.inf
+INF  CdePkgValidation/ASSERT_H/asserthfunctions/buildDXE.inf
+INF  CdePkgValidation/LOCALE_H/localehfunctions/buildDXE.inf
+INF  CdePkgValidation/TIME_H/clock/buildDXE.inf
+INF  overrides/GigUndiDxe/GigUndiDxe/GigUndiDxe.inf
 #KGDebug
 
 INF MdeModulePkg/Core/Dxe/DxeMain.inf

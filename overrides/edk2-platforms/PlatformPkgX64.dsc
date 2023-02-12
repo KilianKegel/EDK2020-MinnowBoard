@@ -748,7 +748,7 @@
 [Components.IA32]
 #KGDebug start
   CdePkg/CdeServices/CdeServicesPei.inf
-  CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
+#  CdePkg/CdeLoadOptionsPei/CdeLoadOptionsPei.inf
   CdePkg/CdeUnblockMemInit/CdeUnblockMemInitPRE.inf
   
   CdePkg/CdeWelcome/buildPRE.inf
@@ -917,7 +917,7 @@
   #KGDebug
   CdePkg/CdeServices/CdeServicesSmm.inf
   CdePkg/CdeServices/CdeServicesDxe.inf
-  CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
+#  CdePkg/CdeLoadOptionsDxe/CdeLoadOptionsDxe.inf
 
   CdePkg/CdeWelcome/buildDXE.inf
   CdePkg/CdeWelcome/buildSMM.inf

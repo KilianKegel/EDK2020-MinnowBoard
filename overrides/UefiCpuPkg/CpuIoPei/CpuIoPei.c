@@ -918,7 +918,7 @@ int main(int argc, char** argv) {
     EFI_PEI_SERVICES** PeiServices = (void*)(argv[-1]);    //PeiServices is passed in argv[-1]
     EFI_PEI_FILE_HANDLE FileHandle = (void*)(argv[-2]);    //FileHandle  is passed in argv[-2]
 
-    CDEMOFINE((MFNINF(1) "WELCOME TO THE JUNGLE\n"));
+    CDETRACE((TRCINF(1) "WELCOME TO THE JUNGLE\n"));
 
     return CpuIoInitialize(FileHandle, PeiServices);
 

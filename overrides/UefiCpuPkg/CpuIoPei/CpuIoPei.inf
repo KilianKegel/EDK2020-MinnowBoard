@@ -51,3 +51,6 @@
 
 [UserExtensions.TianoCore."ExtraFiles"]
   CpuIoPeiExtra.uni
+[BuildOptions] 
+    MSFT:*_*_IA32_CC_FLAGS   = /D "CDEABI=__declspec(dllimport)" /D "CDE_CONFIGURATION_STRING=\"EDK2 UEFI PRE(CdeLib)\"" /D "CDE_PLATFORM_STRING=\"x86-32\""
+    MSFT:*_*_X64_CC_FLAGS    = /D "CDEABI=__declspec(dllimport)" /D "CDE_CONFIGURATION_STRING=\"EDK2 UEFI PRE(CdeLib)\"" /D "CDE_PLATFORM_STRING=\"x86-64\""

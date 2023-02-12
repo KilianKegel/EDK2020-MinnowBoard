@@ -99,6 +99,14 @@ GIT-[Subproject **CdePkgValidation**](https://github.com/KilianKegel/CdePkgValid
 ## Known Bugs 
 
 ## Revision History
+### 20230212
+* introduce `CDEABI`, an additional application binary interface ABI to ease coexistance of `CdePkg` based BIOS 
+    drivers with incomplete [tianocore EDK2](https://github.com/tianocore/edk2) `C Library` 
+    [fragments](https://github.com/tianocore/edk2/blob/master/CryptoPkg/Library/BaseCryptLib/SysCall/CrtWrapper.c#L603)
+
+    NOTE: `CDEABI` uses the Microsoft DLL interface [`__declspec(dllimport)`](https://learn.microsoft.com/en-us/cpp/build/importing-into-an-application-using-declspec-dllimport?view=msvc-170) for EDK2-built drivers .
+    Technically this uses *indirect function calls* on machine code level.
+* promote `CDETRACE()`, remove former, alternate trace method (`CDEMOFINE()`) completely
 ### 20211010
 * add Microsoft C Library functions for UEFIShell 64Bit applications only
   - `_mkdir()`
