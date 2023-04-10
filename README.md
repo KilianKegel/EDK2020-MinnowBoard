@@ -99,6 +99,8 @@ GIT-[Subproject **CdePkgValidation**](https://github.com/KilianKegel/CdePkgValid
 ## Known Bugs 
 
 ## Revision History
+### 20230410
+* update to **TORO C Library** *20230409*
 ### 20230212
 * introduce `CDEABI`, an additional application binary interface ABI to ease coexistance of `CdePkg` based BIOS 
     drivers with incomplete [tianocore EDK2](https://github.com/tianocore/edk2) `C Library` 
