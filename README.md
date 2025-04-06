@@ -1,4 +1,4 @@
-# EDK2020-MinnowBoard featuring [CdePkg (C Development Environment Package)](https://github.com/KilianKegel/CdePkg#cdepkg)
+# [obsolete] EDK2020-MinnowBoard featuring [CdePkg (C Development Environment Package)](https://github.com/KilianKegel/CdePkg#cdepkg)
 Get the MinnowBoard running with EDK2020 and VS2019 
 * [Introduction](https://github.com/KilianKegel/EDK2020-MinnowBoard#introduction-edk2020-minnowboard)
 * [Goal](https://github.com/KilianKegel/EDK2020-MinnowBoard#goal)
